@@ -4097,6 +4097,9 @@ window.addEventListener('load',async()=>{
  const entry=publicEntries.find(p=>p.part===requested);
  if(entry){document.getElementById('publicChapter').value=String(entry.chapter);fillParts();select.value=entry.file;}
  await openPart();window.alert=originalAlert;setInterval(refresh,30000);
+ document.querySelectorAll('.controls,#toolMenuPanel,#layoutSettingsPanel,#coverSettingsModal,#chapterPickerDialog,#vocabSentencePopup,.column-resizer,.reading-flow-controls,input[type="file"]').forEach(node=>node.remove());
+ document.querySelectorAll('.vocab-meaning[contenteditable]').forEach(node=>node.removeAttribute('contenteditable'));
+ document.querySelectorAll('.vocab-delete-button').forEach(node=>node.remove());
  document.addEventListener('click',e=>{if(e.target.closest('.vocab-clickable,.vocab-meaning'))e.stopImmediatePropagation()},true);
 });
 </script>

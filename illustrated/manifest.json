@@ -1,0 +1,209 @@
+{
+  "book": "When You Trap a Tiger",
+  "parts": [
+    {
+      "part": 1,
+      "chapter": 1,
+      "chapterPart": 1,
+      "file": "parts/0001.json"
+    },
+    {
+      "part": 2,
+      "chapter": 1,
+      "chapterPart": 2,
+      "file": "parts/0002.json"
+    },
+    {
+      "part": 3,
+      "chapter": 1,
+      "chapterPart": 3,
+      "file": "parts/0003.json"
+    },
+    {
+      "part": 4,
+      "chapter": 1,
+      "chapterPart": 4,
+      "file": "parts/0004.json"
+    },
+    {
+      "part": 5,
+      "chapter": 1,
+      "chapterPart": 5,
+      "file": "parts/0005.json"
+    },
+    {
+      "part": 6,
+      "chapter": 1,
+      "chapterPart": 6,
+      "file": "parts/0006.json"
+    },
+    {
+      "part": 7,
+      "chapter": 2,
+      "chapterPart": 1,
+      "file": "parts/0007.json"
+    },
+    {
+      "part": 8,
+      "chapter": 2,
+      "chapterPart": 2,
+      "file": "parts/0008.json"
+    },
+    {
+      "part": 9,
+      "chapter": 2,
+      "chapterPart": 3,
+      "file": "parts/0009.json"
+    },
+    {
+      "part": 10,
+      "chapter": 2,
+      "chapterPart": 4,
+      "file": "parts/0010.json"
+    },
+    {
+      "part": 11,
+      "chapter": 3,
+      "chapterPart": 1,
+      "file": "parts/0011.json"
+    },
+    {
+      "part": 12,
+      "chapter": 3,
+      "chapterPart": 2,
+      "file": "parts/0012.json"
+    },
+    {
+      "part": 13,
+      "chapter": 3,
+      "chapterPart": 3,
+      "file": "parts/0013.json"
+    },
+    {
+      "part": 14,
+      "chapter": 3,
+      "chapterPart": 4,
+      "file": "parts/0014.json"
+    },
+    {
+      "part": 15,
+      "chapter": 3,
+      "chapterPart": 5,
+      "file": "parts/0015.json"
+    },
+    {
+      "part": 16,
+      "chapter": 3,
+      "chapterPart": 6,
+      "file": "parts/0016.json"
+    },
+    {
+      "part": 17,
+      "chapter": 3,
+      "chapterPart": 7,
+      "file": "parts/0017.json"
+    },
+    {
+      "part": 18,
+      "chapter": 3,
+      "chapterPart": 8,
+      "file": "parts/0018.json"
+    },
+    {
+      "part": 19,
+      "chapter": 4,
+      "chapterPart": 1,
+      "file": "parts/0019.json"
+    },
+    {
+      "part": 20,
+      "chapter": 4,
+      "chapterPart": 2,
+      "file": "parts/0020.json"
+    },
+    {
+      "part": 21,
+      "chapter": 4,
+      "chapterPart": 3,
+      "file": "parts/0021.json"
+    },
+    {
+      "part": 22,
+      "chapter": 4,
+      "chapterPart": 4,
+      "file": "parts/0022.json"
+    },
+    {
+      "part": 23,
+      "chapter": 4,
+      "chapterPart": 5,
+      "file": "parts/0023.json"
+    },
+    {
+      "part": 24,
+      "chapter": 4,
+      "chapterPart": 6,
+      "file": "parts/0024.json"
+    },
+    {
+      "part": 25,
+      "chapter": 4,
+      "chapterPart": 7,
+      "file": "parts/0025.json"
+    },
+    {
+      "part": 26,
+      "chapter": 4,
+      "chapterPart": 8,
+      "file": "parts/0026.json"
+    },
+    {
+      "part": 27,
+      "chapter": 4,
+      "chapterPart": 9,
+      "file": "parts/0027.json"
+    },
+    {
+      "part": 28,
+      "chapter": 4,
+      "chapterPart": 10,
+      "file": "parts/0028.json"
+    },
+    {
+      "part": 29,
+      "chapter": 5,
+      "chapterPart": 1,
+      "file": "parts/0029.json"
+    },
+    {
+      "part": 30,
+      "chapter": 5,
+      "chapterPart": 2,
+      "file": "parts/0030.json"
+    },
+    {
+      "part": 31,
+      "chapter": 5,
+      "chapterPart": 3,
+      "file": "parts/0031.json"
+    },
+    {
+      "part": 32,
+      "chapter": 6,
+      "chapterPart": 1,
+      "file": "parts/0032.json"
+    },
+    {
+      "part": 33,
+      "chapter": 6,
+      "chapterPart": 2,
+      "file": "parts/0033.json"
+    },
+    {
+      "part": 34,
+      "chapter": 6,
+      "chapterPart": 3,
+      "file": "parts/0034.json"
+    }
+  ]
+}

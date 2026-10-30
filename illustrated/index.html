@@ -4069,7 +4069,8 @@ window.addEventListener('load',async()=>{
  const lib={format:'worksheet-chapter-library-v1',bookName:'WHEN YOU TRAP A TIGER',chapters:[{chapterNumber:chosen.chapter,chapter:`Chapter ${chosen.chapter}`,worksheets}]};
  setChapterLibrary(lib);await loadLibraryChapter(false);
  await Promise.all(batchData.flatMap(w=>getReadingScenes(w).map(s=>new Promise(resolve=>{const img=new Image();img.onload=()=>{readingSceneCache.add(s.src);resolve()};img.onerror=resolve;img.src=s.src+'?v='+Date.now()}))));
- refreshConnectedReading();
+ batchData.forEach((w,index)=>{w.readingMode='continuous';const pages=getBatchPages(index);renderConnectedReading(w,pages);});
+ setTimeout(()=>batchData.forEach((w,index)=>renderConnectedReading(w,getBatchPages(index))),600);
  document.querySelectorAll('.a4-page .worksheet-number').forEach(n=>{const page=n.closest('.a4-page'),index=Number(page.dataset.batchIndex)||0;const w=batchData[index];if(w)n.textContent=`Part ${w.chapterPartIndex}`;});
  const index=entries.findIndex(p=>p.file===url);const target=getBatchPages(index)[0];if(target)target.scrollIntoView({block:'start'});
  }

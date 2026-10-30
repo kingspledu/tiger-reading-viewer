@@ -727,7 +727,8 @@
 .reading-flow-mode .reading-flow-paragraph,.reading-flow-page2 .reading-flow-paragraph { margin:0 0 10px; font-size:inherit; line-height:inherit; white-space:pre-wrap; text-align:left; overflow-wrap:break-word; }
 .reading-flow-page2>button { display:none!important; }
 .reading-flow-beat { display:flow-root; margin:0 0 12px; }
-.reading-scene { width:33.333%; float:left; margin:0 12px 8px 0; break-inside:avoid; }
+.reading-scene { width:56.667%; float:left; margin:0 12px 8px 0; break-inside:avoid; }
+.reading-flow-vocabulary { position:absolute;top:72px;bottom:42px;right:40px;left:calc(40px + var(--reading-original-text-width,450px) + 40px);display:flex;flex-direction:column;justify-content:space-between;font-size:var(--vocab-font-size,13.6px);line-height:var(--vocab-line-height,1.15); }
 .reading-scene.scene-right { float:right; margin:0 0 8px 12px; }
 .reading-scene img { display:block; width:100%; height:auto; aspect-ratio:3/2; object-fit:cover; border-radius:8px; }
 .reading-flow-page2>.page-image { display:none; }
@@ -1568,7 +1569,12 @@ function renderConnectedReading(data,pages=null){
     const second=pages?.[1]||document.getElementById('page2');
     if(!first||!second)return;
     const text=first.querySelector('.text-column');if(!text)return;
-    second.querySelectorAll('.reading-flow-continuation,.reading-flow-continuation-title').forEach(n=>n.remove());
+    second.querySelectorAll('.reading-flow-continuation,.reading-flow-continuation-title,.reading-flow-vocabulary').forEach(n=>n.remove());
+    const vocabulary=first.querySelector('.vocab-column');
+    if(vocabulary){
+        if(!vocabulary.dataset.fullVocabulary)vocabulary.dataset.fullVocabulary=vocabulary.innerHTML;
+        vocabulary.innerHTML=vocabulary.dataset.fullVocabulary;
+    }
     first.classList.remove('reading-flow-mode');second.classList.remove('reading-flow-page2','reading-flow-overflow');
     text.style.fontSize='';
     if(getReadingMode(data)!=='continuous'){fillReadingParagraphs(text,data.paragraphs||[],data);return;}
@@ -1632,6 +1638,19 @@ function renderConnectedReading(data,pages=null){
     second.classList.toggle('reading-flow-overflow',over);
     second.dataset.readingOverflow=String(over);
     first.dataset.readingMode='continuous';second.dataset.readingMode='continuous';
+    if(vocabulary){
+        const nextVocab=document.createElement('div');nextVocab.className='reading-flow-vocabulary vocab-column';second.appendChild(nextVocab);
+        const firstText=text.textContent.toLowerCase();
+        for(const group of [...vocabulary.children]){
+            const nextGroup=group.cloneNode(true);nextGroup.querySelectorAll('.vocab-item').forEach(n=>n.remove());
+            for(const item of [...group.querySelectorAll('.vocab-item')]){
+                const number=Number(item.dataset.vocabIndex);const entry=data.vocabulary?.[number-1];
+                if(entry&&!firstText.includes(entry.word.toLowerCase()))nextGroup.appendChild(item);
+            }
+            if(nextGroup.querySelector('.vocab-item'))nextVocab.appendChild(nextGroup);
+            if(!group.querySelector('.vocab-item'))group.remove();
+        }
+    }
     updateReadingFlowControls();
 }
 function refreshConnectedReading(){
@@ -4049,6 +4068,8 @@ window.addEventListener('load',async()=>{
  const worksheets=await Promise.all(entries.map(async p=>{const w=await(await fetch(p.file+'?v='+Date.now(),{cache:'no-store'})).json();w.worksheetTitle=`Chapter ${p.chapter} ? Part ${p.chapterPart}`;w.publicPartLabel=w.worksheetTitle;return w;}));
  const lib={format:'worksheet-chapter-library-v1',bookName:'WHEN YOU TRAP A TIGER',chapters:[{chapterNumber:chosen.chapter,chapter:`Chapter ${chosen.chapter}`,worksheets}]};
  setChapterLibrary(lib);await loadLibraryChapter(false);
+ await Promise.all(batchData.flatMap(w=>getReadingScenes(w).map(s=>new Promise(resolve=>{const img=new Image();img.onload=()=>{readingSceneCache.add(s.src);resolve()};img.onerror=resolve;img.src=s.src+'?v='+Date.now()}))));
+ refreshConnectedReading();
  document.querySelectorAll('.a4-page .worksheet-number').forEach(n=>{const page=n.closest('.a4-page'),index=Number(page.dataset.batchIndex)||0;const w=batchData[index];if(w)n.textContent=`Part ${w.chapterPartIndex}`;});
  const index=entries.findIndex(p=>p.file===url);const target=getBatchPages(index)[0];if(target)target.scrollIntoView({block:'start'});
  }

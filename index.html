@@ -4046,6 +4046,9 @@ window.addEventListener('load',async()=>{
  const select=await refresh();document.getElementById('publicChapter').addEventListener('change',async()=>{fillParts();await openPart();window.scrollTo(0,0)});select.addEventListener('change',async()=>{await openPart();panel.hidden=true;toggle.setAttribute('aria-expanded','false');window.scrollTo(0,0)});
  const originalAlert=window.alert;window.alert=()=>{};
  const upload=uploadJSON;uploadJSON=async function(...args){const saved=window.alert;window.alert=()=>{};try{return await upload(...args)}finally{window.alert=saved}};
+ const requested=Number(new URLSearchParams(location.search).get('part'));
+ const entry=publicEntries.find(p=>p.part===requested);
+ if(entry){document.getElementById('publicChapter').value=String(entry.chapter);fillParts();select.value=entry.file;}
  await openPart();window.alert=originalAlert;setInterval(refresh,30000);
  document.addEventListener('click',e=>{if(e.target.closest('.vocab-clickable,.vocab-meaning'))e.stopImmediatePropagation()},true);
 });

@@ -1581,7 +1581,7 @@ function renderConnectedReading(data,pages=null){
     first.classList.add('reading-flow-mode');second.classList.add('reading-flow-page2');
     second.style.setProperty('--reading-original-text-width',text.getBoundingClientRect().width+'px');
     const body=document.createElement('div');body.className='reading-flow-continuation text-column';second.appendChild(body);
-    const heading=document.createElement('div');heading.className='reading-flow-continuation-title';heading.textContent=`${data.bookName} · ${data.chapter} · Part ${data.chapterPartIndex||data.partNumber} · 이어 읽기`;second.appendChild(heading);
+    const heading=document.createElement('div');heading.className='reading-flow-continuation-title';heading.textContent=`${data.bookName} · ${data.chapter} · Part ${data.partNumber||data.worksheetNumber} · 이어 읽기`;second.appendChild(heading);
     probeReadingScenes(data);
     const scenes=getReadingScenes(data).filter(s=>readingSceneCache.has(s.src));
     text.replaceChildren();
@@ -1594,7 +1594,7 @@ function renderConnectedReading(data,pages=null){
             const figure=document.createElement('figure');
             const side=((scenes[i].sceneNumber||i+1)-1)%2;
             figure.className='reading-scene'+(side?' scene-right':'');figure.dataset.sceneNumber=scenes[i].sceneNumber||i+1;
-            const img=document.createElement('img');img.src=scenes[i].src;img.alt=`${data.chapter} Part ${data.chapterPartIndex||data.partNumber}, scene ${scenes[i].sceneNumber||i+1}`;
+            const img=document.createElement('img');img.src=scenes[i].src;img.alt=`${data.chapter} Part ${data.partNumber||data.worksheetNumber}, scene ${scenes[i].sceneNumber||i+1}`;
             figure.appendChild(img);beat.appendChild(figure);
         }
         for(let k=Math.floor(i*ps.length/slots);k<Math.floor((i+1)*ps.length/slots);k++){
@@ -4059,7 +4059,7 @@ window.addEventListener('load',async()=>{
  document.addEventListener('click',e=>{if(!area.contains(e.target)){panel.hidden=true;toggle.setAttribute('aria-expanded','false')}});
  document.addEventListener('keydown',e=>{if(e.key==='Escape'){panel.hidden=true;toggle.setAttribute('aria-expanded','false')}});
  let publicEntries=[];
- function fillParts(){const select=document.getElementById('publicPart'),old=select.value,chapter=Number(document.getElementById('publicChapter').value);select.replaceChildren();publicEntries.filter(p=>p.chapter===chapter).forEach(p=>{const o=document.createElement('option');o.value=p.file;o.textContent=`Chapter ${p.chapter} ? Part ${p.chapterPart}`;select.appendChild(o)});if([...select.options].some(o=>o.value===old))select.value=old;}
+ function fillParts(){const select=document.getElementById('publicPart'),old=select.value,chapter=Number(document.getElementById('publicChapter').value);select.replaceChildren();publicEntries.filter(p=>p.chapter===chapter).forEach(p=>{const o=document.createElement('option');o.value=p.file;o.textContent=`Chapter ${p.chapter} ? Part ${p.part}`;select.appendChild(o)});if([...select.options].some(o=>o.value===old))select.value=old;}
  async function refresh(){const r=await fetch('./manifest.json?ts='+Date.now(),{cache:'no-store'});const m=await r.json();publicEntries=m.parts;const chapters=document.getElementById('publicChapter'),old=chapters.value;chapters.replaceChildren();[...new Set(m.parts.map(p=>p.chapter))].forEach(n=>{const o=document.createElement('option');o.value=n;o.textContent=`Chapter ${n}`;chapters.appendChild(o)});if([...chapters.options].some(o=>o.value===old))chapters.value=old;fillParts();return document.getElementById('publicPart');}
  let allPartsLoaded=false;
  async function openPart(){
@@ -4067,14 +4067,14 @@ window.addEventListener('load',async()=>{
  const chosen=publicEntries.find(p=>p.file===url);if(!chosen)return;
  const entries=publicEntries.filter(p=>p.chapter<=6);
  if(allPartsLoaded){const index=entries.findIndex(p=>p.file===url);getBatchPages(index)[0]?.scrollIntoView({block:'start'});return;}
- const worksheets=await Promise.all(entries.map(async p=>{const w=await(await fetch(p.file+'?v='+Date.now(),{cache:'no-store'})).json();w.worksheetTitle=`Chapter ${p.chapter} ? Part ${p.chapterPart}`;w.publicPartLabel=w.worksheetTitle;return w;}));
+ const worksheets=await Promise.all(entries.map(async p=>{const w=await(await fetch(p.file+'?v='+Date.now(),{cache:'no-store'})).json();w.worksheetTitle=`Chapter ${p.chapter} ? Part ${p.part}`;w.publicPartLabel=w.worksheetTitle;return w;}));
  const chapters=[...new Set(entries.map(p=>p.chapter))].map(n=>({chapterNumber:n,chapter:`Chapter ${n}`,worksheets:worksheets.filter(w=>w.chapter===`Chapter ${n}`)}));
  const lib={format:'worksheet-chapter-library-v1',bookName:'WHEN YOU TRAP A TIGER',chapters};
  setChapterLibrary(lib);await loadLibraryChapter(false,chapters.map(c=>c.chapterNumber));allPartsLoaded=true;
  await Promise.all(batchData.flatMap(w=>getReadingScenes(w).map(s=>new Promise(resolve=>{const img=new Image();img.onload=()=>{readingSceneCache.add(s.src);resolve()};img.onerror=resolve;img.src=s.src+'?v='+Date.now()}))));
  batchData.forEach((w,index)=>{w.readingMode='continuous';const pages=getBatchPages(index);renderConnectedReading(w,pages);});
  setTimeout(()=>batchData.forEach((w,index)=>renderConnectedReading(w,getBatchPages(index))),600);
- document.querySelectorAll('.a4-page .worksheet-number').forEach(n=>{const page=n.closest('.a4-page'),index=Number(page.dataset.batchIndex)||0;const w=batchData[index];if(w)n.textContent=`Part ${w.chapterPartIndex}`;});
+ document.querySelectorAll('.a4-page .worksheet-number').forEach(n=>{const page=n.closest('.a4-page'),index=Number(page.dataset.batchIndex)||0;const w=batchData[index];if(w)n.textContent=`Part ${w.partNumber}`;});
  const index=entries.findIndex(p=>p.file===url);const target=getBatchPages(index)[0];if(target)target.scrollIntoView({block:'start'});
  }
  const select=await refresh();document.getElementById('publicChapter').addEventListener('change',async()=>{fillParts();await openPart()});select.addEventListener('change',async()=>{await openPart();panel.hidden=true;toggle.setAttribute('aria-expanded','false')});

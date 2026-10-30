@@ -4898,14 +4898,32 @@ function normalizeWorksheetTitle(value) {
             rebuildBatchSettingsTargets();
         };
     </script>
-<script>
+<style>
+body{padding-top:24px!important}
+.controls,#toolMenuPanel,#layoutSettingsPanel,#coverSettingsModal,.column-resizer,.pdf-hide,#coverPage{display:none!important}
+.vocab-meaning{pointer-events:none}
+.public-part-nav{position:fixed;right:14px;bottom:14px;z-index:30000;font-family:Arial,sans-serif}
+.public-part-toggle{width:34px;height:34px;border:1px solid #cbd5e1;border-radius:50%;background:rgba(255,255,255,.94);color:#334155;box-shadow:0 2px 9px #0002;font-size:16px;cursor:pointer}
+.public-part-panel{position:absolute;right:0;bottom:44px;width:238px;padding:10px;background:white;border:1px solid #e2e8f0;border-radius:12px;box-shadow:0 8px 28px #0002}
+.public-part-panel[hidden]{display:none}
+.public-part-panel select{width:100%;padding:8px;border:1px solid #cbd5e1;border-radius:7px;font-size:13px;background:white}
+.public-part-panel label{display:block;margin-bottom:6px;font-size:12px;color:#475569}
+@media print{.public-part-nav{display:none}}
+</style><script>
 window.addEventListener('load',async()=>{
- const panel=document.querySelector('[data-integrated-category="json"]');
- const area=document.createElement('div');area.className='reading-flow-controls';
- area.innerHTML='<label for="publicPart">공개된 파트 선택</label><select id="publicPart"></select><div class="reading-flow-status">이미지 4장이 완료된 파트를 순서대로 공개합니다.</div>';panel.prepend(area);
+ const area=document.createElement('nav');area.className='public-part-nav';area.setAttribute('aria-label','파트 이동');
+ area.innerHTML='<div id="publicPartPanel" class="public-part-panel" hidden><label for="publicPart">파트 이동</label><select id="publicPart"></select></div><button class="public-part-toggle" type="button" aria-label="파트 이동 메뉴" aria-expanded="false" aria-controls="publicPartPanel">☰</button>';document.body.appendChild(area);
+ const toggle=area.querySelector('button'),panel=area.querySelector('.public-part-panel');
+ toggle.onclick=()=>{panel.hidden=!panel.hidden;toggle.setAttribute('aria-expanded',String(!panel.hidden));};
+ document.addEventListener('click',e=>{if(!area.contains(e.target)){panel.hidden=true;toggle.setAttribute('aria-expanded','false')}});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){panel.hidden=true;toggle.setAttribute('aria-expanded','false')}});
  async function refresh(){const r=await fetch('./manifest.json?ts='+Date.now());const m=await r.json();const select=document.getElementById('publicPart');const old=select.value;select.replaceChildren();m.parts.forEach(p=>{const o=document.createElement('option');o.value=p.file;o.textContent=`Chapter ${p.chapter} · Part ${p.chapterPart} (전체 ${p.part})`;select.appendChild(o)});if([...select.options].some(o=>o.value===old))select.value=old;return select;}
  async function openPart(){const url=document.getElementById('publicPart').value;if(!url)return;const data=await(await fetch(url)).json();const lib={format:'worksheet-chapter-library-v1',bookName:data.bookName,chapters:[{chapterNumber:Number(data.chapter.match(/\d+/)[0]),chapter:data.chapter,worksheets:[data]}]};setChapterLibrary(lib);await loadLibraryChapter(false);}
- const select=await refresh();select.addEventListener('change',openPart);await openPart();setInterval(refresh,30000);
+ const select=await refresh();select.addEventListener('change',async()=>{await openPart();panel.hidden=true;toggle.setAttribute('aria-expanded','false');window.scrollTo(0,0)});
+ const originalAlert=window.alert;window.alert=()=>{};
+ const upload=uploadJSON;uploadJSON=async function(...args){const saved=window.alert;window.alert=()=>{};try{return await upload(...args)}finally{window.alert=saved}};
+ await openPart();window.alert=originalAlert;setInterval(refresh,30000);
+ document.addEventListener('click',e=>{if(e.target.closest('.vocab-clickable,.vocab-meaning'))e.stopImmediatePropagation()},true);
 });
 </script>
 </body>

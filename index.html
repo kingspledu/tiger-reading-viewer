@@ -4712,6 +4712,45 @@ function normalizeWorksheetTitle(value) {
             drawLabel('bottom');
         }
 
+        async function preparePdfImageSources(pages) {
+            const sources = new Map();
+            for (const page of pages) {
+                for (const image of page.querySelectorAll('img')) {
+                    const source = image.currentSrc || image.getAttribute('src');
+                    if (!source || sources.has(source)) continue;
+                    if (/^data:/i.test(source)) { sources.set(source, source); continue; }
+                    if (!image.complete) {
+                        try { await image.decode(); } catch (_) {}
+                    }
+                    if (!image.naturalWidth) continue;
+                    try {
+                        const response = await fetch(source, {mode:'cors', credentials:'same-origin'});
+                        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                        const blob = await response.blob();
+                        const data = await new Promise((resolve,reject) => {
+                            const reader = new FileReader();
+                            reader.onload = () => resolve(reader.result);
+                            reader.onerror = reject;
+                            reader.readAsDataURL(blob);
+                        });
+                        sources.set(source,data);
+                    } catch (error) {
+                        // A local-file viewer cannot fetch file: URLs in Chrome.
+                        // Use an already origin-clean image if the browser permits it.
+                        try {
+                            const canvas = document.createElement('canvas');
+                            canvas.width=image.naturalWidth; canvas.height=image.naturalHeight;
+                            canvas.getContext('2d').drawImage(image,0,0);
+                            sources.set(source,canvas.toDataURL('image/png'));
+                        } catch (_) {
+                            throw new Error('PDF에 포함할 이미지를 읽지 못했습니다. 공개 웹페이지에서 PDF를 생성해 주세요: '+source);
+                        }
+                    }
+                }
+            }
+            return sources;
+        }
+
         async function downloadPDF() {
             let pdfStage = 'PDF 라이브러리 확인';
             const selectedPagePositions = normalizePdfPages(batchPdfPages || currentData.pdfPages);
@@ -4736,11 +4775,21 @@ function normalizeWorksheetTitle(value) {
                 const worksheetPages = [...document.querySelectorAll('.a4-page:not(.cover-page)')];
                 const pages = [cover, ...worksheetPages.filter((page, index) => selectedPagePositions.includes((index % 4) + 1))].filter(Boolean);
 
+                pdfStage = 'PDF 이미지 데이터 준비';
+                const pdfImageSources = await preparePdfImageSources(pages);
                 const canvasOptions = {
+                    allowTaint: false,
                     scale: 2,
                     useCORS: true,
                     logging: false,
-                    onclone: (clonedDoc) => {
+                    onclone: async (clonedDoc) => {
+                        const decoding = [];
+                        clonedDoc.querySelectorAll('img').forEach(image => {
+                            const source=image.currentSrc || image.getAttribute('src');
+                            const safe=pdfImageSources.get(source);
+                            if (safe) { image.removeAttribute('crossorigin'); image.removeAttribute('srcset'); image.src=safe; decoding.push(image.decode().catch(()=>{})); }
+                        });
+                        await Promise.all(decoding);
                         clonedDoc.querySelectorAll('.a4-page').forEach(page => page.style.transform = 'none');
                         clonedDoc.querySelectorAll('.column-resizer').forEach(resizer => resizer.style.visibility = 'hidden');
                     }

@@ -4912,7 +4912,7 @@ body{padding-top:24px!important}
 </style><script>
 window.addEventListener('load',async()=>{
  const area=document.createElement('nav');area.className='public-part-nav';area.setAttribute('aria-label','파트 이동');
- area.innerHTML='<div id="publicPartPanel" class="public-part-panel" hidden><label for="publicPart">파트 이동</label><select id="publicPart"></select></div><button class="public-part-toggle" type="button" aria-label="파트 이동 메뉴" aria-expanded="false" aria-controls="publicPartPanel">☰</button>';document.body.appendChild(area);
+ area.innerHTML='<div id="publicPartPanel" class="public-part-panel" hidden><label for="publicChapter">챕터 이동</label><select id="publicChapter"></select><label for="publicPart">파트 이동</label><select id="publicPart"></select></div><button class="public-part-toggle" type="button" aria-label="챕터·파트 이동 메뉴" aria-expanded="false" aria-controls="publicPartPanel">☰</button>';document.body.appendChild(area);
  const toggle=area.querySelector('button'),panel=area.querySelector('.public-part-panel');
  toggle.onclick=()=>{panel.hidden=!panel.hidden;toggle.setAttribute('aria-expanded',String(!panel.hidden));};
  document.addEventListener('click',e=>{if(!area.contains(e.target)){panel.hidden=true;toggle.setAttribute('aria-expanded','false')}});

@@ -4043,6 +4043,7 @@ function normalizeWorksheetTitle(value) {
 body{padding-top:24px!important}
 .controls,#toolMenuPanel,#layoutSettingsPanel,#coverSettingsModal,.column-resizer,.pdf-hide,#coverPage{display:none!important}
 .vocab-meaning{pointer-events:none}
+.public-empty-image-page{display:none!important}
 .public-part-nav{position:fixed;right:14px;bottom:14px;z-index:30000;font-family:Arial,sans-serif}
 .public-part-toggle{width:34px;height:34px;border:1px solid #cbd5e1;border-radius:50%;background:rgba(255,255,255,.94);color:#334155;box-shadow:0 2px 9px #0002;font-size:16px;cursor:pointer}
 .public-part-panel{position:absolute;right:0;bottom:44px;width:238px;padding:10px;background:white;border:1px solid #e2e8f0;border-radius:12px;box-shadow:0 8px 28px #0002}
@@ -4059,6 +4060,18 @@ window.addEventListener('load',async()=>{
  document.addEventListener('click',e=>{if(!area.contains(e.target)){panel.hidden=true;toggle.setAttribute('aria-expanded','false')}});
  document.addEventListener('keydown',e=>{if(e.key==='Escape'){panel.hidden=true;toggle.setAttribute('aria-expanded','false')}});
  let publicEntries=[];
+ function hideEmptyImagePages(){
+  document.querySelectorAll('.a4-page:not(.cover-page)').forEach(page=>{
+   const imagePage=page.querySelector('.page-image');
+   const text=page.querySelector('.reading-flow-continuation');
+   const hasBody=text&&text.textContent.trim().length>0;
+   const hasImage=[...page.querySelectorAll('.page-image img')].some(img=>img.complete&&img.naturalWidth>0);
+   page.classList.toggle('public-empty-image-page',!!imagePage&&!hasBody&&!hasImage);
+  });
+ }
+ document.addEventListener('load',hideEmptyImagePages,true);
+ document.addEventListener('error',hideEmptyImagePages,true);
+ setInterval(hideEmptyImagePages,1500);
  function fillParts(){const select=document.getElementById('publicPart'),old=select.value,chapter=Number(document.getElementById('publicChapter').value);select.replaceChildren();publicEntries.filter(p=>p.chapter===chapter).forEach(p=>{const o=document.createElement('option');o.value=p.file;o.textContent=`Chapter ${p.chapter} ? Part ${p.part}`;select.appendChild(o)});if([...select.options].some(o=>o.value===old))select.value=old;}
  async function refresh(){const r=await fetch('./manifest.json?ts='+Date.now(),{cache:'no-store'});const m=await r.json();publicEntries=m.parts;const chapters=document.getElementById('publicChapter'),old=chapters.value;chapters.replaceChildren();[...new Set(m.parts.map(p=>p.chapter))].forEach(n=>{const o=document.createElement('option');o.value=n;o.textContent=`Chapter ${n}`;chapters.appendChild(o)});if([...chapters.options].some(o=>o.value===old))chapters.value=old;fillParts();return document.getElementById('publicPart');}
  let allPartsLoaded=false;
@@ -4073,7 +4086,7 @@ window.addEventListener('load',async()=>{
  setChapterLibrary(lib);await loadLibraryChapter(false,chapters.map(c=>c.chapterNumber));allPartsLoaded=true;
  await Promise.all(batchData.flatMap(w=>getReadingScenes(w).map(s=>new Promise(resolve=>{const img=new Image();img.onload=()=>{readingSceneCache.add(s.src);resolve()};img.onerror=resolve;img.src=s.src+'?v='+Date.now()}))));
  batchData.forEach((w,index)=>{w.readingMode='continuous';const pages=getBatchPages(index);renderConnectedReading(w,pages);});
- setTimeout(()=>batchData.forEach((w,index)=>renderConnectedReading(w,getBatchPages(index))),600);
+ setTimeout(()=>{batchData.forEach((w,index)=>renderConnectedReading(w,getBatchPages(index)));hideEmptyImagePages()},600);
  document.querySelectorAll('.a4-page .worksheet-number').forEach(n=>{const page=n.closest('.a4-page'),index=Number(page.dataset.batchIndex)||0;const w=batchData[index];if(w)n.textContent=`Part ${w.partNumber}`;});
  const index=entries.findIndex(p=>p.file===url);const target=getBatchPages(index)[0];if(target)target.scrollIntoView({block:'start'});
  }

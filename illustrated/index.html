@@ -722,13 +722,13 @@
 <style id="connectedReadingStyles">
 .reading-flow-mode .columns-wrapper { position:absolute; top:238px; bottom:42px; left:40px; right:40px; display:flex; margin:0; }
 .reading-flow-mode .text-column { display:flow-root; height:100%; font-size:var(--text-font-size,15.2px); line-height:1.65; }
-.reading-flow-mode .vocab-column { display:flex; }
+.reading-flow-mode .vocab-column { display:flex; justify-content:flex-start; gap:12px; }
 .reading-flow-mode .column-resizer { display:block; }
 .reading-flow-mode .reading-flow-paragraph,.reading-flow-page2 .reading-flow-paragraph { margin:0 0 10px; font-size:inherit; line-height:inherit; white-space:pre-wrap; text-align:left; overflow-wrap:break-word; }
 .reading-flow-page2>button { display:none!important; }
 .reading-flow-beat { display:flow-root; margin:0 0 12px; }
 .reading-scene { width:56.667%; float:left; margin:0 12px 8px 0; break-inside:avoid; }
-.reading-flow-vocabulary { position:absolute;top:72px;bottom:42px;right:40px;left:calc(40px + var(--reading-original-text-width,450px) + 40px);display:flex;flex-direction:column;justify-content:space-between;font-size:var(--vocab-font-size,13.6px);line-height:var(--vocab-line-height,1.15); }
+.reading-flow-vocabulary { position:absolute;top:72px;bottom:42px;right:40px;left:calc(40px + var(--reading-original-text-width,450px) + 40px);display:flex;flex-direction:column;justify-content:flex-start;gap:12px;font-size:var(--vocab-font-size,13.6px);line-height:var(--vocab-line-height,1.15); }
 .reading-scene.scene-right { float:right; margin:0 0 8px 12px; }
 .reading-scene img { display:block; width:100%; height:auto; aspect-ratio:3/2; object-fit:cover; border-radius:8px; }
 .reading-flow-page2>.page-image { display:none; }

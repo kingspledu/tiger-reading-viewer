@@ -1,0 +1,23 @@
+{
+  "book": "When You Trap a Tiger",
+  "parts": [
+    {
+      "part": 1,
+      "chapter": 1,
+      "chapterPart": 1,
+      "file": "parts/0001.json"
+    },
+    {
+      "part": 2,
+      "chapter": 1,
+      "chapterPart": 2,
+      "file": "parts/0002.json"
+    },
+    {
+      "part": 3,
+      "chapter": 1,
+      "chapterPart": 3,
+      "file": "parts/0003.json"
+    }
+  ]
+}

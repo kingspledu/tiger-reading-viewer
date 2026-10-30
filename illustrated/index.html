@@ -727,9 +727,9 @@
 .reading-flow-mode .reading-flow-paragraph,.reading-flow-page2 .reading-flow-paragraph { margin:0 0 10px; font-size:inherit; line-height:inherit; white-space:pre-wrap; text-align:left; overflow-wrap:break-word; }
 .reading-flow-page2>button { display:none!important; }
 .reading-flow-beat { display:flow-root; margin:0 0 12px; }
-.reading-scene { width:56.667%; float:left; margin:0 12px 8px 0; break-inside:avoid; }
+.reading-scene { width:100%; float:none; margin:0 0 12px; break-inside:avoid; }
 .reading-flow-vocabulary { position:absolute;top:72px;bottom:42px;right:40px;left:calc(40px + var(--reading-original-text-width,450px) + 40px);display:flex;flex-direction:column;justify-content:flex-start;gap:12px;font-size:var(--vocab-font-size,13.6px);line-height:var(--vocab-line-height,1.15); }
-.reading-scene.scene-right { float:right; margin:0 0 8px 12px; }
+.reading-scene.scene-right { float:none; margin:0 0 12px; }
 .reading-scene img { display:block; width:100%; height:auto; aspect-ratio:3/2; object-fit:cover; border-radius:8px; }
 .reading-flow-page2>.page-image { display:none; }
 .reading-flow-continuation { position:absolute; top:72px; bottom:42px; left:40px; right:auto; width:var(--reading-original-text-width,450px); display:flow-root; font-size:var(--text-font-size,15.2px); line-height:1.65; }
@@ -1546,9 +1546,9 @@ let readingFlowRefreshTimer=null;
 let readingTextEditTimer=null;
 function getReadingMode(data){return data.readingMode || (/WHEN YOU TRAP A TIGER/i.test(data.bookName||'')?'continuous':'classic');}
 function getReadingScenes(data){
-    if(Array.isArray(data.readingScenes)&&data.readingScenes.length)return data.readingScenes;
+    if(Array.isArray(data.readingScenes)&&data.readingScenes.length)return data.readingScenes.slice(0,2);
     if(!/WHEN YOU TRAP A TIGER/i.test(data.bookName||''))return [];
-    return Array.from({length:4},(_,i)=>({src:`./graphic/when_you_trap_a_tiger/scenes/${String(data.partNumber||data.worksheetNumber||1).padStart(4,'0')}-${String(i+1).padStart(2,'0')}.png`,sceneNumber:i+1}));
+    return Array.from({length:2},(_,i)=>({src:`./graphic/when_you_trap_a_tiger/scenes/${String(data.partNumber||data.worksheetNumber||1).padStart(4,'0')}-${String(i+1).padStart(2,'0')}.png`,sceneNumber:i+1}));
 }
 function probeReadingScenes(data){
     for(const scene of getReadingScenes(data)){

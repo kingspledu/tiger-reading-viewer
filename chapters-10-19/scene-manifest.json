@@ -899,7 +899,7 @@
     "chapterParagraph": 2,
     "description": "Lily unwraps exactly three jars: round dark-blue silver cork, tall clear black cork, square dark-green",
     "src": "assets/ch19-s01.webp",
-    "status": "planned"
+    "status": "ready"
   },
   {
     "id": "ch19-s02",
@@ -910,7 +910,7 @@
     "chapterParagraph": 9,
     "description": "Lily studies faint possible smoky movement in the closed jars, Ricky nearby",
     "src": "assets/ch19-s02.webp",
-    "status": "planned"
+    "status": "ready"
   },
   {
     "id": "ch19-s03",
@@ -921,7 +921,7 @@
     "chapterParagraph": 16,
     "description": "Ricky adjusts his camouflage trousers and looks vulnerable",
     "src": "assets/ch19-s03.webp",
-    "status": "planned"
+    "status": "ready"
   },
   {
     "id": "ch19-s04",
@@ -932,7 +932,7 @@
     "chapterParagraph": 28,
     "description": "Lily and Ricky sit on boxes while he confides about repeating sixth grade",
     "src": "assets/ch19-s04.webp",
-    "status": "planned"
+    "status": "ready"
   },
   {
     "id": "ch19-s05",
@@ -943,7 +943,7 @@
     "chapterParagraph": 36,
     "description": "Lily admits her grandmother is sick and Ricky listens sympathetically",
     "src": "assets/ch19-s05.webp",
-    "status": "planned"
+    "status": "ready"
   },
   {
     "id": "ch19-s06",
@@ -954,7 +954,7 @@
     "chapterParagraph": 51,
     "description": "Ricky hands Lily back his camouflage top hat to resume work",
     "src": "assets/ch19-s06.webp",
-    "status": "planned"
+    "status": "ready"
   },
   {
     "id": "ch19-s07",
@@ -965,7 +965,7 @@
     "chapterParagraph": 54,
     "description": "They stack lighter boxes on heavier ones in a ring and wind rope around them",
     "src": "assets/ch19-s07.webp",
-    "status": "planned"
+    "status": "ready"
   },
   {
     "id": "ch19-s08",
@@ -976,7 +976,7 @@
     "chapterParagraph": 60,
     "description": "At goodbye Ricky lets Lily keep the camouflage top hat",
     "src": "assets/ch19-s08.webp",
-    "status": "planned"
+    "status": "ready"
   },
   {
     "id": "ch19-s09",
@@ -987,6 +987,6 @@
     "chapterParagraph": 65,
     "description": "Lily alone hides all three closed jars under the attic bed, faint glow",
     "src": "assets/ch19-s09.webp",
-    "status": "planned"
+    "status": "ready"
   }
 ]

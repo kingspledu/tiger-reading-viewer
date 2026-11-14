@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -1546,12 +1546,14 @@ let readingFlowRefreshTimer=null;
 let readingTextEditTimer=null;
 function getReadingMode(data){return data.readingMode || (/WHEN YOU TRAP A TIGER/i.test(data.bookName||'')?'continuous':'classic');}
 function getReadingScenes(data){
-    const all=Array.isArray(data.readingScenes)&&data.readingScenes.length?data.readingScenes.slice(0,16):(!/WHEN YOU TRAP A TIGER/i.test(data.bookName||'')?[]:Array.from({length:16},(_,i)=>({src:`./graphic/when_you_trap_a_tiger/scenes/${String(data.partNumber||data.worksheetNumber||1).padStart(4,'0')}-${String(i+1).padStart(2,'0')}.png`,sceneNumber:i+1})));
+    const all=Array.isArray(data.readingScenes)&&data.readingScenes.length?data.readingScenes.slice(0,16):[];
     if(!all.length)return [];
-    const paragraphs=data.paragraphs||[],avg=paragraphs.length?paragraphs.reduce((n,p)=>n+(p.text||'').trim().split(/\s+/).filter(Boolean).length,0)/paragraphs.length:40;
-    const stride=avg<25?5:2.5,wanted=Math.max(1,Math.min(all.length,Math.ceil(paragraphs.length/stride)));
-    if(wanted>=all.length)return all;
-    return all.filter((_,i)=>Math.round(i*(wanted-1)/(all.length-1))<wanted).slice(0,wanted);
+    const paragraphs=data.paragraphs||[];
+    const average=paragraphs.length?paragraphs.reduce((sum,p)=>sum+(p.text||'').replace(/^\[[A-Z]+\]\s*/, '').trim().split(/\s+/).filter(Boolean).length,0)/paragraphs.length:40;
+    const stride=average<25?5.5:2.5;
+    const count=Math.max(1,Math.min(all.length,Math.round(paragraphs.length/stride)));
+    if(count===1)return [all[Math.floor((all.length-1)/2)]];
+    return Array.from({length:count},(_,i)=>all[Math.round(i*(all.length-1)/(count-1))]);
 }
 function probeReadingScenes(data){
     for(const scene of getReadingScenes(data)){

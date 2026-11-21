@@ -5,11 +5,12 @@
 - Existing approved reference pool: `illustrated/graphic/when_you_trap_a_tiger/scenes/` with 264 PNG images from the published Chapter 1–6 reader.
 - Existing machine-readable character bible: not found.
 - Existing style bible: not found.
+- Draft continuity sheet created from the approved pool: `references/character-continuity-sheet-v01.png`.
 - The discarded Chapter 10 batch was generated without an approved reference-bible gate and is removed from the public site.
 
 ## Required resources before new generation
 
-1. **Character bible**: Lily, Sam, Mom, Halmoni, the female tiger, Joe, Jensen, Ricky, Rick, Olivia, and embedded-tale characters. Each entry must specify age/role, face shape, hair, eyes, skin tone, body proportions, wardrobe by period/scene, fixed props, and forbidden changes.
+1. **Character bible**: Lily, Sam, Mom, Halmoni, the female tiger, Joe, Jensen, Ricky, Rick, Olivia, and embedded-tale characters. Each entry must specify age/role, face shape, hair, eyes, skin tone, body proportions, wardrobe by period/scene, fixed props, and forbidden changes. The new sheet is a draft reference, not a replacement for the approved source pool.
 2. **Style bible**: line quality, palette, lighting, background simplification, camera language, panel composition, crop rules, and the exact 4×4 grid layout.
 3. **Reference board**: select approved existing images for each recurring character and location. References come from the published Chapter 1–6 pool; generated images cannot become references until reviewed.
 4. **Continuity ledger**: record scene ID, character IDs, wardrobe state, props, location, time, reference image IDs, prompt, grid batch ID, reviewer result, and public asset path.

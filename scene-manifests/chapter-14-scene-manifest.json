@@ -1,0 +1,353 @@
+{
+  "chapter": 14,
+  "sentences": 114,
+  "scenes": [
+    {
+      "scene_id": "C14_S001",
+      "sentence_ids": [
+        "c14-p001-s0001",
+        "c14-p001-s0002",
+        "c14-p001-s0003",
+        "c14-p001-s0004"
+      ],
+      "text": "[A] I wake up in the middle of the night. Sam’s still sleeping. She was up later than me, waiting for Mom and Halmoni. I don’t know if they came home.",
+      "image_src": "assets/scenes/ch14-s001.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S002",
+      "sentence_ids": [
+        "c14-p001-s0005",
+        "c14-p001-s0006",
+        "c14-p001-s0007",
+        "c14-p001-s0008"
+      ],
+      "text": "[B] And I can’t stand not knowing. I can’t stand feeling helpless—like I have to fix it, but I don’t know how. [C] Quietly I walk downstairs. Mom’s sleeping on the couch, and I crack Halmoni’s door open.",
+      "image_src": "assets/scenes/ch14-s002.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S003",
+      "sentence_ids": [
+        "c14-p001-s0009",
+        "c14-p001-s0010",
+        "c14-p001-s0011",
+        "c14-p001-s0012"
+      ],
+      "text": "Inside, she’s wrapped in a cocoon of silk sheets, and I feel dizzy with relief. Halmoni’s okay. I press my hand against the wall to keep from tipping over. I want to go to her, but the image of her in the road burns in my brain.",
+      "image_src": "assets/scenes/ch14-s003.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S004",
+      "sentence_ids": [
+        "c14-p001-s0013",
+        "c14-p001-s0014",
+        "c14-p001-s0015",
+        "c14-p001-s0016"
+      ],
+      "text": "Leftover fear sits in my chest. [D] For now, it’s enough just to know she’s all right. So I shut the door. [E] As I do, the house groans, shattering the silent night.",
+      "image_src": "assets/scenes/ch14-s004.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S005",
+      "sentence_ids": [
+        "c14-p001-s0017",
+        "c14-p001-s0018",
+        "c14-p001-s0019",
+        "c14-p001-s0020"
+      ],
+      "text": "Shadows dance around me. [F] And from behind me, someone says, “Hello, Lily.” It’s a gravelly female voice. It scrapes against my ears like claws on rice paper. “I’ve been searching for your family for a long, long time.”",
+      "image_src": "assets/scenes/ch14-s005.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S006",
+      "sentence_ids": [
+        "c14-p001-s0021",
+        "c14-p001-s0022",
+        "c14-p001-s0023",
+        "c14-p001-s0024"
+      ],
+      "text": "[G] I spin around, trying to find the source of the voice. [H] But there’s nobody else in the room except for Mom, who’s still sleeping. [I] My rabbit heart panics, pounding against my ribs like it wants to escape. [J] “Oh, come on now.",
+      "image_src": "assets/scenes/ch14-s006.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S007",
+      "sentence_ids": [
+        "c14-p001-s0025",
+        "c14-p001-s0026",
+        "c14-p002-s0027",
+        "c14-p002-s0028"
+      ],
+      "text": "I’m not that scary.” The voice seems to come from all around me—from inside me, even. It echoes in my chest. [A] The shadows in the kitchen start to take shape, shifting and stretching. And then they come together, forming one shape.",
+      "image_src": "assets/scenes/ch14-s007.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S008",
+      "sentence_ids": [
+        "c14-p002-s0029",
+        "c14-p002-s0030",
+        "c14-p002-s0031",
+        "c14-p002-s0032"
+      ],
+      "text": "The giant shadow steps forward, into the starlight, and it becomes the tiger—big as a car, filling the whole hallway. [B] “You talk,” I whisper. And then, without meaning to, I add, “And you’re a girl.” [C] I clamp my lips shut, because what a ridiculous thing to say.",
+      "image_src": "assets/scenes/ch14-s008.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S009",
+      "sentence_ids": [
+        "c14-p002-s0033",
+        "c14-p002-s0034",
+        "c14-p002-s0035",
+        "c14-p002-s0036"
+      ],
+      "text": "[D] She scoffs. “Typical. You hear one story about a male tiger and think we’re all the same? Humans are the worst.”",
+      "image_src": "assets/scenes/ch14-s009.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S010",
+      "sentence_ids": [
+        "c14-p002-s0037",
+        "c14-p002-s0038",
+        "c14-p002-s0039",
+        "c14-p002-s0040"
+      ],
+      "text": "[E] She takes a step toward me and I press myself back. My shoulder blades dig into Halmoni’s door. [F] Maybe I’m trapped in an elaborate dream—but I don’t think so. I feel the chill in the air, the brush of goose bumps on my arm, the warped wood beneath my feet, and the pinch in my shoulders as I press them back.",
+      "image_src": "assets/scenes/ch14-s010.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S011",
+      "sentence_ids": [
+        "c14-p002-s0041",
+        "c14-p002-s0042",
+        "c14-p002-s0043",
+        "c14-p002-s0044"
+      ],
+      "text": "[G] Dreams are not made of details. Are nightmares? [H] I glance over at Mom on the couch, but she just snores. [I] “Don’t worry,” the tiger says.",
+      "image_src": "assets/scenes/ch14-s011.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S012",
+      "sentence_ids": [
+        "c14-p002-s0045",
+        "c14-p002-s0046",
+        "c14-p002-s0047",
+        "c14-p002-s0048"
+      ],
+      "text": "“Your mother won’t be bothering us.” [J] My whole body clenches, but the tiger rolls her eyes. “She’s a heavy sleeper.” [K] A not-small part of my brain is screaming, You are talking to a tiger!",
+      "image_src": "assets/scenes/ch14-s012.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S013",
+      "sentence_ids": [
+        "c14-p002-s0049",
+        "c14-p002-s0050",
+        "c14-p002-s0051",
+        "c14-p002-s0052"
+      ],
+      "text": "A tiger is talking to you. This is for-sure impossible. [L] I feel a little dizzy. “Go away,” I tell her.",
+      "image_src": "assets/scenes/ch14-s013.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S014",
+      "sentence_ids": [
+        "c14-p003-s0053",
+        "c14-p003-s0054",
+        "c14-p003-s0055",
+        "c14-p003-s0056"
+      ],
+      "text": "[A] The tiger steps closer, tail swishing back and forth. She tilts her head and flicks an ear. “Why so hostile, Little Egg? I am not going to eat you, just so you know.",
+      "image_src": "assets/scenes/ch14-s014.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S015",
+      "sentence_ids": [
+        "c14-p003-s0057",
+        "c14-p003-s0058",
+        "c14-p003-s0059",
+        "c14-p003-s0060"
+      ],
+      "text": "I’m on a kimchi diet.” [B] I stare at her. This is the monster Halmoni warned me about. [C] She makes a sound that’s halfway between a purr and a growl.",
+      "image_src": "assets/scenes/ch14-s015.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S016",
+      "sentence_ids": [
+        "c14-p003-s0061",
+        "c14-p003-s0062",
+        "c14-p003-s0063",
+        "c14-p003-s0064"
+      ],
+      "text": "“Your halmoni stole the stars, and I am here to collect them. That is all. Will you help me, little one?” [D] My mouth is so dry, I can barely form the word, but I manage.",
+      "image_src": "assets/scenes/ch14-s016.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S017",
+      "sentence_ids": [
+        "c14-p003-s0065",
+        "c14-p003-s0066",
+        "c14-p003-s0067",
+        "c14-p003-s0068"
+      ],
+      "text": "“No.” [E] She sighs. “You humans understand so little of the world, and your halmoni can’t see what she’s done. She doesn’t see what’s harming her.",
+      "image_src": "assets/scenes/ch14-s017.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S018",
+      "sentence_ids": [
+        "c14-p003-s0069",
+        "c14-p003-s0070",
+        "c14-p003-s0071",
+        "c14-p003-s0072"
+      ],
+      "text": "I only want to help her. Trust me.” [F] I shake my head, because Halmoni told me not to trust tigers. And it’s pretty clear that the tiger is harming her.",
+      "image_src": "assets/scenes/ch14-s018.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S019",
+      "sentence_ids": [
+        "c14-p003-s0073",
+        "c14-p003-s0074",
+        "c14-p003-s0075",
+        "c14-p003-s0076"
+      ],
+      "text": "The tiger was in the road when Halmoni got sick. The tiger scared her. [G] But the big cat continues, “Story magic is powerful, powerful enough to change someone. And when a story is locked away, its magic only grows.",
+      "image_src": "assets/scenes/ch14-s019.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S020",
+      "sentence_ids": [
+        "c14-p003-s0077",
+        "c14-p003-s0078",
+        "c14-p003-s0079",
+        "c14-p003-s0080"
+      ],
+      "text": "Sometimes it grows sour. The magic becomes a kind of poison. Do you understand?” [H] I refuse to respond.",
+      "image_src": "assets/scenes/ch14-s020.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S021",
+      "sentence_ids": [
+        "c14-p003-s0081",
+        "c14-p003-s0082",
+        "c14-p003-s0083",
+        "c14-p003-s0084"
+      ],
+      "text": "I won’t let her twist lies around my heart. [I] “Lily Bean, if you return those stories to me, your halmoni will feel better. If they stay locked away, they will make her sick. They will”—her teeth flash—“eat her up.”",
+      "image_src": "assets/scenes/ch14-s021.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S022",
+      "sentence_ids": [
+        "c14-p003-s0085",
+        "c14-p004-s0086",
+        "c14-p004-s0087",
+        "c14-p004-s0088"
+      ],
+      "text": "[J] “You’re lying,” I say, but my voice cracks. [A] “I’m offering a deal. You help me find the stories, I’ll return them to their place in the sky, and you never have to think about them again. I get my stars back, and we help your halmoni.",
+      "image_src": "assets/scenes/ch14-s022.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S023",
+      "sentence_ids": [
+        "c14-p004-s0089",
+        "c14-p004-s0090",
+        "c14-p004-s0091",
+        "c14-p004-s0092"
+      ],
+      "text": "You don’t even have to hear the stories. Everybody wins.” The tiger shifts her weight, paw to paw, and her fur glistens in the starlight. “Don’t you want to be a hero?” [B] Here’s the scariest part: something deep inside me says yes.",
+      "image_src": "assets/scenes/ch14-s023.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S024",
+      "sentence_ids": [
+        "c14-p004-s0093",
+        "c14-p004-s0094",
+        "c14-p004-s0095",
+        "c14-p004-s0096"
+      ],
+      "text": "I am never the hero—not like Halmoni—and part of me wants to be. [C] I bite my lip so my yes won’t escape. [D] “You should know”—her voice is so deep it vibrates through me—“this is your one chance to help your halmoni. I won’t offer again.”",
+      "image_src": "assets/scenes/ch14-s024.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S025",
+      "sentence_ids": [
+        "c14-p004-s0097",
+        "c14-p004-s0098",
+        "c14-p004-s0099",
+        "c14-p004-s0100"
+      ],
+      "text": "[E] Halmoni told me to be careful, and just the thought of making a deal with the tiger rips my stomach to shreds. But there’s so much Halmoni didn’t tell me. There’s so much she’s kept hidden—so much I want to know. [F] What if the tiger’s right?",
+      "image_src": "assets/scenes/ch14-s025.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S026",
+      "sentence_ids": [
+        "c14-p004-s0101",
+        "c14-p004-s0102",
+        "c14-p004-s0103",
+        "c14-p004-s0104"
+      ],
+      "text": "What if these stolen star stories are making Halmoni sick? [G] I am frozen, trapped in my own thoughts. This is my problem. This is why Sam calls me a QAG.",
+      "image_src": "assets/scenes/ch14-s026.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S027",
+      "sentence_ids": [
+        "c14-p004-s0105",
+        "c14-p004-s0106",
+        "c14-p004-s0107",
+        "c14-p004-s0108"
+      ],
+      "text": "I’m so afraid of saying the wrong answer that I don’t say anything at all. [H] For a few stretched-out moments, the tiger waits. Then she shakes her head. Already she’s fading into shadow.",
+      "image_src": "assets/scenes/ch14-s027.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S028",
+      "sentence_ids": [
+        "c14-p004-s0109",
+        "c14-p004-s0110",
+        "c14-p004-s0111",
+        "c14-p004-s0112"
+      ],
+      "text": "“I was hoping you’d surprise me.” [I] I think of Halmoni tonight, and how helpless I felt, and how I need to fix this. “Wait!” I call out. “I’ll do it!”",
+      "image_src": "assets/scenes/ch14-s028.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C14_S029",
+      "sentence_ids": [
+        "c14-p004-s0113",
+        "c14-p004-s0114"
+      ],
+      "text": "[J] But I’m too late. Her stripes blur into blackness, and she’s gone.",
+      "image_src": "assets/scenes/ch14-s029.webp",
+      "placement": "before-text"
+    }
+  ],
+  "cadence": "3-4 sentences; first group may be 3"
+}

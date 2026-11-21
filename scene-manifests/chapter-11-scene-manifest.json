@@ -1,0 +1,259 @@
+{
+  "chapter": 11,
+  "sentences": 84,
+  "scenes": [
+    {
+      "scene_id": "C11_S001",
+      "sentence_ids": [
+        "c11-p001-s0001",
+        "c11-p001-s0002",
+        "c11-p001-s0003",
+        "c11-p001-s0004"
+      ],
+      "text": "[A] It’s not a tiger. It’s a boy. [B] A short white boy, wearing a bright orange shirt, black jeans, and an old-fashioned newsboy hat over shaggy brown hair. [C] “Sorry!” I blurt.",
+      "image_src": "assets/scenes/ch11-s001.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S002",
+      "sentence_ids": [
+        "c11-p001-s0005",
+        "c11-p001-s0006",
+        "c11-p001-s0007",
+        "c11-p001-s0008"
+      ],
+      "text": "I look over his shoulder. I could have sworn I saw a tiger tail, but there’s nothing. We’re just standing in one of the aisles, surrounded by comic books. [D] The boy laughs and tips his hat.",
+      "image_src": "assets/scenes/ch11-s002.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S003",
+      "sentence_ids": [
+        "c11-p001-s0009",
+        "c11-p001-s0010",
+        "c11-p001-s0011",
+        "c11-p001-s0012"
+      ],
+      "text": "“Hello, I’m Ricky. I’m sorry we had to meet in a collision situation.” [E] Before I can respond, he shouts to Jensen, who runs up behind me. “Hey, Jensen!",
+      "image_src": "assets/scenes/ch11-s003.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S004",
+      "sentence_ids": [
+        "c11-p001-s0013",
+        "c11-p001-s0014",
+        "c11-p001-s0015",
+        "c11-p001-s0016"
+      ],
+      "text": "You know I ran here? From where my dad dropped me off in the parking lot? Because I know you hate when I’m late.” He wipes pinpricks of sweat off his upper lip, for dramatic affect. “So it was really considerate of me, just saying.”",
+      "image_src": "assets/scenes/ch11-s004.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S005",
+      "sentence_ids": [
+        "c11-p001-s0017",
+        "c11-p001-s0018",
+        "c11-p001-s0019",
+        "c11-p001-s0020"
+      ],
+      "text": "[F] Jensen sighs. “Ricky, please keep your voice down.” [G] When Ricky grins, the corners of his eyes crinkle, and little dimples form on his round cheeks. I can tell he’s one of those sticky people, because I like him right away.",
+      "image_src": "assets/scenes/ch11-s005.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S006",
+      "sentence_ids": [
+        "c11-p001-s0021",
+        "c11-p001-s0022",
+        "c11-p001-s0023",
+        "c11-p001-s0024"
+      ],
+      "text": "[H] He turns back to me. “So, hello, who are you and what is your story and why are you in this sad little library?” [I] “I’m Lily,” I say, and then my mind goes blank. He stares at me, waiting for more, and I wish my invisibility would kick in right about now.",
+      "image_src": "assets/scenes/ch11-s006.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S007",
+      "sentence_ids": [
+        "c11-p001-s0025",
+        "c11-p001-s0026",
+        "c11-p002-s0027",
+        "c11-p002-s0028"
+      ],
+      "text": "[J] Jensen saves me. “Lily just moved in with her grandmother, in the house across the street from here.” [A] Gesturing to Ricky, Jensen adds, “Lily, this is Ricky, one of my summer tutees. We meet every Tuesday and Thursday.” She turns directly to Ricky and says, “And the library isn’t sad.",
+      "image_src": "assets/scenes/ch11-s007.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S008",
+      "sentence_ids": [
+        "c11-p002-s0029",
+        "c11-p002-s0030",
+        "c11-p002-s0031",
+        "c11-p002-s0032"
+      ],
+      "text": "It’s just a little run-down.” [B] “Is she getting tutored with me?” Ricky asks Jensen, as if I’m not there. I get the same feeling I have with Mom and Sam sometimes—like I’m in the way, or I’ve walked into a conversation I don’t belong in. Or, I guess, ran into it.",
+      "image_src": "assets/scenes/ch11-s008.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S009",
+      "sentence_ids": [
+        "c11-p002-s0033",
+        "c11-p002-s0034",
+        "c11-p002-s0035",
+        "c11-p002-s0036"
+      ],
+      "text": "[C] I dig my toe into the floor. “No, I’m just looking for books.” [D] His eyes go wide, and he looks at the shelves of comics. “Do you like comics, too?",
+      "image_src": "assets/scenes/ch11-s009.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S010",
+      "sentence_ids": [
+        "c11-p002-s0037",
+        "c11-p002-s0038",
+        "c11-p002-s0039",
+        "c11-p002-s0040"
+      ],
+      "text": "I love them. I’m reading through the original Supermans right now. Well, the issues that Joe has here, at least. I know a lot of people think Superman’s not cool.",
+      "image_src": "assets/scenes/ch11-s010.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S011",
+      "sentence_ids": [
+        "c11-p002-s0041",
+        "c11-p002-s0042",
+        "c11-p002-s0043",
+        "c11-p002-s0044"
+      ],
+      "text": "And I’m not saying he’s my favorite superhero. He’s just canon, you know?” [E] “Yeah, he’s . .",
+      "image_src": "assets/scenes/ch11-s011.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S012",
+      "sentence_ids": [
+        "c11-p002-s0045",
+        "c11-p002-s0046",
+        "c11-p002-s0047",
+        "c11-p002-s0048"
+      ],
+      "text": ".” I pause, trying to think of something to continue the conversation, anything I know about Superman. I draw a blank. [F] Thankfully, Jensen chimes in. “Lily likes tigers, so she’s looking for books about them,” Jensen tells him.",
+      "image_src": "assets/scenes/ch11-s012.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S013",
+      "sentence_ids": [
+        "c11-p002-s0049",
+        "c11-p002-s0050",
+        "c11-p002-s0051",
+        "c11-p002-s0052"
+      ],
+      "text": "Which is kind of embarrassing. I want to correct her: I don’t like tigers. But I shrug and force a smile. [G] Ricky’s grin returns.",
+      "image_src": "assets/scenes/ch11-s013.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S014",
+      "sentence_ids": [
+        "c11-p002-s0053",
+        "c11-p002-s0054",
+        "c11-p003-s0055",
+        "c11-p003-s0056"
+      ],
+      "text": "“Whoa. I’ve never met a girl who likes tigers before.” [A] “Well . .",
+      "image_src": "assets/scenes/ch11-s014.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S015",
+      "sentence_ids": [
+        "c11-p003-s0057",
+        "c11-p003-s0058",
+        "c11-p003-s0059",
+        "c11-p003-s0060"
+      ],
+      "text": ". yeah.” If I were more like Sam, I would tell him that boys don’t have dibs on liking tigers. But I don’t say anything. I just wish we could go back to talking about comics.",
+      "image_src": "assets/scenes/ch11-s015.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S016",
+      "sentence_ids": [
+        "c11-p003-s0061",
+        "c11-p003-s0062",
+        "c11-p003-s0063",
+        "c11-p003-s0064"
+      ],
+      "text": "[B] “I mean, not that many girls talk to me, I guess,” he continues, unaware of any awkwardness. “But tigers are cool. They’re, like, sleek and elegant, but in a ruthless way.” [C] I don’t exactly want to think about how ruthless tigers are.",
+      "image_src": "assets/scenes/ch11-s016.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S017",
+      "sentence_ids": [
+        "c11-p003-s0065",
+        "c11-p003-s0066",
+        "c11-p003-s0067",
+        "c11-p003-s0068"
+      ],
+      "text": "“You can’t trust a tiger,” I say. [D] He nods slowly. “You can’t trust a tiger,” he repeats, like I’ve said something fascinating and he’s trying to commit it to memory. “I like that.",
+      "image_src": "assets/scenes/ch11-s017.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S018",
+      "sentence_ids": [
+        "c11-p003-s0069",
+        "c11-p003-s0070",
+        "c11-p003-s0071",
+        "c11-p003-s0072"
+      ],
+      "text": "My great-grandpa was a tiger hunter. But that’s actually really bad, because tigers are endangered and that’s illegal now, so my dad doesn’t want me to tell people about that.” He pauses. “I mean . .",
+      "image_src": "assets/scenes/ch11-s018.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S019",
+      "sentence_ids": [
+        "c11-p003-s0073",
+        "c11-p003-s0074",
+        "c11-p003-s0075",
+        "c11-p003-s0076"
+      ],
+      "text": ".” [E] “Okay, that’s enough stalling for now,” Jensen says. “Let’s get to work, Ricky.” [F] She drags him away, and they leave me standing in the aisle, head whirling.",
+      "image_src": "assets/scenes/ch11-s019.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S020",
+      "sentence_ids": [
+        "c11-p003-s0077",
+        "c11-p003-s0078",
+        "c11-p003-s0079",
+        "c11-p003-s0080"
+      ],
+      "text": "[G] Maybe I imagined the tiger, but I don’t think so. The tiger was here. I know it was here. [H] What would have happened if Ricky hadn’t interrupted?",
+      "image_src": "assets/scenes/ch11-s020.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C11_S021",
+      "sentence_ids": [
+        "c11-p003-s0081",
+        "c11-p003-s0082",
+        "c11-p003-s0083",
+        "c11-p003-s0084"
+      ],
+      "text": "What would have happened if I’d caught it? [I] A sleek, elegant, ruthless, magical tiger is hunting my family, and I chased it. [J] I can’t tell if that was incredibly brave or incredibly dangerous. Or maybe a bit of both.",
+      "image_src": "assets/scenes/ch11-s021.webp",
+      "placement": "before-text"
+    }
+  ],
+  "cadence": "3-4 sentences; first group may be 3"
+}

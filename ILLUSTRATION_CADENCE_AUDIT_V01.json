@@ -1,0 +1,47 @@
+{
+  "rule": "one illustration-led scene per 3-4 sentences",
+  "order_rule": "illustration before its linked text group",
+  "pages": [
+    {
+      "page": "volume-1",
+      "parts": 34,
+      "sentences": 852,
+      "current_illustrations": 264,
+      "target_min": 213,
+      "target_nominal": 244,
+      "target_max": 284,
+      "additional_nominal": 0,
+      "cadence_current": 3.23
+    },
+    {
+      "page": "chapters-10-19",
+      "parts": 62,
+      "sentences": 1520,
+      "current_illustrations": 90,
+      "target_min": 380,
+      "target_nominal": 435,
+      "target_max": 506,
+      "additional_nominal": 345,
+      "cadence_current": 16.89
+    },
+    {
+      "page": "chapters-20-29",
+      "parts": 50,
+      "sentences": 1108,
+      "current_illustrations": 108,
+      "target_min": 277,
+      "target_nominal": 317,
+      "target_max": 369,
+      "additional_nominal": 209,
+      "cadence_current": 10.26
+    }
+  ],
+  "verification": {
+    "all_pages_counted": true,
+    "target_calculation": "ceil(sentences / 3.5)",
+    "scene_ids_required": true,
+    "text_anchor_required": true,
+    "image_file_required": true,
+    "current_order_requires_browser_render_check": true
+  }
+}

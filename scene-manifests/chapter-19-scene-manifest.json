@@ -1,0 +1,508 @@
+{
+  "chapter": 19,
+  "sentences": 165,
+  "scenes": [
+    {
+      "scene_id": "C19_S001",
+      "sentence_ids": [
+        "c19-p001-s0001",
+        "c19-p001-s0002",
+        "c19-p001-s0003",
+        "c19-p001-s0004"
+      ],
+      "text": "[A] “Star jars,” I breathe. [B] I peel the Bubble Wrap off one of them, and the jar inside is small and round, made of dark blue glass, with a silver cork stuffed in its mouth. [C] Quickly I unwrap the others, checking for cracks, but they’re okay, too. One of them is tall and thin, made of clear glass with a black cork.",
+      "image_src": "assets/scenes/ch19-s001.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S002",
+      "sentence_ids": [
+        "c19-p001-s0005",
+        "c19-p001-s0006",
+        "c19-p001-s0007",
+        "c19-p001-s0008"
+      ],
+      "text": "The other is dark green and square shaped. [D] Ricky takes a step closer. “What’s a star jar?” [E] “Um, nothing.” Except they aren’t nothing.",
+      "image_src": "assets/scenes/ch19-s002.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S003",
+      "sentence_ids": [
+        "c19-p001-s0009",
+        "c19-p001-s0010",
+        "c19-p001-s0011",
+        "c19-p001-s0012"
+      ],
+      "text": "In fact, these might be everything. [F] Halmoni said she took the star stories and stuffed them into jars. The tiger thought those jars were hidden somewhere in the house. And Halmoni was super intense about being careful with the boxes.",
+      "image_src": "assets/scenes/ch19-s003.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S004",
+      "sentence_ids": [
+        "c19-p001-s0013",
+        "c19-p001-s0014",
+        "c19-p001-s0015",
+        "c19-p001-s0016"
+      ],
+      "text": "[G] This is it. These are the precious jars. The dangerous stories. They have to be.",
+      "image_src": "assets/scenes/ch19-s004.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S005",
+      "sentence_ids": [
+        "c19-p001-s0017",
+        "c19-p001-s0018",
+        "c19-p001-s0019",
+        "c19-p001-s0020"
+      ],
+      "text": "[H] This is what the tiger wants. [I] I squint at them, and it might be a trick of the light, but I can almost see something moving inside them—something like smoke, or like magic. [J] For one overwhelming moment, I want to uncork the jars and hold them to my ear like seashells, so I can hear magic inside, roaring like the ocean. [K] I want so badly to hear these stories.",
+      "image_src": "assets/scenes/ch19-s005.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S006",
+      "sentence_ids": [
+        "c19-p001-s0021",
+        "c19-p001-s0022",
+        "c19-p002-s0023",
+        "c19-p002-s0024"
+      ],
+      "text": "[L] “These are my halmoni’s.” I try to keep my voice steady. “We can just put these on the side, and I’ll give them to her later.” [A] Ricky shrugs like it’s not a big deal, which I guess, to him, it isn’t. They’re just jars.",
+      "image_src": "assets/scenes/ch19-s006.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S007",
+      "sentence_ids": [
+        "c19-p002-s0025",
+        "c19-p002-s0026",
+        "c19-p002-s0027",
+        "c19-p002-s0028"
+      ],
+      "text": "Regular, normal jars. Totally. I chew my thumbnail and stare at them. [B] Ricky breaks the silence.",
+      "image_src": "assets/scenes/ch19-s007.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S008",
+      "sentence_ids": [
+        "c19-p002-s0029",
+        "c19-p002-s0030",
+        "c19-p002-s0031",
+        "c19-p002-s0032"
+      ],
+      "text": "“So, what would you do after you trapped the tiger?” And then, like he’s afraid I won’t answer, he adds, “In Superman: Doom Trap!, Lex Luthor wants to torture him to reveal the secrets of Krypton and also the universe—” [C] “It’s not like that,” I interrupt, because that kind of makes me sound like the bad guy. “This is real life. This isn’t like your comic books, okay?”",
+      "image_src": "assets/scenes/ch19-s008.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S009",
+      "sentence_ids": [
+        "c19-p002-s0033",
+        "c19-p002-s0034",
+        "c19-p002-s0035",
+        "c19-p002-s0036"
+      ],
+      "text": "[D] Instantly, I feel guilty for snapping. Ricky has been nice enough to help. It’s not his fault he doesn’t know the bigger picture, and if he wants to talk about comics or hats or anything, I should just let him. Quieter, I say, “This is just different.”",
+      "image_src": "assets/scenes/ch19-s009.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S010",
+      "sentence_ids": [
+        "c19-p002-s0037",
+        "c19-p002-s0038",
+        "c19-p002-s0039",
+        "c19-p002-s0040"
+      ],
+      "text": "[E] He pauses and gets really focused on readjusting his camo pants. “I’m not getting tutored because I’m stupid. I mean, I’m not stupid.” [F] I fiddle with my braids.",
+      "image_src": "assets/scenes/ch19-s010.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S011",
+      "sentence_ids": [
+        "c19-p002-s0041",
+        "c19-p002-s0042",
+        "c19-p002-s0043",
+        "c19-p002-s0044"
+      ],
+      "text": "“Yeah, I know. You already said that, in the library, and I don’t think you are. Lots of people get tutored.” [G] “I’m just saying, in case you think stuff.",
+      "image_src": "assets/scenes/ch19-s011.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S012",
+      "sentence_ids": [
+        "c19-p002-s0045",
+        "c19-p003-s0046",
+        "c19-p003-s0047",
+        "c19-p003-s0048"
+      ],
+      "text": "Or hear stuff about me.” He lifts a shoulder like he doesn’t care, even though he clearly does. [A] I sit on one of the boxes. “Hear stuff from who?” I don’t think I need to point out the obvious: I don’t have any friends. [B] “Yeah, that’s true,” he says, sitting on the box next to me.",
+      "image_src": "assets/scenes/ch19-s012.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S013",
+      "sentence_ids": [
+        "c19-p003-s0049",
+        "c19-p003-s0050",
+        "c19-p003-s0051",
+        "c19-p003-s0052"
+      ],
+      "text": "“I failed language arts last year.” [C] “Oh,” I say. [D] At my school in California, it was superhard to fail a class. Even if you did badly on all the assignments, as long as you put in the bare minimum effort, the teacher would take pity on you and at least let you pass.",
+      "image_src": "assets/scenes/ch19-s013.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S014",
+      "sentence_ids": [
+        "c19-p003-s0053",
+        "c19-p003-s0054",
+        "c19-p003-s0055",
+        "c19-p003-s0056"
+      ],
+      "text": "[E] Maybe the school here is way harder, because Ricky doesn’t seem like someone who wouldn’t try. He’s the type of kid who wears head-to-toe camo for a hypothetical tiger hunt. That type of kid tries. [F] Drumming his fingers against the cardboard, he says, “It’s not my fault, though.",
+      "image_src": "assets/scenes/ch19-s014.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S015",
+      "sentence_ids": [
+        "c19-p003-s0057",
+        "c19-p003-s0058",
+        "c19-p003-s0059",
+        "c19-p003-s0060"
+      ],
+      "text": "The teacher was against me. She hated me.” [G] “Okay,” I say. “I guess that makes sense.”",
+      "image_src": "assets/scenes/ch19-s015.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S016",
+      "sentence_ids": [
+        "c19-p003-s0061",
+        "c19-p003-s0062",
+        "c19-p003-s0063",
+        "c19-p003-s0064"
+      ],
+      "text": "[H] He looks up at me, surprised. “Really? You believe me?” [I] I nod.",
+      "image_src": "assets/scenes/ch19-s016.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S017",
+      "sentence_ids": [
+        "c19-p003-s0065",
+        "c19-p003-s0066",
+        "c19-p003-s0067",
+        "c19-p003-s0068"
+      ],
+      "text": "He looks so hopeful, but it’s not like I have any reason not to believe him. And to be totally honest, I don’t really care if he’s good at language arts. Grades don’t really translate to friendship. [J] He sighs in relief.",
+      "image_src": "assets/scenes/ch19-s017.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S018",
+      "sentence_ids": [
+        "c19-p003-s0069",
+        "c19-p003-s0070",
+        "c19-p003-s0071",
+        "c19-p003-s0072"
+      ],
+      "text": "“That’s good. I didn’t want you to think badly of me. Because it’s really not my fault. But anyway, that’s why I’m getting tutored this summer.",
+      "image_src": "assets/scenes/ch19-s018.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S019",
+      "sentence_ids": [
+        "c19-p003-s0073",
+        "c19-p004-s0074",
+        "c19-p004-s0075",
+        "c19-p004-s0076"
+      ],
+      "text": "If I don’t pass a test in a couple of weeks, I’ll have to repeat sixth grade.” [A] I try to hide my surprise. Because that’s a pretty big deal. And here’s what I don’t say: From what I’ve seen, he slacks off a lot during his tutoring sessions.",
+      "image_src": "assets/scenes/ch19-s019.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S020",
+      "sentence_ids": [
+        "c19-p004-s0077",
+        "c19-p004-s0078",
+        "c19-p004-s0079",
+        "c19-p004-s0080"
+      ],
+      "text": "It almost seems like he’s trying not to learn anything. [B] It’s really none of my business. For some reason, though, he cares about my approval. “I’m sure you’ll pass,” I say.",
+      "image_src": "assets/scenes/ch19-s020.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S021",
+      "sentence_ids": [
+        "c19-p004-s0081",
+        "c19-p004-s0082",
+        "c19-p004-s0083",
+        "c19-p004-s0084"
+      ],
+      "text": "[C] He nods. “Yeah. Me too. It’ll be fine.”",
+      "image_src": "assets/scenes/ch19-s021.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S022",
+      "sentence_ids": [
+        "c19-p004-s0085",
+        "c19-p004-s0086",
+        "c19-p004-s0087",
+        "c19-p004-s0088"
+      ],
+      "text": "[D] There’s an awkward silence, and then he says, “Why are you really doing this? I mean, I’m as excited as the next kid to build a fake tiger trap, but there must be a reason.” [E] I shrug, avoiding his eyes. “We should get back to work.”",
+      "image_src": "assets/scenes/ch19-s022.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S023",
+      "sentence_ids": [
+        "c19-p004-s0089",
+        "c19-p004-s0090",
+        "c19-p004-s0091",
+        "c19-p004-s0092"
+      ],
+      "text": "[F] “Seriously, though?” [G] I hesitate, trying to think of a decent lie. I’ve been keeping so many secrets. And secrets are exhausting.",
+      "image_src": "assets/scenes/ch19-s023.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S024",
+      "sentence_ids": [
+        "c19-p004-s0093",
+        "c19-p004-s0094",
+        "c19-p004-s0095",
+        "c19-p004-s0096"
+      ],
+      "text": "[H] The truth is, I want to tell the truth. “My halmoni is sick,” I tell him. When he looks confused, I clarify: “My grandma.” [I] He blows air from his lips.",
+      "image_src": "assets/scenes/ch19-s024.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S025",
+      "sentence_ids": [
+        "c19-p004-s0097",
+        "c19-p004-s0098",
+        "c19-p004-s0099",
+        "c19-p004-s0100"
+      ],
+      "text": "“I’m sorry. That’s awful.” [J] “She’s afraid of tigers, so I wanted to make her feel better.” It’s not quite the truth—but it’s close enough. My shoulders loosen, and my lungs fill with relief.",
+      "image_src": "assets/scenes/ch19-s025.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S026",
+      "sentence_ids": [
+        "c19-p004-s0101",
+        "c19-p004-s0102",
+        "c19-p004-s0103",
+        "c19-p004-s0104"
+      ],
+      "text": "[K] It’s nice to talk to somebody. [L] “That must be scary,” he says. “Even if it is just in her head.” [M] I swallow up the words You have no idea.",
+      "image_src": "assets/scenes/ch19-s026.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S027",
+      "sentence_ids": [
+        "c19-p004-s0105",
+        "c19-p004-s0106",
+        "c19-p005-s0107",
+        "c19-p005-s0108"
+      ],
+      "text": "And I nod. “It is.” [A] “That’s really cool of you to do,” he says. “You’re the coolest girl I’ve ever been friends with.”",
+      "image_src": "assets/scenes/ch19-s027.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S028",
+      "sentence_ids": [
+        "c19-p005-s0109",
+        "c19-p005-s0110",
+        "c19-p005-s0111",
+        "c19-p005-s0112"
+      ],
+      "text": "[B] “Oh.” I didn’t know he considered us friends, but it’s kind of nice to hear. [C] It feels like, maybe, he could be a real friend—one who sticks. [D] “So.” He stands, brushing off his pants. “Do you have any raw meat?”",
+      "image_src": "assets/scenes/ch19-s028.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S029",
+      "sentence_ids": [
+        "c19-p005-s0113",
+        "c19-p005-s0114",
+        "c19-p005-s0115",
+        "c19-p005-s0116"
+      ],
+      "text": "[E] “Wait, what?” [F] “According to the internet, the most important part of the tiger trap is the bait. Most tiger hunters used raw meat, like beef or—” [G] “Well, it’s hypothetical, so .",
+      "image_src": "assets/scenes/ch19-s029.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S030",
+      "sentence_ids": [
+        "c19-p005-s0117",
+        "c19-p005-s0118",
+        "c19-p005-s0119",
+        "c19-p005-s0120"
+      ],
+      "text": ". . we won’t do that,” I say. [H] He nods.",
+      "image_src": "assets/scenes/ch19-s030.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S031",
+      "sentence_ids": [
+        "c19-p005-s0121",
+        "c19-p005-s0122",
+        "c19-p005-s0123",
+        "c19-p005-s0124"
+      ],
+      "text": "“Right, yeah. That makes sense.” [I] “Let’s just finish the trap.” [J] He leans over, picks up the top hat, and hands it back to me.",
+      "image_src": "assets/scenes/ch19-s031.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S032",
+      "sentence_ids": [
+        "c19-p005-s0125",
+        "c19-p005-s0126",
+        "c19-p005-s0127",
+        "c19-p005-s0128"
+      ],
+      "text": "“Let’s do this.” [K] I smile as we get back to work. We pay more attention now—taking each box step by step, careful and slow—leaving only the heaviest ones and the big Korean chests upstairs. Once we’ve got enough boxes downstairs, we start arranging them in a ring, stacking the lighter boxes on the heavier ones.",
+      "image_src": "assets/scenes/ch19-s032.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S033",
+      "sentence_ids": [
+        "c19-p005-s0129",
+        "c19-p005-s0130",
+        "c19-p005-s0131",
+        "c19-p005-s0132"
+      ],
+      "text": "[L] It’s like a giant puzzle, and even though it’s important, even though this really, really matters . . . it’s also fun.",
+      "image_src": "assets/scenes/ch19-s033.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S034",
+      "sentence_ids": [
+        "c19-p005-s0133",
+        "c19-p005-s0134",
+        "c19-p005-s0135",
+        "c19-p005-s0136"
+      ],
+      "text": "[M] Once we’re done, we wrap the rope around the boxes, though we’re not really sure quite what to do. I tie five knots, just to be safe. [N] Finally, we step back to admire our handiwork. [O] “Nicely done, Tiger Trapmaster,” I say.",
+      "image_src": "assets/scenes/ch19-s034.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S035",
+      "sentence_ids": [
+        "c19-p006-s0137",
+        "c19-p006-s0138",
+        "c19-p006-s0139",
+        "c19-p006-s0140"
+      ],
+      "text": "[A] Ricky’s smile fills his whole face. “Likewise, Super Tiger Girl.” [B] “I’m not a superhero,” I say automatically. Except Super Tiger Girl does sound cooler than Invisible Girl, and it feels kind of nice to be super.",
+      "image_src": "assets/scenes/ch19-s035.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S036",
+      "sentence_ids": [
+        "c19-p006-s0141",
+        "c19-p006-s0142",
+        "c19-p006-s0143",
+        "c19-p006-s0144"
+      ],
+      "text": "[C] Before he leaves, I lift his top hat off my head and hand it to him. I’m pretty sure I have hat hair, with some strands sweat-stuck to my forehead and others standing straight up. “Don’t forget this,” I say. [D] He shrugs.",
+      "image_src": "assets/scenes/ch19-s036.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S037",
+      "sentence_ids": [
+        "c19-p006-s0145",
+        "c19-p006-s0146",
+        "c19-p006-s0147",
+        "c19-p006-s0148"
+      ],
+      "text": "“Keep it for now. Just in case you find a hypothetical tiger. I’ll get it back when we hang out again.” [E] “Hang out?",
+      "image_src": "assets/scenes/ch19-s037.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S038",
+      "sentence_ids": [
+        "c19-p006-s0149",
+        "c19-p006-s0150",
+        "c19-p006-s0151",
+        "c19-p006-s0152"
+      ],
+      "text": "To do what?” I’m not sure what he thinks comes next, but this is pretty much it. The trap is finished. [F] He stares at me like it’s obvious. “We’re friends now.",
+      "image_src": "assets/scenes/ch19-s038.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S039",
+      "sentence_ids": [
+        "c19-p006-s0153",
+        "c19-p006-s0154",
+        "c19-p006-s0155",
+        "c19-p006-s0156"
+      ],
+      "text": "Friends hang out.” [G] I blink. “Oh, okay. Yeah.”",
+      "image_src": "assets/scenes/ch19-s039.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S040",
+      "sentence_ids": [
+        "c19-p006-s0157",
+        "c19-p006-s0158",
+        "c19-p006-s0159",
+        "c19-p006-s0160"
+      ],
+      "text": "[H] And then I start to smile. Because I really would like to hang out again. Somehow, he made trapping a tiger fun. [I] I say goodbye to Ricky, and as soon as he’s gone, I take the star jars up to the attic room and hide them under my bed.",
+      "image_src": "assets/scenes/ch19-s040.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S041",
+      "sentence_ids": [
+        "c19-p006-s0161",
+        "c19-p006-s0162",
+        "c19-p006-s0163",
+        "c19-p006-s0164"
+      ],
+      "text": "Sam’s in the shower, thankfully, so she doesn’t bother me, and I lie on my stomach, on the floor, staring at the jars. [J] They seem like regular jars, almost. But even under the bed, they seem to glow. [K] Raw meat won’t work, because magical tigers play by different rules.",
+      "image_src": "assets/scenes/ch19-s041.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C19_S042",
+      "sentence_ids": [
+        "c19-p006-s0165"
+      ],
+      "text": "But looking at these jars, I realize: I’ve found my bait.",
+      "image_src": "assets/scenes/ch19-s042.webp",
+      "placement": "before-text"
+    }
+  ],
+  "cadence": "3-4 sentences; first group may be 3"
+}

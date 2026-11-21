@@ -1,0 +1,664 @@
+{
+  "chapter": 10,
+  "sentences": 217,
+  "scenes": [
+    {
+      "scene_id": "C10_S001",
+      "sentence_ids": [
+        "c10-p001-s0001",
+        "c10-p001-s0002",
+        "c10-p001-s0003",
+        "c10-p001-s0004"
+      ],
+      "text": "[A] The steps leading up to the library are lined with cracks, the windows are tinted, and the roof sags, just a little, like it’s tired. It’s hard to imagine this is the same gingerbread library I was afraid of as a kid. All that magic has faded. [B] When I reach the doors, I tug once, then again, and just when I’m wondering whether it’s locked, the building finally lets me in.",
+      "image_src": "assets/scenes/ch10-s001.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S002",
+      "sentence_ids": [
+        "c10-p001-s0005",
+        "c10-p001-s0006",
+        "c10-p001-s0007",
+        "c10-p001-s0008"
+      ],
+      "text": "Inside, it smells like mildew, but it’s warm. [C] An older man, sitting at the front desk, looks up from an ancient computer. Thin wire-framed glasses perch on his nose, and a thick white mustache twitches between his pink cheeks. If he weren’t frowning so hard, he might look a little like Santa Claus.",
+      "image_src": "assets/scenes/ch10-s002.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S003",
+      "sentence_ids": [
+        "c10-p001-s0009",
+        "c10-p001-s0010",
+        "c10-p001-s0011",
+        "c10-p001-s0012"
+      ],
+      "text": "[D] “May I help you?” he asks, in a way that says he doesn’t really want to help me. He crosses his arms over his chest, wrinkling his cable-knit sweater. [E] So, no evil witch, but a grumpy Santa is pretty close. [F] “Um, that’s okay,” I tell him.",
+      "image_src": "assets/scenes/ch10-s003.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S004",
+      "sentence_ids": [
+        "c10-p001-s0013",
+        "c10-p001-s0014",
+        "c10-p001-s0015",
+        "c10-p001-s0016"
+      ],
+      "text": "“I’m just looking.” [G] He stares at me, and I’m not sure what to do. For a second, I wonder if I’m not allowed in the library. But that’s ridiculous.",
+      "image_src": "assets/scenes/ch10-s004.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S005",
+      "sentence_ids": [
+        "c10-p001-s0017",
+        "c10-p001-s0018",
+        "c10-p001-s0019",
+        "c10-p001-s0020"
+      ],
+      "text": "It’s a library. [H] “You have a card?” he asks. [I] I’m not sure what he means at first. “Oh, right.",
+      "image_src": "assets/scenes/ch10-s005.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S006",
+      "sentence_ids": [
+        "c10-p001-s0021",
+        "c10-p001-s0022",
+        "c10-p001-s0023",
+        "c10-p001-s0024"
+      ],
+      "text": "A library card. Um . . .",
+      "image_src": "assets/scenes/ch10-s006.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S007",
+      "sentence_ids": [
+        "c10-p001-s0025",
+        "c10-p001-s0026",
+        "c10-p001-s0027",
+        "c10-p001-s0028"
+      ],
+      "text": "no.” [J] I step up to the desk, even though he kind of scares me. His bushy eyebrows knit together, and he seems to be waiting for something, but I’m not sure what he needs. [K] “I’m Lily,” I tell him.",
+      "image_src": "assets/scenes/ch10-s007.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S008",
+      "sentence_ids": [
+        "c10-p001-s0029",
+        "c10-p001-s0030",
+        "c10-p001-s0031",
+        "c10-p002-s0032"
+      ],
+      "text": "“Lily Reeves? My hal—my grandma lives across the street. I just moved in with her.” [A] His eyebrow quirks up, and he nods once, in what might be approval.",
+      "image_src": "assets/scenes/ch10-s008.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S009",
+      "sentence_ids": [
+        "c10-p002-s0033",
+        "c10-p002-s0034",
+        "c10-p002-s0035",
+        "c10-p002-s0036"
+      ],
+      "text": "He’s still frowning, but less so. “You’re Ae-Cha’s granddaughter,” he confirms. “I’ll put your card under her account.” [B] I thank him as he types my information on his clacky keyboard.",
+      "image_src": "assets/scenes/ch10-s009.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S010",
+      "sentence_ids": [
+        "c10-p002-s0037",
+        "c10-p002-s0038",
+        "c10-p002-s0039",
+        "c10-p002-s0040"
+      ],
+      "text": "[C] “Good woman,” he says after a few moments. “Shock to this town’s system when she moved here, that’s for sure. But I owe her. And Joan—your mother?—followed her everywhere.”",
+      "image_src": "assets/scenes/ch10-s010.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S011",
+      "sentence_ids": [
+        "c10-p002-s0041",
+        "c10-p002-s0042",
+        "c10-p002-s0043",
+        "c10-p002-s0044"
+      ],
+      "text": "[D] “Oh,” I say. I’m not sure why he owes her. I’m also not sure about Mom following Halmoni everywhere. I try to picture that, but I can’t do it.",
+      "image_src": "assets/scenes/ch10-s011.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S012",
+      "sentence_ids": [
+        "c10-p002-s0045",
+        "c10-p002-s0046",
+        "c10-p002-s0047",
+        "c10-p002-s0048"
+      ],
+      "text": "They’re just too different. [E] He scans a red library card and hands it to me. “Goodbye, then.” [F] “Oh,” I repeat, taking the card and slipping it into my pocket.",
+      "image_src": "assets/scenes/ch10-s012.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S013",
+      "sentence_ids": [
+        "c10-p002-s0049",
+        "c10-p002-s0050",
+        "c10-p002-s0051",
+        "c10-p002-s0052"
+      ],
+      "text": "“Um, actually, I’m wondering if you have any books about tigers?” [G] He frowns, moving to the computer. “Is this a summer school project? Or a personal interest?”",
+      "image_src": "assets/scenes/ch10-s013.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S014",
+      "sentence_ids": [
+        "c10-p002-s0053",
+        "c10-p002-s0054",
+        "c10-p002-s0055",
+        "c10-p002-s0056"
+      ],
+      "text": "[H] “Personal?” My mouth says it like a question. [I] He grunts. “Not very often that kids these days use the library. They think you can find everything on the web.”",
+      "image_src": "assets/scenes/ch10-s014.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S015",
+      "sentence_ids": [
+        "c10-p002-s0057",
+        "c10-p002-s0058",
+        "c10-p002-s0059",
+        "c10-p002-s0060"
+      ],
+      "text": "[J] “Yeah,” I say, because I’m not sure how else to respond. I’m guessing most Kids These Days don’t have a magical tiger that’s hunting their grandma, because I don’t think Googling magical evil tiger would get very good results. [K] Somebody groans behind me, and I turn to see a girl about Sam’s age, with medium-brown skin, freckles, and curly hair, pushing an empty library cart. “Joe, are you really kids-these-days-ing this poor girl?”",
+      "image_src": "assets/scenes/ch10-s015.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S016",
+      "sentence_ids": [
+        "c10-p003-s0061",
+        "c10-p003-s0062",
+        "c10-p003-s0063",
+        "c10-p003-s0064"
+      ],
+      "text": "[A] “I am not wrong,” the librarian—Joe—says. [B] The girl shakes her head at Joe and sticks her hand out to me. “Hello! Welcome to Sunbeam’s world-famous library!",
+      "image_src": "assets/scenes/ch10-s016.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S017",
+      "sentence_ids": [
+        "c10-p003-s0065",
+        "c10-p003-s0066",
+        "c10-p003-s0067",
+        "c10-p003-s0068"
+      ],
+      "text": "I’m Jensen.” [C] When I shake her hand, her grip is strong and warm. The splatter of freckles across her cheekbones seems to dance as she smiles. Halmoni always says freckles are lucky.",
+      "image_src": "assets/scenes/ch10-s017.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S018",
+      "sentence_ids": [
+        "c10-p003-s0069",
+        "c10-p003-s0070",
+        "c10-p003-s0071",
+        "c10-p003-s0072"
+      ],
+      "text": "[D] “This is Jensen,” Joe adds, unnecessarily. “She is my employee.” [E] Jensen laughs. “What an eloquent introduction.",
+      "image_src": "assets/scenes/ch10-s018.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S019",
+      "sentence_ids": [
+        "c10-p003-s0073",
+        "c10-p003-s0074",
+        "c10-p003-s0075",
+        "c10-p003-s0076"
+      ],
+      "text": "Now that you know all there is to know about me, what’s your name?” [F] “Lily,” I tell her. [G] She smiles. “Well, Lily, nice to meet you.",
+      "image_src": "assets/scenes/ch10-s019.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S020",
+      "sentence_ids": [
+        "c10-p003-s0077",
+        "c10-p003-s0078",
+        "c10-p003-s0079",
+        "c10-p003-s0080"
+      ],
+      "text": "Have you been here before?” [H] I shake my head, and her smile grows even wider. “Cool. Honestly, most people in this town probably haven’t.",
+      "image_src": "assets/scenes/ch10-s020.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S021",
+      "sentence_ids": [
+        "c10-p003-s0081",
+        "c10-p003-s0082",
+        "c10-p003-s0083",
+        "c10-p003-s0084"
+      ],
+      "text": "We’re looking for ways to drum up some life in the place. Remind people we’re here and such, but, well, who knows?” She shrugs, then leans over Joe’s desk to read his computer screen. “Tigers. Cool.",
+      "image_src": "assets/scenes/ch10-s021.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S022",
+      "sentence_ids": [
+        "c10-p003-s0085",
+        "c10-p003-s0086",
+        "c10-p003-s0087",
+        "c10-p003-s0088"
+      ],
+      "text": "Come with me—I can give you a tour and show you the wildlife section.” [I] Joe returns to his computer, and I follow Jensen through the stacks of books. [J] “Spoiler alert: the library is pretty sparse, so the tour won’t last very long.” She laughs. This girl is quick to smile, quicker to laugh.",
+      "image_src": "assets/scenes/ch10-s022.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S023",
+      "sentence_ids": [
+        "c10-p003-s0089",
+        "c10-p003-s0090",
+        "c10-p003-s0091",
+        "c10-p004-s0092"
+      ],
+      "text": "[K] As we weave through the aisles, I’m reminded of Halmoni’s basement. Before she moved all the boxes and cabinets upstairs, they used to form a maze of memories. I breathe in. [A] Jensen turns to me.",
+      "image_src": "assets/scenes/ch10-s023.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S024",
+      "sentence_ids": [
+        "c10-p004-s0093",
+        "c10-p004-s0094",
+        "c10-p004-s0095",
+        "c10-p004-s0096"
+      ],
+      "text": "“Are you new in town?” [B] I tell her I’ve moved in with Halmoni, and she grins. “I know your grandma. Everyone loves her.”",
+      "image_src": "assets/scenes/ch10-s024.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S025",
+      "sentence_ids": [
+        "c10-p004-s0097",
+        "c10-p004-s0098",
+        "c10-p004-s0099",
+        "c10-p004-s0100"
+      ],
+      "text": "[C] “Really?” [D] She tilts her head, looking a bit confused. “Yeah, of course. She’s, like, super nice and interesting, and she always wears the best clothes.”",
+      "image_src": "assets/scenes/ch10-s025.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S026",
+      "sentence_ids": [
+        "c10-p004-s0101",
+        "c10-p004-s0102",
+        "c10-p004-s0103",
+        "c10-p004-s0104"
+      ],
+      "text": "[E] I feel a rush of pride, because of course everybody loves Halmoni. They should love Halmoni. [F] But at the same time, weirdly, my chest tightens. I don’t know anything about Halmoni’s life in Sunbeam.",
+      "image_src": "assets/scenes/ch10-s026.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S027",
+      "sentence_ids": [
+        "c10-p004-s0105",
+        "c10-p004-s0106",
+        "c10-p004-s0107",
+        "c10-p004-s0108"
+      ],
+      "text": "Aside from my early years here, I’ve only known her in California. And in California she was there just for us. She was ours. [G] The jealousy that bubbles up startles me—just like my anger at Mom this morning.",
+      "image_src": "assets/scenes/ch10-s027.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S028",
+      "sentence_ids": [
+        "c10-p004-s0109",
+        "c10-p004-s0110",
+        "c10-p004-s0111",
+        "c10-p004-s0112"
+      ],
+      "text": "I don’t like it. These are feelings I shouldn’t be feeling. [H] I refocus on Jensen, who keeps talking. “I tutor for middle school language arts.",
+      "image_src": "assets/scenes/ch10-s028.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S029",
+      "sentence_ids": [
+        "c10-p004-s0113",
+        "c10-p004-s0114",
+        "c10-p004-s0115",
+        "c10-p004-s0116"
+      ],
+      "text": "So if you’re ever looking for help, let me know.” [I] My voice scratches when I speak, like it always does when I talk to strangers. “Yeah, okay. Thank you.”",
+      "image_src": "assets/scenes/ch10-s029.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S030",
+      "sentence_ids": [
+        "c10-p004-s0117",
+        "c10-p004-s0118",
+        "c10-p004-s0119",
+        "c10-p004-s0120"
+      ],
+      "text": "[J] The tour ends with a small room in the back of the library. Inside I see a mini-refrigerator, a cupboard, two chairs, and the back door of the library. On the wall by the door is a faded poster of a cat hanging from a tree, with the words HANG IN THERE written in white bubble letters. I don’t know who put that up, but I’m pretty sure it wasn’t Joe.",
+      "image_src": "assets/scenes/ch10-s030.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S031",
+      "sentence_ids": [
+        "c10-p005-s0121",
+        "c10-p005-s0122",
+        "c10-p005-s0123",
+        "c10-p005-s0124"
+      ],
+      "text": "[A] “This is the staff room,” Jensen explains, “but I always tell my tutees they can come back here. This room is chock-full of sweets, and everyone could use some sugar.” [B] She pulls a chocolate cupcake out of the refrigerator and hands it to me. [C] Flash-fast, my childhood fear flares up—Hansel and Gretel were lured in by sweets.",
+      "image_src": "assets/scenes/ch10-s031.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S032",
+      "sentence_ids": [
+        "c10-p005-s0125",
+        "c10-p005-s0126",
+        "c10-p005-s0127",
+        "c10-p005-s0128"
+      ],
+      "text": "But I shake away my panic and thank her as I accept the cupcake. [D] Jensen leans in and lowers her voice. “I’ll let you in on a secret: Joe made it.” [E] I raise my eyebrows, and she laughs.",
+      "image_src": "assets/scenes/ch10-s032.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S033",
+      "sentence_ids": [
+        "c10-p005-s0129",
+        "c10-p005-s0130",
+        "c10-p005-s0131",
+        "c10-p005-s0132"
+      ],
+      "text": "[F] “I know, right?” she says. “He doesn’t seem like the baking type. But don’t judge him too harshly. He’s not so bad once you get to know him.",
+      "image_src": "assets/scenes/ch10-s033.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S034",
+      "sentence_ids": [
+        "c10-p005-s0133",
+        "c10-p005-s0134",
+        "c10-p005-s0135",
+        "c10-p005-s0136"
+      ],
+      "text": "I always say that Joe is, like, a metaphor for this whole town. Kind of a bummer on the outside, but really wonderful when you dig a little deeper.” [G] I get the sense that Jensen is what Mom calls an unrelenting optimist, but her happiness is infectious. I smile and take a bite, and the chocolate lights up my whole body.",
+      "image_src": "assets/scenes/ch10-s034.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S035",
+      "sentence_ids": [
+        "c10-p005-s0137",
+        "c10-p005-s0138",
+        "c10-p005-s0139",
+        "c10-p005-s0140"
+      ],
+      "text": "“It’s really good,” I tell her. For some reason, the cupcake reminds me of Halmoni’s rice cakes, even though they don’t taste similar at all. “He could sell these.” [H] She gives me an odd look, and I’m instantly embarrassed.",
+      "image_src": "assets/scenes/ch10-s035.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S036",
+      "sentence_ids": [
+        "c10-p005-s0141",
+        "c10-p005-s0142",
+        "c10-p006-s0143",
+        "c10-p006-s0144"
+      ],
+      "text": "I don’t know why I said that. Halmoni may have sold her rice cakes, but she did it because she needed money when she moved here. [A] Jensen grins. “That’s a brilliant idea, Lily.”",
+      "image_src": "assets/scenes/ch10-s036.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S037",
+      "sentence_ids": [
+        "c10-p006-s0145",
+        "c10-p006-s0146",
+        "c10-p006-s0147",
+        "c10-p006-s0148"
+      ],
+      "text": "[B] “Oh, okay,” I say. I can’t tell if she really means it or if she’s just being nice. [C] “Anyway,” she continues, “feel free to sneak some whenever you visit. And I hope you do visit.",
+      "image_src": "assets/scenes/ch10-s037.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S038",
+      "sentence_ids": [
+        "c10-p006-s0149",
+        "c10-p006-s0150",
+        "c10-p006-s0151",
+        "c10-p006-s0152"
+      ],
+      "text": "It gets a little lonely around here.” [D] I like Jensen. She’s nicer than I thought teenagers could be. She is, basically, the anti-Sam.",
+      "image_src": "assets/scenes/ch10-s038.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S039",
+      "sentence_ids": [
+        "c10-p006-s0153",
+        "c10-p006-s0154",
+        "c10-p006-s0155",
+        "c10-p006-s0156"
+      ],
+      "text": "And I don’t know what, exactly, she sees when she looks at me, but I know she sees me—which feels nice and also a little itchy. [E] Jensen leads me over to the wildlife section, and I flip through the tiger selection. It’s pretty dismal—102 Tiger Facts! and 102 MORE Tiger Facts!",
+      "image_src": "assets/scenes/ch10-s039.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S040",
+      "sentence_ids": [
+        "c10-p006-s0157",
+        "c10-p006-s0158",
+        "c10-p006-s0159",
+        "c10-p006-s0160"
+      ],
+      "text": "[F] I skim them, looking for any information to help—something like: There’s a certain breed of tiger that can magically disappear! Or: If a tiger is hunting your grandma, here’s how to stop it! [G] But what I get is: • A tiger’s canine tooth can cut through bone! • If you look a tiger in the eye, it might be less likely to kill you—but beware!",
+      "image_src": "assets/scenes/ch10-s040.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S041",
+      "sentence_ids": [
+        "c10-p006-s0161",
+        "c10-p006-s0162",
+        "c10-p006-s0163",
+        "c10-p006-s0164"
+      ],
+      "text": "• The roar of the tiger has such a low frequency that it can paralyze you! [H] I push the books back onto the shelf. This isn’t what I need and it’s not making me feel so great about being hunted by a tiger. [I] “Actually”—I swallow, nervous now—“do you have any stories about tigers?”",
+      "image_src": "assets/scenes/ch10-s041.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S042",
+      "sentence_ids": [
+        "c10-p007-s0165",
+        "c10-p007-s0166",
+        "c10-p007-s0167",
+        "c10-p007-s0168"
+      ],
+      "text": "[A] Jensen twirls a curl around her finger. “Well, we have the Narnia books. Although, I guess that’s a lion. .",
+      "image_src": "assets/scenes/ch10-s042.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S043",
+      "sentence_ids": [
+        "c10-p007-s0169",
+        "c10-p007-s0170",
+        "c10-p007-s0171",
+        "c10-p007-s0172"
+      ],
+      "text": ". . Do you have any stories in mind, in particular? Maybe you can give me a better sense of your tastes.”",
+      "image_src": "assets/scenes/ch10-s043.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S044",
+      "sentence_ids": [
+        "c10-p007-s0173",
+        "c10-p007-s0174",
+        "c10-p007-s0175",
+        "c10-p007-s0176"
+      ],
+      "text": "[B] Obviously, I can’t tell her about the magical tiger and the stolen stars, but I can tell her Halmoni’s original tiger story. [C] I give the shortest summary possible. “Well, there’s this one story about a tiger and he eats, um, a grandma, and then he dresses up in the grandma’s clothes and tries to eat her granddaughters. And then he chases them and—”",
+      "image_src": "assets/scenes/ch10-s044.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S045",
+      "sentence_ids": [
+        "c10-p007-s0177",
+        "c10-p007-s0178",
+        "c10-p007-s0179",
+        "c10-p007-s0180"
+      ],
+      "text": "[D] “That sounds like ‘Little Red Riding Hood’!” Jensen interrupts. [E] “No, that’s a wolf,” I say. “And this story is from Korea.” [F] She runs her finger along the book spines, absent-mindedly.",
+      "image_src": "assets/scenes/ch10-s045.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S046",
+      "sentence_ids": [
+        "c10-p007-s0181",
+        "c10-p007-s0182",
+        "c10-p007-s0183",
+        "c10-p007-s0184"
+      ],
+      "text": "“I’ve never heard the Korean version. Isn’t that interesting, though? There are different versions of certain fairy tales from all over the world—even in places that don’t overlap. And yet the stories are essentially the same.”",
+      "image_src": "assets/scenes/ch10-s046.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S047",
+      "sentence_ids": [
+        "c10-p007-s0185",
+        "c10-p007-s0186",
+        "c10-p007-s0187",
+        "c10-p007-s0188"
+      ],
+      "text": "[G] I want to explain that this story is completely different. That this is a story about sisters and the sun and the moon and a tiger. It’s special. [H] But Jensen continues, “It’s kind of like these folktales have a mind of their own.",
+      "image_src": "assets/scenes/ch10-s047.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S048",
+      "sentence_ids": [
+        "c10-p007-s0189",
+        "c10-p008-s0190",
+        "c10-p008-s0191",
+        "c10-p008-s0192"
+      ],
+      "text": "Like they’re floating around the world, waiting for somebody to come along and tell them.” [A] My insides go icy. I imagine that the stories Halmoni stole are alive, locked away somewhere, desperate to escape. “Right,” I whisper.",
+      "image_src": "assets/scenes/ch10-s048.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S049",
+      "sentence_ids": [
+        "c10-p008-s0193",
+        "c10-p008-s0194",
+        "c10-p008-s0195",
+        "c10-p008-s0196"
+      ],
+      "text": "[B] “I doubt we have a book of Korean folktales in this library, though.” She raises an eyebrow. “To be honest, this town is pretty white, so you’re not going to find much about other cultures. Like, sometimes I pick up waitressing shifts at the only Asian restaurant in town—you know, Dragon Thyme? And I know, it’s a pretty cheesy name, and there’s no thyme in Asian food, but that’s just the town we live in.",
+      "image_src": "assets/scenes/ch10-s049.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S050",
+      "sentence_ids": [
+        "c10-p008-s0197",
+        "c10-p008-s0198",
+        "c10-p008-s0199",
+        "c10-p008-s0200"
+      ],
+      "text": ". . .” She clears her throat. “Anyway, I’ll ask Joe to place an order for a book of Korean folktales.",
+      "image_src": "assets/scenes/ch10-s050.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S051",
+      "sentence_ids": [
+        "c10-p008-s0201",
+        "c10-p008-s0202",
+        "c10-p008-s0203",
+        "c10-p008-s0204"
+      ],
+      "text": "Depending on the budget . . .” [C] I stop listening, because out of the corner of my eye, I catch a flick of a tiger tail—a flash of orange-black, disappearing into the next aisle.",
+      "image_src": "assets/scenes/ch10-s051.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S052",
+      "sentence_ids": [
+        "c10-p008-s0205",
+        "c10-p008-s0206",
+        "c10-p008-s0207",
+        "c10-p008-s0208"
+      ],
+      "text": "[D] My heart stumbles. [E] The superpower of invisible girls is to hide, to disappear. To stay out of trouble. That’s what I’m good at.",
+      "image_src": "assets/scenes/ch10-s052.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S053",
+      "sentence_ids": [
+        "c10-p008-s0209",
+        "c10-p008-s0210",
+        "c10-p008-s0211",
+        "c10-p008-s0212"
+      ],
+      "text": "[F] Run away, I tell myself. Hide. [G] But my legs ignore me. I’m already moving down the aisle as I stammer to Jensen, “Actually, I think—uh—there might be a book.",
+      "image_src": "assets/scenes/ch10-s053.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S054",
+      "sentence_ids": [
+        "c10-p008-s0213",
+        "c10-p008-s0214",
+        "c10-p008-s0215",
+        "c10-p008-s0216"
+      ],
+      "text": "Over there!” [H] I chase the tiger, winding through the aisles, following glimpses of its tail . . .",
+      "image_src": "assets/scenes/ch10-s054.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C10_S055",
+      "sentence_ids": [
+        "c10-p008-s0217"
+      ],
+      "text": "until I slam right into a blur of black and orange.",
+      "image_src": "assets/scenes/ch10-s055.webp",
+      "placement": "before-text"
+    }
+  ],
+  "cadence": "3-4 sentences; first group may be 3"
+}

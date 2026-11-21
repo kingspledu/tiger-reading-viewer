@@ -1,0 +1,869 @@
+{
+  "chapter": 16,
+  "sentences": 286,
+  "scenes": [
+    {
+      "scene_id": "C16_S001",
+      "sentence_ids": [
+        "c16-p001-s0001",
+        "c16-p001-s0002",
+        "c16-p001-s0003",
+        "c16-p001-s0004"
+      ],
+      "text": "[A] Hyped up on New Plan energy, I run upstairs to tell Sam. Barely awake, she’s sitting up in bed with her laptop perched on her knees, wrapped in the glow of her screen. [B] I rush over to her and push her laptop closed, snapping it shut like the jaws of a tiger. [C] She pulls her fingers back and stares at me, eyes wide, but before she can get mad, I say, “Sam, there might be a way to make Halmoni better.",
+      "image_src": "assets/scenes/ch16-s001.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S002",
+      "sentence_ids": [
+        "c16-p001-s0005",
+        "c16-p001-s0006",
+        "c16-p001-s0007",
+        "c16-p001-s0008"
+      ],
+      "text": "In the story she told me—” [D] “No,” Sam interrupts. The word thumps against my chest, heavy and cold. “Not right now, please.",
+      "image_src": "assets/scenes/ch16-s002.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S003",
+      "sentence_ids": [
+        "c16-p001-s0009",
+        "c16-p001-s0010",
+        "c16-p001-s0011",
+        "c16-p001-s0012"
+      ],
+      "text": "I’m just not in the mood for stories right now. Stories want you to believe that magic is real and—it’s just not.” [E] “Actually . .",
+      "image_src": "assets/scenes/ch16-s003.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S004",
+      "sentence_ids": [
+        "c16-p001-s0013",
+        "c16-p001-s0014",
+        "c16-p001-s0015",
+        "c16-p001-s0016"
+      ],
+      "text": ".” I’m afraid of what she’ll say when I tell her, but I don’t want to hold this secret by myself. “I’m not sure it’s just a story.” [F] She sighs. “Lily, what are you talking about?”",
+      "image_src": "assets/scenes/ch16-s004.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S005",
+      "sentence_ids": [
+        "c16-p001-s0017",
+        "c16-p001-s0018",
+        "c16-p001-s0019",
+        "c16-p001-s0020"
+      ],
+      "text": "[G] “I think . . . a tiger, like from the story .",
+      "image_src": "assets/scenes/ch16-s005.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S006",
+      "sentence_ids": [
+        "c16-p001-s0021",
+        "c16-p001-s0022",
+        "c16-p001-s0023",
+        "c16-p001-s0024"
+      ],
+      "text": ". . actually came to me. And talked to me.",
+      "image_src": "assets/scenes/ch16-s006.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S007",
+      "sentence_ids": [
+        "c16-p001-s0025",
+        "c16-p001-s0026",
+        "c16-p001-s0027",
+        "c16-p001-s0028"
+      ],
+      "text": "And the same tiger was in the road yesterday, when Halmoni . . . you know.”",
+      "image_src": "assets/scenes/ch16-s007.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S008",
+      "sentence_ids": [
+        "c16-p001-s0029",
+        "c16-p001-s0030",
+        "c16-p001-s0031",
+        "c16-p001-s0032"
+      ],
+      "text": "[H] She’s silent for so long that I think maybe she saw the tiger, too. Maybe she thought she was the only one, and now she’s relieved. [I] But then she says, “You need to get it together. This is some kind of mental stress reaction, or something, because what you’re saying is impossible.”",
+      "image_src": "assets/scenes/ch16-s008.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S009",
+      "sentence_ids": [
+        "c16-p002-s0033",
+        "c16-p002-s0034",
+        "c16-p002-s0035",
+        "c16-p002-s0036"
+      ],
+      "text": "[A] “Things are only impossible if you believe they’re impossible. The tiger—” [B] “Lily!” she snaps, tugging at the white streak in her hair. “Just stop with this tiger stuff, okay?",
+      "image_src": "assets/scenes/ch16-s009.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S010",
+      "sentence_ids": [
+        "c16-p002-s0037",
+        "c16-p002-s0038",
+        "c16-p002-s0039",
+        "c16-p002-s0040"
+      ],
+      "text": "There’s actual real-life stuff going on right now. Don’t make it worse.” [C] Where is the Sam from the grocery store? The sister who wanted to hear the stories?",
+      "image_src": "assets/scenes/ch16-s010.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S011",
+      "sentence_ids": [
+        "c16-p002-s0041",
+        "c16-p002-s0042",
+        "c16-p002-s0043",
+        "c16-p002-s0044"
+      ],
+      "text": "[D] I should have known that wouldn’t last long. [E] “Yeah, you’re right,” I lie. “I probably imagined it. I’ll see you later.”",
+      "image_src": "assets/scenes/ch16-s011.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S012",
+      "sentence_ids": [
+        "c16-p002-s0045",
+        "c16-p002-s0046",
+        "c16-p002-s0047",
+        "c16-p002-s0048"
+      ],
+      "text": "[F] I turn away from her as I change out of my pajamas and into jeans and a sweatshirt. I can find Ricky. I can learn how to hunt a tiger. And I don’t need Sam’s help.",
+      "image_src": "assets/scenes/ch16-s012.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S013",
+      "sentence_ids": [
+        "c16-p002-s0049",
+        "c16-p002-s0050",
+        "c16-p002-s0051",
+        "c16-p002-s0052"
+      ],
+      "text": "[G] “Um,” Sam says. “Where are you going?” [H] “Nowhere.” [I] “Wait—” Sam says, but I pretend not to hear her and I thunder back down the stairs.",
+      "image_src": "assets/scenes/ch16-s013.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S014",
+      "sentence_ids": [
+        "c16-p002-s0053",
+        "c16-p002-s0054",
+        "c16-p002-s0055",
+        "c16-p002-s0056"
+      ],
+      "text": "I tell Mom I’m going out, that I don’t want to talk anymore. She tries to stop me, but I don’t listen. [J] I run until I reach the heavy library doors, and then I take a few deep breaths, steadying myself. [K] I have to do this.",
+      "image_src": "assets/scenes/ch16-s014.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S015",
+      "sentence_ids": [
+        "c16-p002-s0057",
+        "c16-p002-s0058",
+        "c16-p002-s0059",
+        "c16-p002-s0060"
+      ],
+      "text": "Halmoni needs me. [L] I grab the big handle, yank the door open, and slip inside. [M] Joe’s sitting at his desk, and I assume he doesn’t want to talk, but he stops me as I pass. “Lily.” He clears his throat, halfway between a grunt and a grumble.",
+      "image_src": "assets/scenes/ch16-s015.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S016",
+      "sentence_ids": [
+        "c16-p002-s0061",
+        "c16-p003-s0062",
+        "c16-p003-s0063",
+        "c16-p003-s0064"
+      ],
+      "text": "“I just want to say, you had a good idea.” [A] “Oh,” I say, breathless. I have no idea what he’s talking about. For a second, I think he discovered my tiger plan, but of course that’s impossible.",
+      "image_src": "assets/scenes/ch16-s016.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S017",
+      "sentence_ids": [
+        "c16-p003-s0065",
+        "c16-p003-s0066",
+        "c16-p003-s0067",
+        "c16-p003-s0068"
+      ],
+      "text": "[B] His mustache twitches. “Jensen said you suggested a bake sale. Not sure how much money that would actually raise, but it does seem like a good way to get the community engaged.” [C] “Oh,” I repeat.",
+      "image_src": "assets/scenes/ch16-s017.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S018",
+      "sentence_ids": [
+        "c16-p003-s0069",
+        "c16-p003-s0070",
+        "c16-p003-s0071",
+        "c16-p003-s0072"
+      ],
+      "text": "When I suggested selling the cupcakes, I didn’t realize Jensen had taken me seriously. “That’s good.” [D] He nods in a way that says, This conversation is over. [E] “Are Ricky and Jensen here today?” I ask.",
+      "image_src": "assets/scenes/ch16-s018.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S019",
+      "sentence_ids": [
+        "c16-p003-s0073",
+        "c16-p003-s0074",
+        "c16-p003-s0075",
+        "c16-p003-s0076"
+      ],
+      "text": "[F] He gestures to the back of the library, and I make my way through the stacks until I come to a cluster of tables. Ricky and Jensen are sitting together, with an open notebook, a pile of flash cards, and an empty pudding cup between them. [G] Ricky looks up and grins. Today he’s wearing a beanie that says BEANS, pulled down to his eyebrows.",
+      "image_src": "assets/scenes/ch16-s019.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S020",
+      "sentence_ids": [
+        "c16-p003-s0077",
+        "c16-p003-s0078",
+        "c16-p003-s0079",
+        "c16-p003-s0080"
+      ],
+      "text": "And if he feels awkward after the grocery-store incident, he doesn’t show it. [H] Maybe that’s his superpower—the unpleasant, uncomfortable things don’t bother him. [I] “Lizzie!” he shouts. [J] It takes me a second to realize he’s talking to me, and Jensen smiles apologetically.",
+      "image_src": "assets/scenes/ch16-s020.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S021",
+      "sentence_ids": [
+        "c16-p003-s0081",
+        "c16-p003-s0082",
+        "c16-p003-s0083",
+        "c16-p003-s0084"
+      ],
+      "text": "“It’s Lily,” she corrects. “Hi, Lily, how are you?” [K] “Um, good.” My words come out a little shaky. I’m nervous now, because what I’m about to ask makes no sense.",
+      "image_src": "assets/scenes/ch16-s021.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S022",
+      "sentence_ids": [
+        "c16-p003-s0085",
+        "c16-p003-s0086",
+        "c16-p004-s0087",
+        "c16-p004-s0088"
+      ],
+      "text": "It’s impossible. And I’m going to ask anyway. [A] Before I can, Jensen says, “I’ve been meaning to tell you about the bake sale! I didn’t want you to think I stole your idea and didn’t give you credit for it.”",
+      "image_src": "assets/scenes/ch16-s022.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S023",
+      "sentence_ids": [
+        "c16-p004-s0089",
+        "c16-p004-s0090",
+        "c16-p004-s0091",
+        "c16-p004-s0092"
+      ],
+      "text": "[B] “Oh, I don’t—” [C] “But you can help make flyers and set up and stuff!” She smiles wide, all her freckles lighting up. [D] “I’m helping, too,” Ricky says. Then, in a dramatic whisper, he adds, “We’ll get free cupcakes!”",
+      "image_src": "assets/scenes/ch16-s023.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S024",
+      "sentence_ids": [
+        "c16-p004-s0093",
+        "c16-p004-s0094",
+        "c16-p004-s0095",
+        "c16-p004-s0096"
+      ],
+      "text": "[E] “Uh, yeah, sounds good,” I say. [F] “Cool!” Jensen says. “Now, Ricky and I have to get back to tutoring, so—” [G] Ricky shoves his notebook aside and leans forward.",
+      "image_src": "assets/scenes/ch16-s024.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S025",
+      "sentence_ids": [
+        "c16-p004-s0097",
+        "c16-p004-s0098",
+        "c16-p004-s0099",
+        "c16-p004-s0100"
+      ],
+      "text": "“So, Lily, sit down. Tell us your whole life story. When did you discover a love of tigers? How do you really feel about Lucky Charms?",
+      "image_src": "assets/scenes/ch16-s025.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S026",
+      "sentence_ids": [
+        "c16-p004-s0101",
+        "c16-p004-s0102",
+        "c16-p004-s0103",
+        "c16-p004-s0104"
+      ],
+      "text": "Spare no details!” [H] “Well . . .",
+      "image_src": "assets/scenes/ch16-s026.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S027",
+      "sentence_ids": [
+        "c16-p004-s0105",
+        "c16-p004-s0106",
+        "c16-p004-s0107",
+        "c16-p004-s0108"
+      ],
+      "text": ",” I start. He mentioned tigers. There’s an opening there, somehow. If I can just shift the subject—",
+      "image_src": "assets/scenes/ch16-s027.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S028",
+      "sentence_ids": [
+        "c16-p004-s0109",
+        "c16-p004-s0110",
+        "c16-p004-s0111",
+        "c16-p004-s0112"
+      ],
+      "text": "[I] “Ricky, stop,” Jensen says. And then, to me: “Ignore him. He’s just trying to get out of the tutoring session.” [J] Ricky’s eyes bug.",
+      "image_src": "assets/scenes/ch16-s028.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S029",
+      "sentence_ids": [
+        "c16-p004-s0113",
+        "c16-p004-s0114",
+        "c16-p004-s0115",
+        "c16-p004-s0116"
+      ],
+      "text": "“No, Jensen, I’m serious! I’m making a friend. Adam is at camp, and Connor is traveling around Italy, and I must be socialized.” [K] Jensen snort-laughs.",
+      "image_src": "assets/scenes/ch16-s029.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S030",
+      "sentence_ids": [
+        "c16-p004-s0117",
+        "c16-p004-s0118",
+        "c16-p004-s0119",
+        "c16-p004-s0120"
+      ],
+      "text": "“You must review these flash cards.” [L] I’m about to get dismissed, so I interrupt with the first thing that comes to mind. “Jensen, can I have a pudding, too?” [M] She blinks.",
+      "image_src": "assets/scenes/ch16-s030.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S031",
+      "sentence_ids": [
+        "c16-p004-s0121",
+        "c16-p005-s0122",
+        "c16-p005-s0123",
+        "c16-p005-s0124"
+      ],
+      "text": "It’s rude, I know, but I need a second alone with Ricky. [A] Jensen covers her surprise with a smile and stands up. “Sure, Lily. I’ll grab you one.",
+      "image_src": "assets/scenes/ch16-s031.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S032",
+      "sentence_ids": [
+        "c16-p005-s0125",
+        "c16-p005-s0126",
+        "c16-p005-s0127",
+        "c16-p005-s0128"
+      ],
+      "text": "Ricky’s desperate for a quick break anyway.” She raises her eyebrows at Ricky to emphasize quick, then asks if I want chocolate or vanilla. [B] “Vanilla. Thank you.” I want to hug her hard, but that seems a little over the top for pudding. [C] “Another chocolate for me, please,” Ricky says.",
+      "image_src": "assets/scenes/ch16-s032.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S033",
+      "sentence_ids": [
+        "c16-p005-s0129",
+        "c16-p005-s0130",
+        "c16-p005-s0131",
+        "c16-p005-s0132"
+      ],
+      "text": "[D] Jensen sighs and heads off to the staff room. [E] “The tutoring isn’t because I’m stupid,” Ricky says as soon as Jensen leaves. “It’s just because I don’t have a word brain. That’s why.",
+      "image_src": "assets/scenes/ch16-s033.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S034",
+      "sentence_ids": [
+        "c16-p005-s0133",
+        "c16-p005-s0134",
+        "c16-p005-s0135",
+        "c16-p005-s0136"
+      ],
+      "text": "Or a numbers one, I guess. But I’m going to be a psychologist. I have a very intuitive understanding of the human psyche,” he says, as if he’s reciting something he read online. “I’m very good at reading people.”",
+      "image_src": "assets/scenes/ch16-s034.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S035",
+      "sentence_ids": [
+        "c16-p005-s0137",
+        "c16-p005-s0138",
+        "c16-p005-s0139",
+        "c16-p005-s0140"
+      ],
+      "text": "[F] “Oh,” I say. “Okay.” I have to get him on topic before Jensen comes back, but he goes on. [G] “It’s why Jensen and I are such good friends. Because she wants to be a journalist, so she also needs a good understanding of people.",
+      "image_src": "assets/scenes/ch16-s035.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S036",
+      "sentence_ids": [
+        "c16-p005-s0141",
+        "c16-p005-s0142",
+        "c16-p005-s0143",
+        "c16-p005-s0144"
+      ],
+      "text": "We both really know how to talk to people. Actually—” [H] “You said your great-grandpa was a tiger hunter,” I blurt. [I] He frowns.",
+      "image_src": "assets/scenes/ch16-s036.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S037",
+      "sentence_ids": [
+        "c16-p005-s0145",
+        "c16-p005-s0146",
+        "c16-p005-s0147",
+        "c16-p005-s0148"
+      ],
+      "text": "“Well, I didn’t say that, exactly. I’m not supposed to talk about stuff like that. . .",
+      "image_src": "assets/scenes/ch16-s037.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S038",
+      "sentence_ids": [
+        "c16-p005-s0149",
+        "c16-p005-s0150",
+        "c16-p005-s0151",
+        "c16-p005-s0152"
+      ],
+      "text": ".” [J] “How did he do it?” [K] Ricky stares at me, silent, for once. [L] “I mean, hypothetically.",
+      "image_src": "assets/scenes/ch16-s038.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S039",
+      "sentence_ids": [
+        "c16-p005-s0153",
+        "c16-p005-s0154",
+        "c16-p006-s0155",
+        "c16-p006-s0156"
+      ],
+      "text": "Obviously not actually. But, like, if someone were to catch a tiger.” [A] Ricky nods, trying to make sense of me. “Right.",
+      "image_src": "assets/scenes/ch16-s039.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S040",
+      "sentence_ids": [
+        "c16-p006-s0157",
+        "c16-p006-s0158",
+        "c16-p006-s0159",
+        "c16-p006-s0160"
+      ],
+      "text": "You’re really into tigers, aren’t you? But tigers are majestic creatures, and they’re endangered. They really shouldn’t be hunted.” [B] “Oh, I know, yeah, definitely.",
+      "image_src": "assets/scenes/ch16-s040.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S041",
+      "sentence_ids": [
+        "c16-p006-s0161",
+        "c16-p006-s0162",
+        "c16-p006-s0163",
+        "c16-p006-s0164"
+      ],
+      "text": "I’m not going to. But if I were going to . . .” I’m talking so quickly that I’m afraid I might scare him, but Ricky doesn’t seem too alarmed.",
+      "image_src": "assets/scenes/ch16-s041.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S042",
+      "sentence_ids": [
+        "c16-p006-s0165",
+        "c16-p006-s0166",
+        "c16-p006-s0167",
+        "c16-p006-s0168"
+      ],
+      "text": "[C] He shrugs. “Well, I don’t really know the details. I never knew my great-grandfather, and my family doesn’t really talk about that part of his life, so who knows?” [D] Disappointment slices straight through me.",
+      "image_src": "assets/scenes/ch16-s042.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S043",
+      "sentence_ids": [
+        "c16-p006-s0169",
+        "c16-p006-s0170",
+        "c16-p006-s0171",
+        "c16-p006-s0172"
+      ],
+      "text": "Obviously he doesn’t know. This was such a stupid idea. I thought I could be a hero, that I could actually help. But I’m just me.",
+      "image_src": "assets/scenes/ch16-s043.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S044",
+      "sentence_ids": [
+        "c16-p006-s0173",
+        "c16-p006-s0174",
+        "c16-p006-s0175",
+        "c16-p006-s0176"
+      ],
+      "text": "[E] I try to hold all my emotions inside, so Ricky can’t see, but I feel a hot rush of tears building behind my eyes. I squeeze them shut and try to breathe. [F] “Oh no,” Ricky says, shifting in his seat, looking horrified by my reaction. “I can still help, maybe!",
+      "image_src": "assets/scenes/ch16-s044.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S045",
+      "sentence_ids": [
+        "c16-p006-s0177",
+        "c16-p006-s0178",
+        "c16-p006-s0179",
+        "c16-p006-s0180"
+      ],
+      "text": "Do you like hunting or something?” [G] I shake my head, trying to get myself under control. I need to get out of this situation and go home and think up a plan B. “Not hunting, really.",
+      "image_src": "assets/scenes/ch16-s045.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S046",
+      "sentence_ids": [
+        "c16-p006-s0181",
+        "c16-p006-s0182",
+        "c16-p006-s0183",
+        "c16-p006-s0184"
+      ],
+      "text": "I just wanted to know how to catch a tiger, I guess. But I was just curious. It’s not a big deal. I’m gonna go.”",
+      "image_src": "assets/scenes/ch16-s046.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S047",
+      "sentence_ids": [
+        "c16-p006-s0185",
+        "c16-p006-s0186",
+        "c16-p006-s0187",
+        "c16-p006-s0188"
+      ],
+      "text": "[H] “Wait! Don’t go. You look so . .",
+      "image_src": "assets/scenes/ch16-s047.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S048",
+      "sentence_ids": [
+        "c16-p006-s0189",
+        "c16-p006-s0190",
+        "c16-p007-s0191",
+        "c16-p007-s0192"
+      ],
+      "text": ".” He pauses, cheeks going pink. [I] “Never mind,” I say, just as he says— [A] “I know!” He reaches into his backpack and pulls out a thin, colorful magazine. No, not a magazine.",
+      "image_src": "assets/scenes/ch16-s048.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S049",
+      "sentence_ids": [
+        "c16-p007-s0193",
+        "c16-p007-s0194",
+        "c16-p007-s0195",
+        "c16-p007-s0196"
+      ],
+      "text": "A comic book. I lean closer to read the title: The Adventures of Superman: Doom Trap! [B] Ricky grins. “We could make a trap.",
+      "image_src": "assets/scenes/ch16-s049.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S050",
+      "sentence_ids": [
+        "c16-p007-s0197",
+        "c16-p007-s0198",
+        "c16-p007-s0199",
+        "c16-p007-s0200"
+      ],
+      "text": "Like a pit to catch tigers in. It’ll be so cool, see?” He opens the comic to a dog-eared page and shows me the drawing of Superman, trapped in a giant metal box and a web of red laser beams. [C] “I don’t think I can do something like that. And also .",
+      "image_src": "assets/scenes/ch16-s050.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S051",
+      "sentence_ids": [
+        "c16-p007-s0201",
+        "c16-p007-s0202",
+        "c16-p007-s0203",
+        "c16-p007-s0204"
+      ],
+      "text": ". .” I stare at the illustration. “Isn’t Superman the good guy? Doesn’t he break out of that trap?”",
+      "image_src": "assets/scenes/ch16-s051.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S052",
+      "sentence_ids": [
+        "c16-p007-s0205",
+        "c16-p007-s0206",
+        "c16-p007-s0207",
+        "c16-p007-s0208"
+      ],
+      "text": "[D] Ricky frowns, and now he’s the one who looks disappointed. “Oh, yeah. I guess. I just meant .",
+      "image_src": "assets/scenes/ch16-s052.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S053",
+      "sentence_ids": [
+        "c16-p007-s0209",
+        "c16-p007-s0210",
+        "c16-p007-s0211",
+        "c16-p007-s0212"
+      ],
+      "text": ". .” He looks down and stuffs the comic book back into his bag. “Sorry, I know this wasn’t what you were looking for. My dad’s always telling me I get too excited about things, and my friends don’t really get it when I talk about comics and stuff, so yeah, I understand if you think it’s weird.”",
+      "image_src": "assets/scenes/ch16-s053.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S054",
+      "sentence_ids": [
+        "c16-p007-s0213",
+        "c16-p007-s0214",
+        "c16-p007-s0215",
+        "c16-p007-s0216"
+      ],
+      "text": "[E] And now I feel guilty for causing this whole situation in the first place. “It’s not weird. It’s just . .",
+      "image_src": "assets/scenes/ch16-s054.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S055",
+      "sentence_ids": [
+        "c16-p007-s0217",
+        "c16-p007-s0218",
+        "c16-p007-s0219",
+        "c16-p007-s0220"
+      ],
+      "text": ".” I stop myself before I say, It’s just not what I was looking for. [F] Because, actually, a tiger trap is exactly what I was looking for. Obviously, I can’t build a trap out of metal and lasers. Obviously, it’s ridiculous to use a comic book as a how-to guide—but not as ridiculous as trying to trap a magical talking tiger.",
+      "image_src": "assets/scenes/ch16-s055.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S056",
+      "sentence_ids": [
+        "c16-p008-s0221",
+        "c16-p008-s0222",
+        "c16-p008-s0223",
+        "c16-p008-s0224"
+      ],
+      "text": "[A] Ricky is someone who makes things happen. He acts without overthinking. If I want to catch a tiger, I need to be more like him. “Actually, say I don’t have steel and lasers.",
+      "image_src": "assets/scenes/ch16-s056.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S057",
+      "sentence_ids": [
+        "c16-p008-s0225",
+        "c16-p008-s0226",
+        "c16-p008-s0227",
+        "c16-p008-s0228"
+      ],
+      "text": "Do you think I could build a trap with normal stuff?” [B] His eyebrows shoot way up. “Wait, are we actually building a tiger trap?” [C] I clear my throat.",
+      "image_src": "assets/scenes/ch16-s057.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S058",
+      "sentence_ids": [
+        "c16-p008-s0229",
+        "c16-p008-s0230",
+        "c16-p008-s0231",
+        "c16-p008-s0232"
+      ],
+      "text": "“Well, me, not we, and I don’t know—” [D] He wiggles with excitement. “If you’re making the tiger trap here, I have to do it with you.” [E] I shake my head.",
+      "image_src": "assets/scenes/ch16-s058.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S059",
+      "sentence_ids": [
+        "c16-p008-s0233",
+        "c16-p008-s0234",
+        "c16-p008-s0235",
+        "c16-p008-s0236"
+      ],
+      "text": "I don’t want to disappoint him again, but . . . “I don’t think that’s a good idea.",
+      "image_src": "assets/scenes/ch16-s059.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S060",
+      "sentence_ids": [
+        "c16-p008-s0237",
+        "c16-p008-s0238",
+        "c16-p008-s0239",
+        "c16-p008-s0240"
+      ],
+      "text": ". . .” [F] He leans forward, nearly falling out of his chair.",
+      "image_src": "assets/scenes/ch16-s060.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S061",
+      "sentence_ids": [
+        "c16-p008-s0241",
+        "c16-p008-s0242",
+        "c16-p008-s0243",
+        "c16-p008-s0244"
+      ],
+      "text": "“Lily, I have to. That sounds so fun. And besides, I know way more than you do. I read so many comic books, and plus, I’ve probably inherited knowledge from my great-grandpa, like in my blood or something.",
+      "image_src": "assets/scenes/ch16-s061.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S062",
+      "sentence_ids": [
+        "c16-p008-s0245",
+        "c16-p008-s0246",
+        "c16-p008-s0247",
+        "c16-p008-s0248"
+      ],
+      "text": "I will be an excellent resource!” [G] I bite my lip. It’s not that I don’t want to be his friend. It’s just that most people probably wouldn’t understand the whole magical talking tiger part of this.",
+      "image_src": "assets/scenes/ch16-s062.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S063",
+      "sentence_ids": [
+        "c16-p008-s0249",
+        "c16-p008-s0250",
+        "c16-p008-s0251",
+        "c16-p008-s0252"
+      ],
+      "text": "“I don’t know, Ricky. . . .”",
+      "image_src": "assets/scenes/ch16-s063.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S064",
+      "sentence_ids": [
+        "c16-p008-s0253",
+        "c16-p008-s0254",
+        "c16-p008-s0255",
+        "c16-p008-s0256"
+      ],
+      "text": "[H] He droops. “Oh, well, that’s okay, then. You don’t have to invite me if you don’t want to.” [I] Now I’m really hoping for Jensen to come back, but she’s still in the staff room, and I have to stand here, feeling way guilty.",
+      "image_src": "assets/scenes/ch16-s064.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S065",
+      "sentence_ids": [
+        "c16-p009-s0257",
+        "c16-p009-s0258",
+        "c16-p009-s0259",
+        "c16-p009-s0260"
+      ],
+      "text": "[A] Maybe inviting him wouldn’t be so bad. I don’t have to tell him what the trap is actually for. And maybe it would be nice to have some help—from someone who isn’t all that bothered by the why of things. [B] “Fine,” I say, and his whole body goes electric, sitting straight up.",
+      "image_src": "assets/scenes/ch16-s065.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S066",
+      "sentence_ids": [
+        "c16-p009-s0261",
+        "c16-p009-s0262",
+        "c16-p009-s0263",
+        "c16-p009-s0264"
+      ],
+      "text": "[C] “Really? I’m so excited. This is gonna be EPIC.” He makes an explosion gesture to show epic. “I’m so glad you said yes.",
+      "image_src": "assets/scenes/ch16-s066.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S067",
+      "sentence_ids": [
+        "c16-p009-s0265",
+        "c16-p009-s0266",
+        "c16-p009-s0267",
+        "c16-p009-s0268"
+      ],
+      "text": "Because now making a tiger trap is in my head and it will not leave.” [D] “Right,” I say. [E] “I have to stop by home to get supplies after tutoring, but I’ll be at your house as soon as possible. Jensen said you live across the street, right?”",
+      "image_src": "assets/scenes/ch16-s067.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S068",
+      "sentence_ids": [
+        "c16-p009-s0269",
+        "c16-p009-s0270",
+        "c16-p009-s0271",
+        "c16-p009-s0272"
+      ],
+      "text": "[F] “You mean . . . today?” I ask.",
+      "image_src": "assets/scenes/ch16-s068.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S069",
+      "sentence_ids": [
+        "c16-p009-s0273",
+        "c16-p009-s0274",
+        "c16-p009-s0275",
+        "c16-p009-s0276"
+      ],
+      "text": "“Don’t you have to ask your dad?” [G] “Oh, he won’t notice I’m gone.” He tears a piece of paper out of his notebook and scribbles his phone number, but before he can hand it to me, Jensen comes back with the pudding. [H] Ricky hides the scrap of paper in his fist, and I shoot him a Be quiet! look.",
+      "image_src": "assets/scenes/ch16-s069.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S070",
+      "sentence_ids": [
+        "c16-p009-s0277",
+        "c16-p009-s0278",
+        "c16-p009-s0279",
+        "c16-p009-s0280"
+      ],
+      "text": "He nods and mimes zipping his lips shut. He tries to look serious, but his big grin busts out, and he practically radiates excitement. [I] Jensen frowns. “What’s going on here?”",
+      "image_src": "assets/scenes/ch16-s070.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S071",
+      "sentence_ids": [
+        "c16-p009-s0281",
+        "c16-p009-s0282",
+        "c16-p009-s0283",
+        "c16-p009-s0284"
+      ],
+      "text": "[J] “Nothing,” Ricky and I say at once, which is probably a little suspicious. [K] Jensen’s about to grill us more, but something stops her. She looks over my shoulder and her eyebrows rise. I turn to follow her gaze.",
+      "image_src": "assets/scenes/ch16-s071.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C16_S072",
+      "sentence_ids": [
+        "c16-p009-s0285",
+        "c16-p009-s0286"
+      ],
+      "text": "[L] Sam’s standing behind me, arms folded across her chest, glaring at me with her black-rimmed eyes. She’s angry.",
+      "image_src": "assets/scenes/ch16-s072.webp",
+      "placement": "before-text"
+    }
+  ],
+  "cadence": "3-4 sentences; first group may be 3"
+}

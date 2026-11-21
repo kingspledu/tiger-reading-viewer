@@ -1,0 +1,460 @@
+{
+  "chapter": 15,
+  "sentences": 149,
+  "scenes": [
+    {
+      "scene_id": "C15_S001",
+      "sentence_ids": [
+        "c15-p001-s0001",
+        "c15-p001-s0002",
+        "c15-p001-s0003",
+        "c15-p001-s0004"
+      ],
+      "text": "[A] Obviously, I don’t sleep after that. I sit up in bed, chewing my nails, staring out the window until the sun comes up, until I hear a strange noise downstairs—like a whispering through the walls. [B] The sound persists, and I lean forward, ears straining. This house is full of noises.",
+      "image_src": "assets/scenes/ch15-s001.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S002",
+      "sentence_ids": [
+        "c15-p001-s0005",
+        "c15-p001-s0006",
+        "c15-p001-s0007",
+        "c15-p001-s0008"
+      ],
+      "text": "I tiptoe down the stairs. It could be the tiger, and if it is, I have to accept her offer. Even though I’m still not sure, even though I’m afraid. [C] But there’s no tiger.",
+      "image_src": "assets/scenes/ch15-s002.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S003",
+      "sentence_ids": [
+        "c15-p001-s0009",
+        "c15-p001-s0010",
+        "c15-p001-s0011",
+        "c15-p001-s0012"
+      ],
+      "text": "[D] When I reach the bottom, it’s only Mom and Halmoni, sitting in Halmoni’s bedroom with the door cracked just-barely, talking so quietly that their words are a slush of wisps and hisses. [E] Mom says, “Nobody’s offered yet. I’m still looking. But it’ll happen soon.",
+      "image_src": "assets/scenes/ch15-s003.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S004",
+      "sentence_ids": [
+        "c15-p001-s0013",
+        "c15-p001-s0014",
+        "c15-p001-s0015",
+        "c15-p001-s0016"
+      ],
+      "text": "I’m hopeful.” [F] “You getting job will be good,” Halmoni says. “That is good for you.” [G] “Good for us, you mean,” Mom says.",
+      "image_src": "assets/scenes/ch15-s004.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S005",
+      "sentence_ids": [
+        "c15-p001-s0017",
+        "c15-p001-s0018",
+        "c15-p001-s0019",
+        "c15-p001-s0020"
+      ],
+      "text": "[H] “Good for you and the girls.” [I] “Don’t do that,” Mom says. Her voice cracks, and I can barely hear her. “We have time.",
+      "image_src": "assets/scenes/ch15-s005.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S006",
+      "sentence_ids": [
+        "c15-p001-s0021",
+        "c15-p001-s0022",
+        "c15-p001-s0023",
+        "c15-p001-s0024"
+      ],
+      "text": "I can buy more time.” [J] “No, no. You don’t worry about that,” Halmoni says. There’s that scolding tone in her voice, the one she always gets when she talks to Mom.",
+      "image_src": "assets/scenes/ch15-s006.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S007",
+      "sentence_ids": [
+        "c15-p001-s0025",
+        "c15-p001-s0026",
+        "c15-p001-s0027",
+        "c15-p001-s0028"
+      ],
+      "text": "But there’s something else, too. Something softer. “And don’t make that worry face. You going to get wrinkles.”",
+      "image_src": "assets/scenes/ch15-s007.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S008",
+      "sentence_ids": [
+        "c15-p002-s0029",
+        "c15-p002-s0030",
+        "c15-p002-s0031",
+        "c15-p002-s0032"
+      ],
+      "text": "[A] “Mom—” [B] “You wearing sunscreen? Sunscreen help with wrinkle.” [C] “Mom—”",
+      "image_src": "assets/scenes/ch15-s008.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S009",
+      "sentence_ids": [
+        "c15-p002-s0033",
+        "c15-p002-s0034",
+        "c15-p002-s0035",
+        "c15-p002-s0036"
+      ],
+      "text": "[D] “What about hat? Hat help, too.” [E] “Mom! I don’t need a hat.",
+      "image_src": "assets/scenes/ch15-s009.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S010",
+      "sentence_ids": [
+        "c15-p002-s0037",
+        "c15-p002-s0038",
+        "c15-p002-s0039",
+        "c15-p002-s0040"
+      ],
+      "text": "I need you.” Mom’s voice breaks. When she speaks again, her voice is quiet. “Please just try the other treatments. Don’t give up.”",
+      "image_src": "assets/scenes/ch15-s010.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S011",
+      "sentence_ids": [
+        "c15-p002-s0041",
+        "c15-p002-s0042",
+        "c15-p002-s0043",
+        "c15-p002-s0044"
+      ],
+      "text": "[F] Treatments. Hospitals. Buying more time. [G] An understanding settles in my gut—one I can’t quite put into words.",
+      "image_src": "assets/scenes/ch15-s011.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S012",
+      "sentence_ids": [
+        "c15-p002-s0045",
+        "c15-p002-s0046",
+        "c15-p002-s0047",
+        "c15-p002-s0048"
+      ],
+      "text": "[H] The softness in Halmoni’s words evaporates. “You think I just give up? No! I don’t want to go.",
+      "image_src": "assets/scenes/ch15-s012.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S013",
+      "sentence_ids": [
+        "c15-p002-s0049",
+        "c15-p002-s0050",
+        "c15-p002-s0051",
+        "c15-p002-s0052"
+      ],
+      "text": "I don’t want to leave you. I am not ready. But I don’t get to decide. The only thing I decide is how I be right now.",
+      "image_src": "assets/scenes/ch15-s013.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S014",
+      "sentence_ids": [
+        "c15-p002-s0053",
+        "c15-p002-s0054",
+        "c15-p002-s0055",
+        "c15-p002-s0056"
+      ],
+      "text": "So you don’t take that away from me.” [I] I’ve never heard Halmoni sound so angry. She is strong and fierce and kind. But now she’s different.",
+      "image_src": "assets/scenes/ch15-s014.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S015",
+      "sentence_ids": [
+        "c15-p002-s0057",
+        "c15-p002-s0058",
+        "c15-p002-s0059",
+        "c15-p002-s0060"
+      ],
+      "text": "There’s a scary side of her, like there’s a tiger hiding just below her skin, straining to get out. [J] I hear another strange sound, and it’s so out of place that I don’t recognize it at first. Until I realize: Mom’s crying. [K] But Mom never cries.",
+      "image_src": "assets/scenes/ch15-s015.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S016",
+      "sentence_ids": [
+        "c15-p002-s0061",
+        "c15-p002-s0062",
+        "c15-p002-s0063",
+        "c15-p002-s0064"
+      ],
+      "text": "[L] “Joanie,” Halmoni says quietly. “You be strong, for girls’ sake.” [M] My stomach twists. I shouldn’t be hearing this.",
+      "image_src": "assets/scenes/ch15-s016.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S017",
+      "sentence_ids": [
+        "c15-p002-s0065",
+        "c15-p003-s0066",
+        "c15-p003-s0067",
+        "c15-p003-s0068"
+      ],
+      "text": "I don’t want to hear this. [A] “I can’t do this,” Mom whispers. “Not again. Not after Andy.",
+      "image_src": "assets/scenes/ch15-s017.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S018",
+      "sentence_ids": [
+        "c15-p003-s0069",
+        "c15-p003-s0070",
+        "c15-p003-s0071",
+        "c15-p003-s0072"
+      ],
+      "text": "I can’t be strong again.” [B] “I know you can,” Halmoni says, “because you are my daughter.” [C] I take a few steps back up the stairs, cloaking myself in the shadows. Halmoni’s illness must be really serious, if Mom’s crying.",
+      "image_src": "assets/scenes/ch15-s018.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S019",
+      "sentence_ids": [
+        "c15-p003-s0073",
+        "c15-p003-s0074",
+        "c15-p003-s0075",
+        "c15-p003-s0076"
+      ],
+      "text": "[D] I wish now that it really was the tiger downstairs. Because the truth is, this is scarier than any tiger. [E] When Mom eventually comes out of the bedroom, I automatically call on my invisibility. But then I change my mind.",
+      "image_src": "assets/scenes/ch15-s019.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S020",
+      "sentence_ids": [
+        "c15-p003-s0077",
+        "c15-p003-s0078",
+        "c15-p003-s0079",
+        "c15-p003-s0080"
+      ],
+      "text": "I don’t want to be alone. [F] I shift my weight, and when stairs creak beneath me, Mom looks up. [G] “Oh,” she says when she sees me. “Oh.”",
+      "image_src": "assets/scenes/ch15-s020.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S021",
+      "sentence_ids": [
+        "c15-p003-s0081",
+        "c15-p003-s0082",
+        "c15-p003-s0083",
+        "c15-p003-s0084"
+      ],
+      "text": "[H] Very quietly I ask, “Is Halmoni okay? Are you okay?” [I] Mom’s eyes are still red. “Did you hear us talking?”",
+      "image_src": "assets/scenes/ch15-s021.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S022",
+      "sentence_ids": [
+        "c15-p003-s0085",
+        "c15-p003-s0086",
+        "c15-p003-s0087",
+        "c15-p003-s0088"
+      ],
+      "text": "[J] When I don’t answer, she opens her arms and I run down the steps. She crushes me into a hug, and as she takes a breath, I feel the shudder in her lungs. “She’s going to be. Don’t worry.",
+      "image_src": "assets/scenes/ch15-s022.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S023",
+      "sentence_ids": [
+        "c15-p003-s0089",
+        "c15-p003-s0090",
+        "c15-p003-s0091",
+        "c15-p003-s0092"
+      ],
+      "text": "Everything’s going to be fine.” Then she straightens up, pulls herself back together. “Would you like some tea? Some breakfast? I’ll make you whatever you want.”",
+      "image_src": "assets/scenes/ch15-s023.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S024",
+      "sentence_ids": [
+        "c15-p003-s0093",
+        "c15-p004-s0094",
+        "c15-p004-s0095",
+        "c15-p004-s0096"
+      ],
+      "text": "[K] “I want to know what’s going on.” I try to sound strong, but my voice is very small. [A] Mom fiddles with her glasses. “Halmoni’s sick, Lily. But we’re still hopeful, okay?",
+      "image_src": "assets/scenes/ch15-s024.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S025",
+      "sentence_ids": [
+        "c15-p004-s0097",
+        "c15-p004-s0098",
+        "c15-p004-s0099",
+        "c15-p004-s0100"
+      ],
+      "text": "I’m looking for a new job, so that should bring in money for special treatments. And even if we don’t do those treatments, we’ll—we can keep her comfortable.” [B] “What kind of sick?” I ask, even though I already know it’s the bad kind. [C] Mom grimaces, then pulls me over to the couch.",
+      "image_src": "assets/scenes/ch15-s025.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S026",
+      "sentence_ids": [
+        "c15-p004-s0101",
+        "c15-p004-s0102",
+        "c15-p004-s0103",
+        "c15-p004-s0104"
+      ],
+      "text": "I thunk down next to her, sinking into the cushions. [D] For once, it isn’t raining. Happy sunlight spills through the windows, like the weather is mocking me. [E] Mom says, “Halmoni has brain cancer.”",
+      "image_src": "assets/scenes/ch15-s026.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S027",
+      "sentence_ids": [
+        "c15-p004-s0105",
+        "c15-p004-s0106",
+        "c15-p004-s0107",
+        "c15-p004-s0108"
+      ],
+      "text": "[F] For a few seconds, my insides go ice-numb. I can’t feel anything except for cold and a strange tingling. [G] “Lily, did you hear me?” [H] I keep very still, as if I can hide from the pain.",
+      "image_src": "assets/scenes/ch15-s027.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S028",
+      "sentence_ids": [
+        "c15-p004-s0109",
+        "c15-p004-s0110",
+        "c15-p004-s0111",
+        "c15-p004-s0112"
+      ],
+      "text": "As if the truth is a tiger, and if I don’t move, maybe it won’t find me. [I] “Honey?” [J] Except I guess I can’t hide for long, because that strange tingling turns jagged, like broken glass. I nod my aching head.",
+      "image_src": "assets/scenes/ch15-s028.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S029",
+      "sentence_ids": [
+        "c15-p004-s0113",
+        "c15-p004-s0114",
+        "c15-p004-s0115",
+        "c15-p004-s0116"
+      ],
+      "text": "I try to say it out loud—brain cancer—but I can’t. [K] Mom continues. “That’s what’s causing the symptoms you might have seen: the nausea, the paranoia, and all the—Well, sometimes with this type of illness, patients can have, uh, hallucinations.” [L] “Hallucinations?”",
+      "image_src": "assets/scenes/ch15-s029.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S030",
+      "sentence_ids": [
+        "c15-p004-s0117",
+        "c15-p004-s0118",
+        "c15-p004-s0119",
+        "c15-p004-s0120"
+      ],
+      "text": "[M] “This is a lot. I understand. I want you to know that I’m here for you.” [N] “What kind of hallucinations?”",
+      "image_src": "assets/scenes/ch15-s030.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S031",
+      "sentence_ids": [
+        "c15-p005-s0121",
+        "c15-p005-s0122",
+        "c15-p005-s0123",
+        "c15-p005-s0124"
+      ],
+      "text": "[A] “Oh, Lily.” Her eyes soften and she grabs my hands. “It’s nothing too scary. Just the little things. Confusing dreams with reality.",
+      "image_src": "assets/scenes/ch15-s031.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S032",
+      "sentence_ids": [
+        "c15-p005-s0125",
+        "c15-p005-s0126",
+        "c15-p005-s0127",
+        "c15-p005-s0128"
+      ],
+      "text": "Like how she thinks the basement flooded—things like that.” [B] So that explains why the basement was so dry. But the other stuff—I saw the tiger, too. I know that was real.",
+      "image_src": "assets/scenes/ch15-s032.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S033",
+      "sentence_ids": [
+        "c15-p005-s0129",
+        "c15-p005-s0130",
+        "c15-p005-s0131",
+        "c15-p005-s0132"
+      ],
+      "text": "[C] “What if there’s a way to help?” I ask. [D] “Oh, Lily. Let me handle this. And you don’t worry.",
+      "image_src": "assets/scenes/ch15-s033.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S034",
+      "sentence_ids": [
+        "c15-p005-s0133",
+        "c15-p005-s0134",
+        "c15-p005-s0135",
+        "c15-p005-s0136"
+      ],
+      "text": "You just spend time enjoying your halmoni and keeping her company. That’s why we moved here. So you girls can enjoy her.” [E] Mom squeezes my hands.",
+      "image_src": "assets/scenes/ch15-s034.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S035",
+      "sentence_ids": [
+        "c15-p005-s0137",
+        "c15-p005-s0138",
+        "c15-p005-s0139",
+        "c15-p005-s0140"
+      ],
+      "text": "“I talked to Sam about this last night, when you were asleep, so you can discuss it with her, if that helps. This isn’t going to be a onetime conversation. It’s an ongoing dialogue, and I’m here anytime, to answer any questions you have.” [F] Questions claw up my throat, but I don’t think Mom has the answers.",
+      "image_src": "assets/scenes/ch15-s035.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S036",
+      "sentence_ids": [
+        "c15-p005-s0141",
+        "c15-p005-s0142",
+        "c15-p005-s0143",
+        "c15-p005-s0144"
+      ],
+      "text": "Halmoni said it herself: Mom doesn’t believe in stories. Her world is small. [G] But I know there’s a way to help—something that Mom won’t, or can’t, see. [H] The tiger can cure Halmoni.",
+      "image_src": "assets/scenes/ch15-s036.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S037",
+      "sentence_ids": [
+        "c15-p005-s0145",
+        "c15-p005-s0146",
+        "c15-p005-s0147",
+        "c15-p005-s0148"
+      ],
+      "text": "[I] I wasn’t brave enough, before, to trust her magic. But this time, I will be. [J] This time, I’ll be ready. The tiger said she wouldn’t come to me again, so I’ll have to go to her.",
+      "image_src": "assets/scenes/ch15-s037.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C15_S038",
+      "sentence_ids": [
+        "c15-p005-s0149"
+      ],
+      "text": "[K] Lucky for me, I happen to know a family of tiger hunters.",
+      "image_src": "assets/scenes/ch15-s038.webp",
+      "placement": "before-text"
+    }
+  ],
+  "cadence": "3-4 sentences; first group may be 3"
+}

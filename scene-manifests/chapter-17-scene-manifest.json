@@ -1,0 +1,331 @@
+{
+  "chapter": 17,
+  "sentences": 108,
+  "scenes": [
+    {
+      "scene_id": "C17_S001",
+      "sentence_ids": [
+        "c17-p001-s0001",
+        "c17-p001-s0002",
+        "c17-p001-s0003",
+        "c17-p001-s0004"
+      ],
+      "text": "[A] Jensen speaks first. Her eyes flicker from surprise to confusion to curiosity. “Hi,” she says. “I’m Jensen.” She gives Sam the same warm, inviting smile she gave me—only with something extra, something curious and almost hopeful—maybe because Sam is her age.",
+      "image_src": "assets/scenes/ch17-s001.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S002",
+      "sentence_ids": [
+        "c17-p001-s0005",
+        "c17-p001-s0006",
+        "c17-p001-s0007",
+        "c17-p001-s0008"
+      ],
+      "text": "Jensen tucks a dark curl behind her ear, and her lucky freckles glow. [B] I can’t help but feel jealous, because it feels like without even trying, Sam stole my friend. That’s the problem with sticky people. [C] “H-hey,” Sam says to Jensen, stammering a little bit.",
+      "image_src": "assets/scenes/ch17-s002.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S003",
+      "sentence_ids": [
+        "c17-p001-s0009",
+        "c17-p001-s0010",
+        "c17-p001-s0011",
+        "c17-p001-s0012"
+      ],
+      "text": "“I’m, uh, Sam.” She’s caught off guard by Jensen’s niceness or something. But then she turns back to me, eyes narrowing. She stands a little taller. Sam’s most comfortable in her anger.",
+      "image_src": "assets/scenes/ch17-s003.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S004",
+      "sentence_ids": [
+        "c17-p001-s0013",
+        "c17-p001-s0014",
+        "c17-p001-s0015",
+        "c17-p001-s0016"
+      ],
+      "text": "“Why did you run out in the middle of our conversation? You can’t just do that.” [D] I swallow, feeling Jensen’s and Ricky’s eyes on us. I want to disappear, but my invisibility switch isn’t working.",
+      "image_src": "assets/scenes/ch17-s004.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S005",
+      "sentence_ids": [
+        "c17-p001-s0017",
+        "c17-p001-s0018",
+        "c17-p001-s0019",
+        "c17-p001-s0020"
+      ],
+      "text": "It’s been malfunctioning lately. [E] “Why didn’t you just tell me where you were going?” Sam asks. [F] “I . .",
+      "image_src": "assets/scenes/ch17-s005.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S006",
+      "sentence_ids": [
+        "c17-p001-s0021",
+        "c17-p001-s0022",
+        "c17-p001-s0023",
+        "c17-p002-s0024"
+      ],
+      "text": ".” I’m not sure what to say. Because I couldn’t tell you about my secret tiger plan? “I had to come here.” The words kerplunk at my feet, falling flat. [A] An awkward silence echoes, until Jensen exclaims, “Oh, I know you!”",
+      "image_src": "assets/scenes/ch17-s006.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S007",
+      "sentence_ids": [
+        "c17-p002-s0025",
+        "c17-p002-s0026",
+        "c17-p002-s0027",
+        "c17-p002-s0028"
+      ],
+      "text": "[B] Sam’s eyes widen, and Jensen grins. “Not to be creepy or anything. You just looked familiar to me. You went to Sun Elementary, right?",
+      "image_src": "assets/scenes/ch17-s007.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S008",
+      "sentence_ids": [
+        "c17-p002-s0029",
+        "c17-p002-s0030",
+        "c17-p002-s0031",
+        "c17-p002-s0032"
+      ],
+      "text": "Like, ages ago?” [C] Sam pauses. Her cheeks go pink. “Um, yeah, for a few years.",
+      "image_src": "assets/scenes/ch17-s008.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S009",
+      "sentence_ids": [
+        "c17-p002-s0033",
+        "c17-p002-s0034",
+        "c17-p002-s0035",
+        "c17-p002-s0036"
+      ],
+      "text": "We lived here—yeah, a while ago. Ages ago.” [D] I stare at my sister. I’ve never seen her stumble over her words like that.",
+      "image_src": "assets/scenes/ch17-s009.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S010",
+      "sentence_ids": [
+        "c17-p002-s0037",
+        "c17-p002-s0038",
+        "c17-p002-s0039",
+        "c17-p002-s0040"
+      ],
+      "text": "She’s normally so sure of herself. And so . . .",
+      "image_src": "assets/scenes/ch17-s010.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S011",
+      "sentence_ids": [
+        "c17-p002-s0041",
+        "c17-p002-s0042",
+        "c17-p002-s0043",
+        "c17-p002-s0044"
+      ],
+      "text": "mean. Now all her edges go soft. [E] Jensen toys with her curls. “You know, we’re doing a bake sale to raise money for the library.",
+      "image_src": "assets/scenes/ch17-s011.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S012",
+      "sentence_ids": [
+        "c17-p002-s0045",
+        "c17-p002-s0046",
+        "c17-p002-s0047",
+        "c17-p002-s0048"
+      ],
+      "text": "It was Lily’s idea, actually. And you’re welcome to help, if you’re interested. I can give you my number and we can coordinate.” [F] “Yeah, I .",
+      "image_src": "assets/scenes/ch17-s012.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S013",
+      "sentence_ids": [
+        "c17-p002-s0049",
+        "c17-p002-s0050",
+        "c17-p002-s0051",
+        "c17-p002-s0052"
+      ],
+      "text": ". . okay. I’ve—yeah.” Sam readjusts her shirt, even though it looked fine.",
+      "image_src": "assets/scenes/ch17-s013.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S014",
+      "sentence_ids": [
+        "c17-p002-s0053",
+        "c17-p002-s0054",
+        "c17-p002-s0055",
+        "c17-p002-s0056"
+      ],
+      "text": "[G] I glance at Ricky, but he’s just eating his second pudding, completely oblivious to any strangeness. [H] Pass me your number while they’re distracted, I say with my eyes. [I] In response, he points to his cup and gives me a thumbs-up, as if I was wondering how his pudding was. [J] I take a very deep breath and exhale slowly, like Mom does when she’s dealing with Halmoni.",
+      "image_src": "assets/scenes/ch17-s014.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S015",
+      "sentence_ids": [
+        "c17-p003-s0057",
+        "c17-p003-s0058",
+        "c17-p003-s0059",
+        "c17-p003-s0060"
+      ],
+      "text": "[A] Jensen grins. “That would be awesome!” she says as she takes Sam’s phone and types her number in. I feel a pang of jealousy because Sam just got someone’s phone number, no problem, like everything is easy for her. [B] Jensen and Sam stare at each other for a few seconds, and it’s like Sam has forgotten about me completely.",
+      "image_src": "assets/scenes/ch17-s015.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S016",
+      "sentence_ids": [
+        "c17-p003-s0061",
+        "c17-p003-s0062",
+        "c17-p003-s0063",
+        "c17-p003-s0064"
+      ],
+      "text": "[C] I start to feel antsy. “Anyway,” I mumble. I stare at Ricky. Silently I tell him, Give me your number now, super subtle.",
+      "image_src": "assets/scenes/ch17-s016.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S017",
+      "sentence_ids": [
+        "c17-p003-s0065",
+        "c17-p003-s0066",
+        "c17-p003-s0067",
+        "c17-p003-s0068"
+      ],
+      "text": "[D] “Oh, yeah!” Ricky says. He holds out the scrap of paper and drops it into my palm. He lowers his voice to a loud whisper. “For later.",
+      "image_src": "assets/scenes/ch17-s017.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S018",
+      "sentence_ids": [
+        "c17-p003-s0069",
+        "c17-p003-s0070",
+        "c17-p003-s0071",
+        "c17-p003-s0072"
+      ],
+      "text": "You know. For the secret plan.” [E] Jensen looks surprised. Sam looks suspicious.",
+      "image_src": "assets/scenes/ch17-s018.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S019",
+      "sentence_ids": [
+        "c17-p003-s0073",
+        "c17-p003-s0074",
+        "c17-p003-s0075",
+        "c17-p003-s0076"
+      ],
+      "text": "[F] I take another deep breath and force a very normal smile. “Okay, well, we should go,” I say. [G] “Right!” Jensen says. “I’m sorry, I didn’t mean to hold you up.",
+      "image_src": "assets/scenes/ch17-s019.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S020",
+      "sentence_ids": [
+        "c17-p003-s0077",
+        "c17-p003-s0078",
+        "c17-p003-s0079",
+        "c17-p003-s0080"
+      ],
+      "text": "Anyway, Ricky and I really need to get back to tutoring.” [H] Ricky shakes his head. “It’s okay, Jensen. I can see you’re making a friend.",
+      "image_src": "assets/scenes/ch17-s020.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S021",
+      "sentence_ids": [
+        "c17-p003-s0081",
+        "c17-p003-s0082",
+        "c17-p003-s0083",
+        "c17-p003-s0084"
+      ],
+      "text": "And I want to be respectful of that.” [I] Jensen laughs, and Sam gives an awkward goodbye shrug before dragging me away from the table. [J] Ricky calls after us, mouth full of pudding. “See you later!”",
+      "image_src": "assets/scenes/ch17-s021.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S022",
+      "sentence_ids": [
+        "c17-p004-s0085",
+        "c17-p004-s0086",
+        "c17-p004-s0087",
+        "c17-p004-s0088"
+      ],
+      "text": "[A] I wave goodbye as Sam pulls me out of the library, and when we’re out, I turn to her. “You didn’t have to embarrass me like that.” [B] She stares at me. “Seriously?",
+      "image_src": "assets/scenes/ch17-s022.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S023",
+      "sentence_ids": [
+        "c17-p004-s0089",
+        "c17-p004-s0090",
+        "c17-p004-s0091",
+        "c17-p004-s0092"
+      ],
+      "text": "That’s what you’re upset about? You ran out in the middle of a conversation and left me with Mom, who’s already super stressed.” [C] “Sorry,” I murmur, and I mean it. I’m still annoyed with Sam, but about this, she’s kind of right.",
+      "image_src": "assets/scenes/ch17-s023.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S024",
+      "sentence_ids": [
+        "c17-p004-s0093",
+        "c17-p004-s0094",
+        "c17-p004-s0095",
+        "c17-p004-s0096"
+      ],
+      "text": "[D] “I don’t know. I get it. I’m mad, too. I’m mad that it’s happening, and I’m even madder that Mom didn’t tell us sooner.” Sam runs a hand over her face.",
+      "image_src": "assets/scenes/ch17-s024.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S025",
+      "sentence_ids": [
+        "c17-p004-s0097",
+        "c17-p004-s0098",
+        "c17-p004-s0099",
+        "c17-p004-s0100"
+      ],
+      "text": "“Being in that house, it’s like a prison. Sometimes I want to run away.” [E] I wish I could explain that I wasn’t running away. That I have a plan, that it’s all going to be okay.",
+      "image_src": "assets/scenes/ch17-s025.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S026",
+      "sentence_ids": [
+        "c17-p004-s0101",
+        "c17-p004-s0102",
+        "c17-p004-s0103",
+        "c17-p004-s0104"
+      ],
+      "text": "But she’s made it very clear that she doesn’t believe in the magic. [F] As we hike back up the stairs, I squint at the house, trying to see what Sam sees. To me, the house has always been a safe place. It protects us.",
+      "image_src": "assets/scenes/ch17-s026.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C17_S027",
+      "sentence_ids": [
+        "c17-p004-s0105",
+        "c17-p004-s0106",
+        "c17-p004-s0107",
+        "c17-p004-s0108"
+      ],
+      "text": "[G] But I guess I can almost see it, in the way the nearly-black vines strangle the house, the way the door shuts and locks. The way the house hides, tucked away in the trees. I can see it—almost—this house as a prison. [H] Or even as a trap.",
+      "image_src": "assets/scenes/ch17-s027.webp",
+      "placement": "before-text"
+    }
+  ],
+  "cadence": "3-4 sentences; first group may be 3"
+}

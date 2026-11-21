@@ -1,0 +1,666 @@
+{
+  "chapter": 18,
+  "sentences": 219,
+  "scenes": [
+    {
+      "scene_id": "C18_S001",
+      "sentence_ids": [
+        "c18-p001-s0001",
+        "c18-p001-s0002",
+        "c18-p001-s0003",
+        "c18-p001-s0004"
+      ],
+      "text": "[A] Ricky arrives on his bike a few hours later, after Mom takes Halmoni to a follow-up doctor’s appointment. Sam’s upstairs, so it’s just me in the living room, which is probably good, because he’s got about a thousand yards of rope wrapped around his waist and is wearing head-to-toe camouflage—including a camo-patterned top hat. [B] “Whoa,” I say as he steps through the front door. [C] He lifts his top hat in greeting.",
+      "image_src": "assets/scenes/ch18-s001.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S002",
+      "sentence_ids": [
+        "c18-p001-s0005",
+        "c18-p001-s0006",
+        "c18-p001-s0007",
+        "c18-p001-s0008"
+      ],
+      "text": "“Tiger Trapmaster, at your service.” [D] I blink. “What?” [E] “Yeah, you’re right.",
+      "image_src": "assets/scenes/ch18-s002.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S003",
+      "sentence_ids": [
+        "c18-p001-s0009",
+        "c18-p001-s0010",
+        "c18-p001-s0011",
+        "c18-p001-s0012"
+      ],
+      "text": "The name needs some work.” He walks past me, unties the rope, and dumps it onto my living room floor. When he sees my confusion, he clarifies: “My superhero name, obviously.” [F] “Right.” I feel bad, because I know he’s having fun, and I don’t want him to think I’m mocking him, but also—this isn’t a game. This matters.",
+      "image_src": "assets/scenes/ch18-s003.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S004",
+      "sentence_ids": [
+        "c18-p001-s0013",
+        "c18-p001-s0014",
+        "c18-p001-s0015",
+        "c18-p001-s0016"
+      ],
+      "text": "A lot. “I don’t think the camo is necessary?” [G] He grins. “It’s not.",
+      "image_src": "assets/scenes/ch18-s004.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S005",
+      "sentence_ids": [
+        "c18-p001-s0017",
+        "c18-p001-s0018",
+        "c18-p001-s0019",
+        "c18-p001-s0020"
+      ],
+      "text": "But it’s cool. What’s your superhero name?” [H] “I’m not a superhero.” I pick up the rope, trying to change the subject. “What do we do with this?”",
+      "image_src": "assets/scenes/ch18-s005.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S006",
+      "sentence_ids": [
+        "c18-p001-s0021",
+        "c18-p001-s0022",
+        "c18-p001-s0023",
+        "c18-p001-s0024"
+      ],
+      "text": "[I] He squints at me. “Well, fine, but at least wear this.” He lifts the top hat from his head and places it on mine. Then he nods, satisfied. “That’s better.”",
+      "image_src": "assets/scenes/ch18-s006.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S007",
+      "sentence_ids": [
+        "c18-p001-s0025",
+        "c18-p001-s0026",
+        "c18-p001-s0027",
+        "c18-p001-s0028"
+      ],
+      "text": "[J] The brim of the hat is a little sweaty, and a little big. “Why do you have a camo top hat?” [K] He tilts his head. “What do you mean?”",
+      "image_src": "assets/scenes/ch18-s007.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S008",
+      "sentence_ids": [
+        "c18-p001-s0029",
+        "c18-p001-s0030",
+        "c18-p001-s0031",
+        "c18-p001-s0032"
+      ],
+      "text": "[L] I blink. After knowing him for a couple of days, it’s obvious that he has a lot of strange hats. But maybe he doesn’t think they’re strange at all. To him, a camo top hat is perfectly normal.",
+      "image_src": "assets/scenes/ch18-s008.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S009",
+      "sentence_ids": [
+        "c18-p002-s0033",
+        "c18-p002-s0034",
+        "c18-p002-s0035",
+        "c18-p002-s0036"
+      ],
+      "text": "[A] “The hat is just . . .” I’m about to say kind of weird, but I remember his face at the grocery store, and I stop myself. I don’t want to make him feel bad like that.",
+      "image_src": "assets/scenes/ch18-s009.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S010",
+      "sentence_ids": [
+        "c18-p002-s0037",
+        "c18-p002-s0038",
+        "c18-p002-s0039",
+        "c18-p002-s0040"
+      ],
+      "text": "“It’s unique,” I finish, and then, before we can dive deeper into this hat conversation, I try to refocus. “I was thinking we should set the trap over here. Follow me.” [B] I lead him to the basement door.",
+      "image_src": "assets/scenes/ch18-s010.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S011",
+      "sentence_ids": [
+        "c18-p002-s0041",
+        "c18-p002-s0042",
+        "c18-p002-s0043",
+        "c18-p002-s0044"
+      ],
+      "text": "[C] “This place is so intense,” he says, taking in the herbs, the charms, the little statues—and of course, the boxes and chests, still stacked by the basement door. [D] “It’s not intense,” I tell him, bristling a little. Maybe I shouldn’t have been so nice about the hat. “It’s my home.”",
+      "image_src": "assets/scenes/ch18-s011.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S012",
+      "sentence_ids": [
+        "c18-p002-s0045",
+        "c18-p002-s0046",
+        "c18-p002-s0047",
+        "c18-p002-s0048"
+      ],
+      "text": "[E] He turns pink. “Sorry. I like it, though. It’s like being in a thrift store, or a not-scary haunted house.”",
+      "image_src": "assets/scenes/ch18-s012.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S013",
+      "sentence_ids": [
+        "c18-p002-s0049",
+        "c18-p002-s0050",
+        "c18-p002-s0051",
+        "c18-p002-s0052"
+      ],
+      "text": "[F] Before I can respond, Sam’s footsteps creak down the stairs, and she stops in front of us. “Excuse me,” she says, folding her arms over her chest and raising an eyebrow at me. “Why is he here and what’s on your head?” [G] “Oh,” I say.",
+      "image_src": "assets/scenes/ch18-s013.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S014",
+      "sentence_ids": [
+        "c18-p002-s0053",
+        "c18-p002-s0054",
+        "c18-p002-s0055",
+        "c18-p002-s0056"
+      ],
+      "text": "“This is a top hat.” Honestly, there’s not much more to say about it. “And Ricky’s just here to . . .",
+      "image_src": "assets/scenes/ch18-s014.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S015",
+      "sentence_ids": [
+        "c18-p002-s0057",
+        "c18-p002-s0058",
+        "c18-p002-s0059",
+        "c18-p002-s0060"
+      ],
+      "text": "read.” [H] Sam frowns, glancing at the rope, at Ricky’s camo, and then back at me. “Does Mom know you invited someone over?” [I] Ricky looks back and forth between us, then clears his throat and smiles at Sam.",
+      "image_src": "assets/scenes/ch18-s015.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S016",
+      "sentence_ids": [
+        "c18-p002-s0061",
+        "c18-p002-s0062",
+        "c18-p003-s0063",
+        "c18-p003-s0064"
+      ],
+      "text": "“Hi, I’m Ricky. I’m Lily’s friend from the library.” [A] Sam rolls her eyes, “Yes, I know. I literally just saw you this morning.”",
+      "image_src": "assets/scenes/ch18-s016.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S017",
+      "sentence_ids": [
+        "c18-p003-s0065",
+        "c18-p003-s0066",
+        "c18-p003-s0067",
+        "c18-p003-s0068"
+      ],
+      "text": "[B] Then she pulls me into Halmoni’s empty bedroom, where we can talk privately. “You didn’t even ask me if you could have a friend over,” she says, her voice bordering on exasperation. [C] I shrug. “Mom won’t care.",
+      "image_src": "assets/scenes/ch18-s017.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S018",
+      "sentence_ids": [
+        "c18-p003-s0069",
+        "c18-p003-s0070",
+        "c18-p003-s0071",
+        "c18-p003-s0072"
+      ],
+      "text": "She wants me to make friends.” [D] “Yeah, but you can’t just do whatever you want. You have to ask. Remember the conversation we just had?”",
+      "image_src": "assets/scenes/ch18-s018.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S019",
+      "sentence_ids": [
+        "c18-p003-s0073",
+        "c18-p003-s0074",
+        "c18-p003-s0075",
+        "c18-p003-s0076"
+      ],
+      "text": "[E] “I’m sorry. He just kind of showed up. He invited himself.” It’s technically true. [F] “Don’t be so sketchy!",
+      "image_src": "assets/scenes/ch18-s019.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S020",
+      "sentence_ids": [
+        "c18-p003-s0077",
+        "c18-p003-s0078",
+        "c18-p003-s0079",
+        "c18-p003-s0080"
+      ],
+      "text": "I’m not stupid. I know you have some secret plan. Why are you wearing that hat and why are you holding a pile of rope?” Her eyes narrow. “This is about your weird tiger theory, isn’t it?”",
+      "image_src": "assets/scenes/ch18-s020.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S021",
+      "sentence_ids": [
+        "c18-p003-s0081",
+        "c18-p003-s0082",
+        "c18-p003-s0083",
+        "c18-p003-s0084"
+      ],
+      "text": "[G] “No,” I lie, unconvincingly. [H] Sam frowns. “I think I have to tell Mom.” [I] She reaches for her phone, but I grab her wrist to stop her.",
+      "image_src": "assets/scenes/ch18-s021.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S022",
+      "sentence_ids": [
+        "c18-p003-s0085",
+        "c18-p003-s0086",
+        "c18-p003-s0087",
+        "c18-p003-s0088"
+      ],
+      "text": "“Don’t, please. Sisters . . .",
+      "image_src": "assets/scenes/ch18-s022.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S023",
+      "sentence_ids": [
+        "c18-p003-s0089",
+        "c18-p003-s0090",
+        "c18-p003-s0091",
+        "c18-p003-s0092"
+      ],
+      "text": "keep each other’s secrets.” [J] We stare each other down, until finally, she shakes her head. “Fine. Do whatever.",
+      "image_src": "assets/scenes/ch18-s023.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S024",
+      "sentence_ids": [
+        "c18-p003-s0093",
+        "c18-p003-s0094",
+        "c18-p003-s0095",
+        "c18-p003-s0096"
+      ],
+      "text": "Just leave me out of it.” [K] “Oh.” It’s what I wanted, I guess. But it still stings because while I don’t want her to stop me from doing this, I also don’t want her to ignore me. I want her to care.",
+      "image_src": "assets/scenes/ch18-s024.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S025",
+      "sentence_ids": [
+        "c18-p003-s0097",
+        "c18-p003-s0098",
+        "c18-p003-s0099",
+        "c18-p003-s0100"
+      ],
+      "text": "[L] There’s an ache in my chest because it should be Sam and me, together, building a tiger trap. This story belongs to sisters. It should be us. [M] But Sam twists her wrist out of my hand before walking out of the bedroom and back up the stairs.",
+      "image_src": "assets/scenes/ch18-s025.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S026",
+      "sentence_ids": [
+        "c18-p004-s0101",
+        "c18-p004-s0102",
+        "c18-p004-s0103",
+        "c18-p004-s0104"
+      ],
+      "text": "[A] “Your sister seems . . .” Ricky swallows. “Nice?”",
+      "image_src": "assets/scenes/ch18-s026.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S027",
+      "sentence_ids": [
+        "c18-p004-s0105",
+        "c18-p004-s0106",
+        "c18-p004-s0107",
+        "c18-p004-s0108"
+      ],
+      "text": "[B] I ignore him. “We need to build the trap downstairs.” [C] He frowns. “Well, I’ve done a lot of Googling, and normally tiger pits are outside.",
+      "image_src": "assets/scenes/ch18-s027.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S028",
+      "sentence_ids": [
+        "c18-p004-s0109",
+        "c18-p004-s0110",
+        "c18-p004-s0111",
+        "c18-p004-s0112"
+      ],
+      "text": "So they can be, you know, a pit.” [D] I push the basement door open and switch on the light, which, thankfully, decides to work today. It flickers once, twice, then stays on, buzzing faintly. “Yeah, but a basement is already kind of like a pit.”",
+      "image_src": "assets/scenes/ch18-s028.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S029",
+      "sentence_ids": [
+        "c18-p004-s0113",
+        "c18-p004-s0114",
+        "c18-p004-s0115",
+        "c18-p004-s0116"
+      ],
+      "text": "[E] Ricky squirms. “But . . .",
+      "image_src": "assets/scenes/ch18-s029.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S030",
+      "sentence_ids": [
+        "c18-p004-s0117",
+        "c18-p004-s0118",
+        "c18-p004-s0119",
+        "c18-p004-s0120"
+      ],
+      "text": "it’s not, though.” [F] “I don’t want it to get rained on,” I say. I can’t tell him the real reason—the tiger appeared in the house. She thinks the stolen star stories are somewhere in here.",
+      "image_src": "assets/scenes/ch18-s030.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S031",
+      "sentence_ids": [
+        "c18-p004-s0121",
+        "c18-p004-s0122",
+        "c18-p004-s0123",
+        "c18-p004-s0124"
+      ],
+      "text": "And the basement is the only place where my family won’t notice a giant trap. [G] The excuse is good enough for Ricky, and we head down the stairs to examine our work space. [H] “You do realize,” Ricky says, “that, in theory, you’d be luring a tiger into your house and then into your basement. Which seems like not the best idea.”",
+      "image_src": "assets/scenes/ch18-s031.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S032",
+      "sentence_ids": [
+        "c18-p004-s0125",
+        "c18-p004-s0126",
+        "c18-p004-s0127",
+        "c18-p004-s0128"
+      ],
+      "text": "[I] “It’s hypothetical,” I remind him. I try very hard not to think, Maybe he’s right. [J] “Right.” He nods. He surveys the room and cracks his knuckles.",
+      "image_src": "assets/scenes/ch18-s032.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S033",
+      "sentence_ids": [
+        "c18-p004-s0129",
+        "c18-p004-s0130",
+        "c18-p004-s0131",
+        "c18-p004-s0132"
+      ],
+      "text": "“We need to make a pit, somehow.” [K] “Well . . .",
+      "image_src": "assets/scenes/ch18-s033.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S034",
+      "sentence_ids": [
+        "c18-p004-s0133",
+        "c18-p004-s0134",
+        "c18-p004-s0135",
+        "c18-p004-s0136"
+      ],
+      "text": ",” I say, thinking. “I guess we could maybe use some of those boxes upstairs? And stack them? And then we can use the rope to secure the boxes, so the tiger can’t just knock everything over.",
+      "image_src": "assets/scenes/ch18-s034.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S035",
+      "sentence_ids": [
+        "c18-p004-s0137",
+        "c18-p005-s0138",
+        "c18-p005-s0139",
+        "c18-p005-s0140"
+      ],
+      "text": "The hypothetical tiger, I mean.” [A] Halmoni said moving the boxes on an unlucky day could be dangerous. But how do I know if today is unlucky? [B] “Box tower.",
+      "image_src": "assets/scenes/ch18-s035.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S036",
+      "sentence_ids": [
+        "c18-p005-s0141",
+        "c18-p005-s0142",
+        "c18-p005-s0143",
+        "c18-p005-s0144"
+      ],
+      "text": "Yes. Great idea,” Ricky says. [C] I weigh my options. I can’t really think of another way to make a trap, so either I move the boxes and hope it’s a lucky day, or I don’t and I give up on trapping the tiger.",
+      "image_src": "assets/scenes/ch18-s036.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S037",
+      "sentence_ids": [
+        "c18-p005-s0145",
+        "c18-p005-s0146",
+        "c18-p005-s0147",
+        "c18-p005-s0148"
+      ],
+      "text": "[D] “Just be careful not to break anything,” I add. Halmoni said breaking something was the worst thing, so at least I can avoid that. [E] We get to work. We shove the Korean chests aside, scraping them across the wood floor and clearing a path for the lighter boxes.",
+      "image_src": "assets/scenes/ch18-s037.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S038",
+      "sentence_ids": [
+        "c18-p005-s0149",
+        "c18-p005-s0150",
+        "c18-p005-s0151",
+        "c18-p005-s0152"
+      ],
+      "text": "[F] Then we carry Halmoni’s cardboard boxes down from the top of the stairs and pile them in the basement. Some are light enough that we can carry them individually, but the bigger ones we take together. We walk slowly down the stairs, him holding the front, me carrying the back. [G] When we’re about halfway through the boxes, and maneuvering a particularly heavy one down the stairs, Ricky says, “My mom likes hats, too.”",
+      "image_src": "assets/scenes/ch18-s038.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S039",
+      "sentence_ids": [
+        "c18-p005-s0153",
+        "c18-p005-s0154",
+        "c18-p005-s0155",
+        "c18-p005-s0156"
+      ],
+      "text": "[H] I stop, peering over the big box to look at him. “What?” [I] He shrugs, shifting the weight between us. “I don’t know—you asked about my hat.”",
+      "image_src": "assets/scenes/ch18-s039.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S040",
+      "sentence_ids": [
+        "c18-p005-s0157",
+        "c18-p005-s0158",
+        "c18-p005-s0159",
+        "c18-p005-s0160"
+      ],
+      "text": "[J] “Yeah, like half an hour ago.” [K] “Sorry, I don’t like awkward silences.” [L] “Oh,” I say. He stares at me like he’s waiting for more.",
+      "image_src": "assets/scenes/ch18-s040.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S041",
+      "sentence_ids": [
+        "c18-p005-s0161",
+        "c18-p005-s0162",
+        "c18-p005-s0163",
+        "c18-p005-s0164"
+      ],
+      "text": "“I don’t think it was an awkward silence. It was more of a busy silence.” [M] He laughs. “Busy silence.",
+      "image_src": "assets/scenes/ch18-s041.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S042",
+      "sentence_ids": [
+        "c18-p005-s0165",
+        "c18-p006-s0166",
+        "c18-p006-s0167",
+        "c18-p006-s0168"
+      ],
+      "text": "I never thought of that before.” [A] We take a few more steps, and he keeps talking. “My mom and I used to buy hats together. That was kind of our thing.",
+      "image_src": "assets/scenes/ch18-s042.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S043",
+      "sentence_ids": [
+        "c18-p006-s0169",
+        "c18-p006-s0170",
+        "c18-p006-s0171",
+        "c18-p006-s0172"
+      ],
+      "text": "You need a good hat for every occasion, because a special hat can make you feel special. It’s the same reason superheroes wear capes.” [B] I nod along, but my mind snags on the used to. It’s like what he said at the grocery store: she used to make sticky buns.",
+      "image_src": "assets/scenes/ch18-s043.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S044",
+      "sentence_ids": [
+        "c18-p006-s0173",
+        "c18-p006-s0174",
+        "c18-p006-s0175",
+        "c18-p006-s0176"
+      ],
+      "text": "She likes hats, in the present tense, but they used to buy hats. [C] There’s a catch in his voice, too, when he mentions his mom. I wonder what that means, if maybe his parents are divorced and he doesn’t see her that often. [D] But I don’t ask about it.",
+      "image_src": "assets/scenes/ch18-s044.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S045",
+      "sentence_ids": [
+        "c18-p006-s0177",
+        "c18-p006-s0178",
+        "c18-p006-s0179",
+        "c18-p006-s0180"
+      ],
+      "text": "I don’t like when random people ask me about Dad, and I don’t want to make Ricky uncomfortable. [E] “That’s a good point,” I say instead. [F] We reach the bottom of the steps and start waddling the heavy box over to the rest of them. [G] “I have a newsboy cap like from the old days, and a lime-green fedora, and—”",
+      "image_src": "assets/scenes/ch18-s045.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S046",
+      "sentence_ids": [
+        "c18-p006-s0181",
+        "c18-p006-s0182",
+        "c18-p006-s0183",
+        "c18-p006-s0184"
+      ],
+      "text": "[H] He cuts off abruptly as the cardboard slips from his grasp. I stumble forward, trying to catch it, but it’s too heavy, and for the second time, I fall in front of Ricky. [I] The camo top hat flies off my head, and a horrible clatter rings through the basement as the box hits the ground, followed by a loud pop when I land on top of it, crumpling the cardboard and smashing the contents inside. [J] It’s the sound of something breaking.",
+      "image_src": "assets/scenes/ch18-s046.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S047",
+      "sentence_ids": [
+        "c18-p006-s0185",
+        "c18-p007-s0186",
+        "c18-p007-s0187",
+        "c18-p007-s0188"
+      ],
+      "text": "[K] It’s the sound of bad luck. [A] I freeze, as if by refusing to move I can undo what just happened. I wait for Sam to come running down the stairs, but she doesn’t, and it’s just me and Ricky and whatever we broke. [B] Ricky’s eyes are wide.",
+      "image_src": "assets/scenes/ch18-s047.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S048",
+      "sentence_ids": [
+        "c18-p007-s0189",
+        "c18-p007-s0190",
+        "c18-p007-s0191",
+        "c18-p007-s0192"
+      ],
+      "text": "“Are you okay? I’m so sorry! I thought I had it, but—” [C] “I’m fine,” I say, scrambling to stand.",
+      "image_src": "assets/scenes/ch18-s048.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S049",
+      "sentence_ids": [
+        "c18-p007-s0193",
+        "c18-p007-s0194",
+        "c18-p007-s0195",
+        "c18-p007-s0196"
+      ],
+      "text": "“I just need to see if we broke something.” I turn the box right side up and try to peel off the tape to check inside, but my fingers keep shaking, so it’s hard to get a grip. Ricky probably thinks I’m being way overdramatic. He probably thinks I’m the weirdest of weird. [D] He pushes the hair out of his eyes.",
+      "image_src": "assets/scenes/ch18-s049.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S050",
+      "sentence_ids": [
+        "c18-p007-s0197",
+        "c18-p007-s0198",
+        "c18-p007-s0199",
+        "c18-p007-s0200"
+      ],
+      "text": "“Would you get in trouble for breaking something?” [E] “Oh, no,” I say quickly. But would Halmoni be mad? She seemed really upset when Mom tried to move things.",
+      "image_src": "assets/scenes/ch18-s050.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S051",
+      "sentence_ids": [
+        "c18-p007-s0201",
+        "c18-p007-s0202",
+        "c18-p007-s0203",
+        "c18-p007-s0204"
+      ],
+      "text": "[F] “Here, let me help.” Ricky leans over to open the box, and I check inside. [G] Beneath a layer of Bubble Wrap is a pile of pots and pans. [H] Everything looks intact. [I] The clatter must have been the pans banging against each other.",
+      "image_src": "assets/scenes/ch18-s051.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S052",
+      "sentence_ids": [
+        "c18-p007-s0205",
+        "c18-p007-s0206",
+        "c18-p007-s0207",
+        "c18-p007-s0208"
+      ],
+      "text": "And the pop was me crushing the layer of Bubble Wrap. [J] I let out a hot breath. “Everything’s fine,” I say, more to myself than to Ricky. [K] I rearrange the cookware inside the box—but inside the biggest pot, something catches my eye.",
+      "image_src": "assets/scenes/ch18-s052.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S053",
+      "sentence_ids": [
+        "c18-p007-s0209",
+        "c18-p007-s0210",
+        "c18-p007-s0211",
+        "c18-p007-s0212"
+      ],
+      "text": "[L] I reach in and pull out three wads of Bubble Wrap. The objects inside glint beneath the plastic, flashing in the light. [M] “Whoa.” Ricky sucks in a breath as he leans over my shoulder. “We.",
+      "image_src": "assets/scenes/ch18-s053.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S054",
+      "sentence_ids": [
+        "c18-p007-s0213",
+        "c18-p007-s0214",
+        "c18-p007-s0215",
+        "c18-p007-s0216"
+      ],
+      "text": "Found. Treasure.” [N] Only it isn’t treasure. It’s .",
+      "image_src": "assets/scenes/ch18-s054.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C18_S055",
+      "sentence_ids": [
+        "c18-p007-s0217",
+        "c18-p007-s0218",
+        "c18-p007-s0219"
+      ],
+      "text": ". . jars.",
+      "image_src": "assets/scenes/ch18-s055.webp",
+      "placement": "before-text"
+    }
+  ],
+  "cadence": "3-4 sentences; first group may be 3"
+}

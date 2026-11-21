@@ -1,0 +1,353 @@
+{
+  "chapter": 13,
+  "sentences": 114,
+  "scenes": [
+    {
+      "scene_id": "C13_S001",
+      "sentence_ids": [
+        "c13-p001-s0001",
+        "c13-p001-s0002",
+        "c13-p001-s0003",
+        "c13-p001-s0004"
+      ],
+      "text": "[A] Sam waits until we’re in the car, driving back home, and then she bursts out laughing. “I can’t believe you fell over like that. That was awesome.” [B] “Thanks,” I say with sarcasm I learned from her.",
+      "image_src": "assets/scenes/ch13-s001.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S002",
+      "sentence_ids": [
+        "c13-p001-s0005",
+        "c13-p001-s0006",
+        "c13-p001-s0007",
+        "c13-p001-s0008"
+      ],
+      "text": "[C] She laughs some more, and I shake my head, but now that it’s over, it doesn’t seem quite so bad. [D] “And then Halmoni,” Sam continues, turning to Halmoni, who’s hunched over and squinting at the road ahead. She was right. It did start raining, and because of my cereal disaster, we’re caught in it.",
+      "image_src": "assets/scenes/ch13-s002.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S003",
+      "sentence_ids": [
+        "c13-p001-s0009",
+        "c13-p001-s0010",
+        "c13-p001-s0011",
+        "c13-p001-s0012"
+      ],
+      "text": "I feel a little bad, because I know Halmoni didn’t want to drive in the rain. But it’s okay. We’re not too far from home. [E] “I can’t believe you made those guys help, and then you lectured them like that!” Sam says.",
+      "image_src": "assets/scenes/ch13-s003.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S004",
+      "sentence_ids": [
+        "c13-p001-s0013",
+        "c13-p001-s0014",
+        "c13-p001-s0015",
+        "c13-p001-s0016"
+      ],
+      "text": "[F] Halmoni nods. “When something wrong happen, you fix it.” [G] I can’t tell if the wrong thing was me knocking over cereal, or what Ricky’s dad said, or maybe both. [H] Sam shrugs.",
+      "image_src": "assets/scenes/ch13-s004.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S005",
+      "sentence_ids": [
+        "c13-p001-s0017",
+        "c13-p001-s0018",
+        "c13-p001-s0019",
+        "c13-p001-s0020"
+      ],
+      "text": "“Okay, but honestly, that man was a jerk. You were way nicer than he deserved.” [I] Halmoni glances over at Sam, then at me, her eyes serious. “When I very little, before my mom leave, she tell me something important.",
+      "image_src": "assets/scenes/ch13-s005.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S006",
+      "sentence_ids": [
+        "c13-p001-s0021",
+        "c13-p001-s0022",
+        "c13-p001-s0023",
+        "c13-p001-s0024"
+      ],
+      "text": "She say, Ae-Cha, learn this: Everybody have good and bad in them. But sometimes they so focused on sad, scary stories in life that they forget the good. When that happen, you don’t tell them they are bad. That only make it worse.",
+      "image_src": "assets/scenes/ch13-s006.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S007",
+      "sentence_ids": [
+        "c13-p001-s0025",
+        "c13-p002-s0026",
+        "c13-p002-s0027",
+        "c13-p002-s0028"
+      ],
+      "text": "You remind them of the good.” [A] I turn her words over in my head. “Is that why sad stories are dangerous, Halmoni? Because they make people bad?”",
+      "image_src": "assets/scenes/ch13-s007.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S008",
+      "sentence_ids": [
+        "c13-p002-s0029",
+        "c13-p002-s0030",
+        "c13-p002-s0031",
+        "c13-p002-s0032"
+      ],
+      "text": "[B] She starts to answer, but a cough steals her words, and she shudders. [C] Maybe it’s just the shadows of raindrops hitting the windshield and the fading evening light—but I notice that she looks pale. Her skin is splotchy. [D] She shudders again, and Sam glances back and forth between Halmoni and the road, Halmoni, road.",
+      "image_src": "assets/scenes/ch13-s008.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S009",
+      "sentence_ids": [
+        "c13-p002-s0033",
+        "c13-p002-s0034",
+        "c13-p002-s0035",
+        "c13-p002-s0036"
+      ],
+      "text": "“Halmoni?” Sam asks. She puts her hand on Halmoni’s shoulder and is about to say something, when the car shudders, too. Sam grips her armrest. “What’s wrong?",
+      "image_src": "assets/scenes/ch13-s009.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S010",
+      "sentence_ids": [
+        "c13-p002-s0037",
+        "c13-p002-s0038",
+        "c13-p002-s0039",
+        "c13-p002-s0040"
+      ],
+      "text": "Halmoni? Are you okay?” [E] Halmoni doesn’t answer. She stares straight ahead, shaking her head slightly.",
+      "image_src": "assets/scenes/ch13-s010.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S011",
+      "sentence_ids": [
+        "c13-p002-s0041",
+        "c13-p002-s0042",
+        "c13-p002-s0043",
+        "c13-p002-s0044"
+      ],
+      "text": "[F] I follow her gaze—and I see the tiger. [G] It stands right in front of us, eyes locked on Halmoni’s. And the weirdest thing—it’s like it’s not raining around the tiger. The tiger isn’t getting wet, as if there’s a protective bubble around it, where the rain refuses to fall.",
+      "image_src": "assets/scenes/ch13-s011.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S012",
+      "sentence_ids": [
+        "c13-p002-s0045",
+        "c13-p002-s0046",
+        "c13-p002-s0047",
+        "c13-p002-s0048"
+      ],
+      "text": "[H] I turn to Halmoni, and I can tell she sees it, too. [I] “Not yet,” she mutters, eyes straight ahead. “Not ready yet.” [J] Heart racing, I stuff my hand into my pocket, feeling for the mugwort.",
+      "image_src": "assets/scenes/ch13-s012.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S013",
+      "sentence_ids": [
+        "c13-p003-s0049",
+        "c13-p003-s0050",
+        "c13-p003-s0051",
+        "c13-p003-s0052"
+      ],
+      "text": "[A] Halmoni swerves suddenly. The wheels skid through the rain, and my seat belt slices into my shoulder. The car dives to the side of the road, and Sam screams, and I think I do, too. When we come to a stop—panting, gasping—I can’t even see straight.",
+      "image_src": "assets/scenes/ch13-s013.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S014",
+      "sentence_ids": [
+        "c13-p003-s0053",
+        "c13-p003-s0054",
+        "c13-p003-s0055",
+        "c13-p003-s0056"
+      ],
+      "text": "[B] “Halmoni?” Sam asks again, but Halmoni starts coughing uncontrollably. In the rearview mirror, Halmoni’s whole face puckers like a sour plum seed. [C] Then Halmoni’s in motion, and we can’t stop her. She opens her door and hobbles over to the side of the road, clutching her stomach, hunched.",
+      "image_src": "assets/scenes/ch13-s014.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S015",
+      "sentence_ids": [
+        "c13-p003-s0057",
+        "c13-p003-s0058",
+        "c13-p003-s0059",
+        "c13-p003-s0060"
+      ],
+      "text": "She drops to her knees, and her body shakes as she coughs. [D] Sam and I rush out of the car, and I spin around, looking for the tiger, but it’s gone. [E] Halmoni throws up into the grass, and I wrap my arms around my chest. [F] This is more than a bug.",
+      "image_src": "assets/scenes/ch13-s015.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S016",
+      "sentence_ids": [
+        "c13-p003-s0061",
+        "c13-p003-s0062",
+        "c13-p003-s0063",
+        "c13-p003-s0064"
+      ],
+      "text": "[G] I stand on the side of the road, in the rain, paralyzed as I watch her. When something wrong happens, we’re supposed to fix it—but what if there’s nothing we can do? [H] When Sam turns to me, her face is moon white and her eyes are wide. “What do we do?” she asks—which isn’t fair because she’s supposed to know.",
+      "image_src": "assets/scenes/ch13-s016.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S017",
+      "sentence_ids": [
+        "c13-p003-s0065",
+        "c13-p003-s0066",
+        "c13-p004-s0067",
+        "c13-p004-s0068"
+      ],
+      "text": "Big sisters are not supposed to get scared. Little sisters get scared, and then big sisters comfort them and say, It’s okay, I’ll be the moon. [A] “Seriously, what do we do?” she repeats, as if by saying it louder she can demand an answer from the universe. [B] Halmoni heaves, a sound raw and heavy, and I try not to hear it.",
+      "image_src": "assets/scenes/ch13-s017.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S018",
+      "sentence_ids": [
+        "c13-p004-s0069",
+        "c13-p004-s0070",
+        "c13-p004-s0071",
+        "c13-p004-s0072"
+      ],
+      "text": "[C] “We should call 911?” I say, only it comes out as a question. [D] Sam shakes her head. “You don’t call 911 for vomit.” But she doesn’t sound so sure. She holds her phone in her hand, staring at it, like she wants it to make the decision for her.",
+      "image_src": "assets/scenes/ch13-s018.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S019",
+      "sentence_ids": [
+        "c13-p004-s0073",
+        "c13-p004-s0074",
+        "c13-p004-s0075",
+        "c13-p004-s0076"
+      ],
+      "text": "[E] “Do something,” I whisper. And Sam stares back, eyes wide, hand shaking. [F] “Mom,” Halmoni gasps. “Call you mom.”",
+      "image_src": "assets/scenes/ch13-s019.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S020",
+      "sentence_ids": [
+        "c13-p004-s0077",
+        "c13-p004-s0078",
+        "c13-p004-s0079",
+        "c13-p004-s0080"
+      ],
+      "text": "[G] Sam dials, and ten minutes later, Mom’s tires screech against the road behind us. She throws her car into park behind Halmoni’s—and we are saved from having to save our halmoni. [H] Mom’s still in interview clothes, still in work mode, and she shouts at us as she runs over to help Halmoni up. “What’s going on?",
+      "image_src": "assets/scenes/ch13-s020.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S021",
+      "sentence_ids": [
+        "c13-p004-s0081",
+        "c13-p004-s0082",
+        "c13-p004-s0083",
+        "c13-p004-s0084"
+      ],
+      "text": "What are you doing out here? She’s not supposed to drive! Why didn’t you call me sooner? Sam, I told you to call me if anything went wrong!”",
+      "image_src": "assets/scenes/ch13-s021.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S022",
+      "sentence_ids": [
+        "c13-p004-s0085",
+        "c13-p004-s0086",
+        "c13-p005-s0087",
+        "c13-p005-s0088"
+      ],
+      "text": "[I] Only she’s not really talking to us, because she’s busy with Halmoni. She dabs Halmoni’s lips with a tissue, rubs her back. [A] She used to do that to Sam and me when we got sick. [B] Only we’re the kids.",
+      "image_src": "assets/scenes/ch13-s022.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S023",
+      "sentence_ids": [
+        "c13-p005-s0089",
+        "c13-p005-s0090",
+        "c13-p005-s0091",
+        "c13-p005-s0092"
+      ],
+      "text": "And Halmoni is her mom. So everything is upside down. [C] Mom pulls a pill out of her purse and tries to slip it into Halmoni’s mouth. Halmoni turns away, protesting, but Mom insists.",
+      "image_src": "assets/scenes/ch13-s023.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S024",
+      "sentence_ids": [
+        "c13-p005-s0093",
+        "c13-p005-s0094",
+        "c13-p005-s0095",
+        "c13-p005-s0096"
+      ],
+      "text": "[D] I turn to Sam, looking for answers, but Sam doesn’t see me. She’s too busy staring at Halmoni, chewing her thumbnail so hard I’m afraid it might bleed. [E] “I need to take Halmoni to the hospital,” Mom says. “Sam, can you drive Lily back?”",
+      "image_src": "assets/scenes/ch13-s024.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S025",
+      "sentence_ids": [
+        "c13-p005-s0097",
+        "c13-p005-s0098",
+        "c13-p005-s0099",
+        "c13-p005-s0100"
+      ],
+      "text": "[F] Sam’s frozen. She can’t even answer. [G] Mom swears. “Fine.",
+      "image_src": "assets/scenes/ch13-s025.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S026",
+      "sentence_ids": [
+        "c13-p005-s0101",
+        "c13-p005-s0102",
+        "c13-p005-s0103",
+        "c13-p005-s0104"
+      ],
+      "text": "Fine. I’ll drop you at home first. [H] We’re close enough. All of you, into the car.",
+      "image_src": "assets/scenes/ch13-s026.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S027",
+      "sentence_ids": [
+        "c13-p005-s0105",
+        "c13-p005-s0106",
+        "c13-p005-s0107",
+        "c13-p005-s0108"
+      ],
+      "text": "We’re going now.” [I] Sam and I get into the back seat of Mom’s car without question, and Mom lifts Halmoni into the passenger side. [J] “Is Halmoni okay?” I ask. [K] Mom doesn’t answer, so I stare out the window.",
+      "image_src": "assets/scenes/ch13-s027.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S028",
+      "sentence_ids": [
+        "c13-p005-s0109",
+        "c13-p005-s0110",
+        "c13-p005-s0111",
+        "c13-p005-s0112"
+      ],
+      "text": "Above us, the first few stars peek out of the evening sky, and I ask them a silent question: What do I do? [L] The stars seem to dance as we drive past, and even though they are light-lifetimes away, I can almost hear them, singing their stories. [M] What do I do? I ask again.",
+      "image_src": "assets/scenes/ch13-s028.webp",
+      "placement": "before-text"
+    },
+    {
+      "scene_id": "C13_S029",
+      "sentence_ids": [
+        "c13-p005-s0113",
+        "c13-p005-s0114"
+      ],
+      "text": "[N] They wink at me. Fix it.",
+      "image_src": "assets/scenes/ch13-s029.webp",
+      "placement": "before-text"
+    }
+  ],
+  "cadence": "3-4 sentences; first group may be 3"
+}

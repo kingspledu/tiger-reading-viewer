@@ -1,5 +1,8 @@
 # Illustration cadence remediation plan
 
+## Fixed production rule
+Every illustration batch is created as a **4?4 grid**. Each grid contains 16 distinct scene cells. After visual continuity review, the grid is split into 16 files and each cell is registered by scene ID. Single-image, 2?2, or 3?3 generation is not accepted for this project.
+
 ## Rule
 Each scene begins with its illustration, followed by the exact linked 3?4 sentence text group. Every scene receives a stable ID, paragraph start/end anchors, and an existing image path before publication.
 
@@ -11,13 +14,16 @@ Each scene begins with its illustration, followed by the exact linked 3?4 senten
 ## Work sequence
 1. Freeze paragraph IDs and sentence boundaries from the current public text.
 2. Build a scene manifest with 3?4 sentence groups and an illustration-first insertion point.
-3. Generate scenes in chapter order, varying establishing, medium, close-up, object, and reaction compositions while preserving character continuity.
-4. Register each image by scene ID; reject missing or duplicate paths.
-5. Regenerate HTML from the manifest so image precedes its linked text.
-6. Verify cadence, anchors, image existence, order, and public responses before deployment.
+3. Group the scene manifest into 4?4 batches. Each batch must contain 16 distinct moments, with establishing, medium, close-up, object, and reaction compositions distributed without repeating the same shot.
+4. Generate each batch as a 4?4 grid, inspect character continuity and scene order, then split and register all 16 cells.
+5. Generate scenes in chapter order, varying establishing, medium, close-up, object, and reaction compositions while preserving character continuity.
+6. Register each image by scene ID; reject missing or duplicate paths.
+7. Regenerate HTML from the manifest so image precedes its linked text.
+8. Verify cadence, anchors, 4?4 grid coverage, 16-cell registration, image existence, order, and public responses before deployment.
 
 ## Acceptance checks
 - Every sentence belongs to exactly one scene group.
-- Every scene has one image and one contiguous text anchor.
+- Every scene has one registered image cell and one contiguous text anchor.
+- Every 4?4 grid has exactly 16 inspected and registered cells.
 - No group has fewer than 3 or more than 4 sentences except a chapter boundary or deliberately isolated reveal, which must be recorded.
 - The browser render is checked separately from static HTML checks.

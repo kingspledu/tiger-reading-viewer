@@ -42,6 +42,14 @@
     "scene_ids_required": true,
     "text_anchor_required": true,
     "image_file_required": true,
-    "current_order_requires_browser_render_check": true
+    "current_order_requires_browser_render_check": true,
+    "grid_rule": "Every generated batch must be a 4x4 grid; reject 1x1, 2x2, 3x3 or unregistered cells."
+  },
+  "production_rule": {
+    "grid": "4x4",
+    "cells_per_grid": 16,
+    "required": true,
+    "workflow": "generate one 4x4 grid, inspect continuity, split into 16 cells, register each cell by scene ID",
+    "no_single_scene_generation": true
   }
 }

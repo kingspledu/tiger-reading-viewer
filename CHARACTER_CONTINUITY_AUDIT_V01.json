@@ -1,0 +1,10 @@
+{
+  "approved_reference_images": 264,
+  "character_bible_present": false,
+  "style_bible_present": false,
+  "reference_board_present": false,
+  "discarded_inconsistent_batch": true,
+  "generation_gate": "character bible + style bible + reference board + continuity ledger",
+  "grid_rule": "4x4, exactly 16 reviewed cells",
+  "status": "planning_required_before_next_generation"
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>When You Trap a Tiger ? English dramatic reading · Chapter 24</title>
+    <title>When You Trap a Tiger · English dramatic reading · Chapter 24</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
@@ -24,7 +24,7 @@
     <div class="max-w-4xl mx-auto space-y-6">
         <!-- Header -->
         <header class="text-center space-y-2">
-            <h1 class="text-3xl font-bold text-gray-800">When You Trap a Tiger ? English dramatic reading · Chapter 24</h1>
+            <h1 class="text-3xl font-bold text-gray-800">When You Trap a Tiger · English dramatic reading · Chapter 24</h1>
             <p class="text-gray-500 text-sm">독백: 불안한 독백 · 짧은 에코 후처리 · 나레이션: 원음 · 구간별 연기 지침 · 고유 파일명 WAV 다운로드</p>
         </header>
 
@@ -371,6 +371,12 @@ const apiKey = "";
 감정: ${p.emotion}; 강도 ${p.intensity}; 속도 ${p.pace}; 발성 ${p.delivery}.
 마이크 거리와 친밀감: ${p.mic_direction}
 연기: ${p.acting_notes}
+발화 대상과 목적: ${p.design?.addressee_intention || p.acting_notes}
+겉감정과 속마음: ${p.design?.outer_inner || p.emotion}
+감정 전환 지점: ${p.design?.pivot || '명시된 전환 없음'}
+속도·음량·강세·말끝·멈춤: ${p.design?.prosody || p.pace}
+비언어 위치·횟수·강도: ${p.design?.nonverbal || p.nonverbal}
+다음 문장으로 이어지는 감정·호흡: ${p.design?.continuation || '다음 문장으로 자연스럽게 연결'}
 비언어 연기: ${p.nonverbal}
 기침/과잉 연기: ${p.cough_rule}
 앞 구간(읽지 않음): ${turns[index-1]?.text||'시작'}
@@ -841,7 +847,7 @@ ${turn.text}`;
 const zipPanel=document.createElement('section');
 zipPanel.style.cssText='margin:16px;padding:16px;border:2px solid #2563eb;border-radius:12px;background:#eff6ff';
 const singleModeStyle=document.createElement('style');
-singleModeStyle.textContent='button:not(#generatePackMp3Zip), a, input, select, textarea, #controls, #resultsContainer > div:first-child { display:none !important; } #generatePackMp3Zip { display:inline-block !important; font-size:16px; font-weight:700; padding:12px 20px; border-radius:10px; background:#15803d; color:white; border:0; cursor:pointer; } #zipProgress { margin-top:12px; font-weight:600; }';
+singleModeStyle.textContent='button:not(#generatePackMp3Zip), a:not(#zipDownload), input, select, textarea, #controls, #resultsContainer > div:first-child { display:none !important; } #generatePackMp3Zip { display:inline-block !important; font-size:16px; font-weight:700; padding:12px 20px; border-radius:10px; background:#15803d; color:white; border:0; cursor:pointer; } #zipDownload:not([hidden]) { display:inline-block !important; } #zipProgress { margin-top:12px; font-weight:600; }';
 document.head.appendChild(singleModeStyle);
 zipPanel.innerHTML='<h2>전체 생성 → MP3 ZIP</h2><p>한 번 누르면 미생성 구간을 순서대로 생성하고, 브라우저에 보관한 뒤 MP3 ZIP으로 저장합니다.</p><button id="generatePackMp3Zip" type="button">전체 생성 후 MP3 ZIP 다운로드</button> <button id="packMp3Zip" type="button">생성된 음성만 ZIP</button> <button id="importZipWavs" type="button">기존 WAV 선택 → MP3 ZIP</button><input id="zipWavInput" type="file" accept=".wav,audio/wav" multiple hidden><p id="zipProgress" role="status"></p><a id="zipDownload" hidden>ZIP 저장</a>';
 document.body.prepend(zipPanel);
@@ -892,7 +898,7 @@ async function generateThenPackage(){
  generateZipButton.disabled=true;zipProgress.textContent='전체 구간 순차 생성 중…';
  batchProcessBtn.click();
  while(batchRunning||activeRequests) await new Promise(r=>setTimeout(r,500));
- await packageMp3Zip();
+ try { await packageMp3Zip(); } finally { generateZipButton.disabled=false; }
 }
 zipButton.onclick=()=>packageMp3Zip();generateZipButton.onclick=()=>generateThenPackage().catch(e=>{zipProgress.textContent='전체 생성 실패: '+e.message;showMessage(e.message)});zipImport.onclick=()=>document.getElementById('zipWavInput').click();document.getElementById('zipWavInput').onchange=e=>{const files=Array.from(e.target.files);e.target.value='';if(files.length)packageMp3Zip(files)};
 

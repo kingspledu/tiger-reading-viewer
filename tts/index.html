@@ -1,1 +1,50 @@
-﻿<!doctype html><html lang="ko"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WYTT TTS Code Copy</title><style>body{font-family:system-ui;max-width:900px;margin:auto;padding:24px}button{margin:4px;padding:10px 14px;border:0;border-radius:8px;background:#2563eb;color:white;cursor:pointer}textarea{width:100%;height:420px;margin-top:15px;font-family:monospace;font-size:12px}</style><h1>When You Trap a Tiger TTS</h1><p>장 하나만 불러와 복사합니다. 전체 29장 HTML을 한꺼번에 메모리에 넣지 않습니다.</p><div id="buttons"></div><p id="status">장을 선택하세요.</p><textarea id="code" readonly></textarea><script>const b=document.getElementById("buttons"),c=document.getElementById("code"),s=document.getElementById("status");for(let i=1;i<=29;i++){const x=document.createElement("button");x.textContent=i+"장 코드 복사";x.onclick=()=>copy(i);b.appendChild(x)}async function copy(i){s.textContent=i+"장 불러오는 중...";const r=await fetch("chapters/WYTT_C"+String(i).padStart(2,"0")+"_V05_GEMINI_CANVAS_TTS.html");const t=await r.text();c.value=t;try{await navigator.clipboard.writeText(t);s.textContent=i+"장 코드 복사 완료 ("+t.length.toLocaleString()+"자)"}catch(e){c.focus();c.select();s.textContent=i+"장 코드를 선택했습니다. Ctrl+C를 누르세요."}}</script></html>
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TTS HTML 코드 복사</title>
+<style>body{max-width:900px;margin:32px auto;padding:0 18px;font:16px/1.65 system-ui;color:#20342a;background:#f7f9f6}h1{font-size:25px}#chapters{display:flex;flex-wrap:wrap;gap:8px}button,a.download{padding:10px 14px;border:1px solid #cbd8ce;border-radius:9px;background:white;color:#164c30;cursor:pointer}button:disabled{opacity:.5;cursor:wait}#copy{background:#17663d;color:white}textarea{box-sizing:border-box;width:100%;height:250px;font:12px/1.5 monospace;margin-top:14px}#status{min-height:28px}small{color:#526359}[hidden]{display:none!important}</style></head>
+<body><h1 id="title">TTS HTML 코드 복사</h1>
+<p>장을 선택하면 해당 장의 HTML 원문만 불러와 검증한 뒤 복사합니다. 복사한 코드를 Gemini Canvas에 붙여 넣으세요.</p>
+<div id="chapters" aria-label="장 선택"></div><p id="status" role="status" aria-live="polite">목록을 불러오는 중…</p>
+<button id="copy" disabled>선택한 장 코드 복사</button> <a id="download" class="download" hidden>HTML 다운로드</a>
+<textarea id="code" readonly aria-label="선택한 장의 실제 HTML 코드" spellcheck="false"></textarea>
+<small>자동 복사가 차단되면 아래 선택된 코드에서 Ctrl+C 또는 휴대폰의 복사를 사용하세요. 파일 경로나 웹페이지 주소를 복사하지 않습니다.</small>
+<script>
+'use strict';
+const statusNode=document.getElementById('status'),area=document.getElementById('code'),copyButton=document.getElementById('copy'),download=document.getElementById('download');
+let selected=null,request=0,downloadUrl=null;
+const hex=bytes=>Array.from(new Uint8Array(bytes),b=>b.toString(16).padStart(2,'0')).join('');
+async function copySelected(){
+ if(!selected)return;
+ const snapshot=selected;
+ try{await navigator.clipboard.writeText(snapshot.text);if(selected===snapshot)statusNode.textContent=snapshot.label+' · HTML 코드 복사 완료 ('+snapshot.bytes.toLocaleString()+' bytes)';}
+ catch(error){if(selected!==snapshot)return;area.focus();area.select();area.setSelectionRange(0,area.value.length);let copied=false;try{copied=document.execCommand('copy')}catch(_){}statusNode.textContent=copied?snapshot.label+' · HTML 코드 복사 완료':snapshot.label+' · 코드 전체가 선택되었습니다. Ctrl+C 또는 복사를 눌러 주세요.';}
+}
+copyButton.onclick=copySelected;
+async function selectChapter(entry){
+ const id=++request;selected=null;copyButton.disabled=true;area.value='';download.hidden=true;
+ if(downloadUrl){URL.revokeObjectURL(downloadUrl);downloadUrl=null;}
+ statusNode.textContent=entry.chapter+'장 HTML을 불러오는 중…';
+ try{
+  const response=await fetch(entry.file+'?sha256='+entry.sha256,{cache:'no-cache'});
+  if(!response.ok)throw Error('HTML 요청 실패: HTTP '+response.status);
+  const bytes=await response.arrayBuffer();if(id!==request)return;
+  if(bytes.byteLength!==entry.bytes||hex(await crypto.subtle.digest('SHA-256',bytes))!==entry.sha256)throw Error('HTML 무결성 검사 실패. 새로고침 후 다시 선택하세요.');
+  if(id!==request)return;
+  const text=new TextDecoder('utf-8',{fatal:true}).decode(bytes);
+  if(!/^<!doctype html>/i.test(text.trimStart())||!text.includes('const originalEpisode = '))throw Error('Canvas HTML 형식이 아닙니다.');
+  selected={text,bytes:bytes.byteLength,label:entry.chapter+'장'};area.value=text;copyButton.disabled=false;
+  downloadUrl=URL.createObjectURL(new Blob([bytes],{type:'text/html;charset=utf-8'}));download.href=downloadUrl;download.download=entry.file.split('/').pop();download.hidden=false;
+  statusNode.textContent=selected.label+' · 검증 완료 · 코드 복사 버튼을 누르세요 ('+selected.bytes.toLocaleString()+' bytes)';
+  // Best effort for browsers retaining activation across fetch. Explicit copy stays available.
+  if(navigator.clipboard&&navigator.userActivation?.isActive)await copySelected();
+ }catch(error){if(id!==request)return;selected=null;area.value='';copyButton.disabled=true;download.hidden=true;statusNode.textContent=error.message;}
+}
+async function init(){try{
+ const response=await fetch('manifest.json',{cache:'no-cache'});if(!response.ok)throw Error('목록 요청 실패: HTTP '+response.status);
+ const manifest=await response.json();if(manifest.schema!=='canvas-code-copy-1'||!manifest.chapters.length)throw Error('잘못된 코드 목록입니다.');
+ document.getElementById('title').textContent=manifest.title;document.title=manifest.title;
+ for(const entry of manifest.chapters){if(!/^chapters\/[A-Za-z0-9_-]+\.html$/.test(entry.file))throw Error('잘못된 HTML 경로입니다.');const button=document.createElement('button');button.textContent=entry.chapter+'장 코드';button.onclick=()=>selectChapter(entry);document.getElementById('chapters').append(button);}
+ statusNode.textContent=manifest.chapters.length+'개 장 · 복사할 장을 선택하세요.';
+ }catch(error){statusNode.textContent=error.message;}}
+init();
+</script></body></html>

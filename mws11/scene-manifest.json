@@ -17,7 +17,8 @@
         "MWS11-AJ-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: My name is A.J. and I hate school.\nDo you know which is the worst day of the week? If you ask me, it's Monday. Physical setting: Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/1-1-scene-01.webp"
     },
     {
       "id": "1-1-scene-02",
@@ -33,7 +34,8 @@
         "MWS11-AJ-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: Because Monday is the start of five days of school in a row. That's horrible!\nTuesday and Wednesday aren't so great either. Physical setting: Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/1-1-scene-02.webp"
     },
     {
       "id": "1-1-scene-03",
@@ -49,7 +51,8 @@
         "MWS11-AJ-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: Thursday is a pretty good day, because then we only have one day of school left before the weekend.\nFriday is really good, because that's when the school week is over.\nBut the best day of the week is Saturday. Physical setting: Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/1-1-scene-03.webp"
     },
     {
       "id": "1-1-scene-04",
@@ -66,7 +69,8 @@
         "MWS11-MOM-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: I play peewee football on Saturday, and we don't have school again for two whole days.\nToo bad it was Monday morning. I was waiting in front of my house for the school bus with my mom. Physical setting: Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/1-1-scene-04.webp"
     },
     {
       "id": "1-1-scene-05",
@@ -83,7 +87,8 @@
         "MWS11-MOM-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"You be a good boy, A.J.,\" my mom told me.\n\"I will.\"\n\"Don't get into any trouble, A.J.,\" my mom told me. Physical setting: Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/1-1-scene-05.webp"
     },
     {
       "id": "1-1-scene-06",
@@ -100,7 +105,8 @@
         "MWS11-MOM-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"I won't.\"\n\"Remember to raise your hand when you want to talk, A.J.,\" my mom told me.\n\"I will.\" Physical setting: Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/1-1-scene-06.webp"
     },
     {
       "id": "1-1-scene-07",
@@ -117,7 +123,8 @@
         "MWS11-MOM-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"Don't shoot straw wrappers at the girls, A.J.,\" my mom told me.\n\"I won't.\"\nMy mom told me about a million hundred other things I wasn't allowed to do until I saw the yellow school bus coming around the corner. Physical setting: Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/1-1-scene-07.webp"
     },
     {
       "id": "1-1-scene-08",
@@ -136,7 +143,8 @@
         "MWS11-KORMEL-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"Mom, I promise not to have any fun at all,\" I said. \"Bye!\"\nThe bus pulled up. Physical setting: Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus; Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/1-1-scene-08.webp"
     },
     {
       "id": "1-1-scene-09",
@@ -153,7 +161,8 @@
         "MWS11-KORMEL-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: Mrs. Kormel, the bus driver, pushed a button and made the little STOP sign pop out the side of the bus so the cars on the street will stop. We call it the magic STOP sign. That thing is cool. Physical setting: Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/1-1-scene-09.webp"
     },
     {
       "id": "1-1-scene-10",
@@ -172,7 +181,8 @@
         "MWS11-STUDENTS-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"Give Mommy a kiss, A.J.\"\nNo way I was going to kiss my mother in front of all the kids staring out the bus window. That's the first rule of being a kid. Don't ever kiss your mother when other kids are watching! Physical setting: Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/1-1-scene-10.webp"
     },
     {
       "id": "1-1-scene-11",
@@ -190,7 +200,8 @@
         "MWS11-STUDENTS-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"Uh, I don't want to be late for school, Mom.\"\n\"Give Mommy a kiss, A.J.\"\n\"That's not gonna happen, Mom.\"\n\"Give Mommy a kiss, A.J.\"\n\"Over my dead body, Mom.\" Physical setting: Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/1-1-scene-11.webp"
     },
     {
       "id": "1-1-scene-12",
@@ -207,7 +218,8 @@
         "MWS11-MOM-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"Give Mommy a kiss, A.J.\"\n\"I will if you give me a hundred dollars, Mom,\" I said.\nMy mother tried to wrap her arms around me, but I know how to get away from tacklers. When Mom went to grab me, I threw her a head fake, spun away, and gave her a few of my best fancy footwork moves that I learned playing peewee football. Physical setting: Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/1-1-scene-12.webp"
     },
     {
       "id": "1-1-scene-13",
@@ -225,7 +237,8 @@
         "MWS11-MOM-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: She didn't have a chance! I sidestepped her and ran on the bus before she could hug or kiss me.\nHa-ha-ha! Physical setting: Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows; Steps and doorway of the yellow school bus as A.J. dashes aboard away from his mom. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/1-1-scene-13.webp"
     },
     {
       "id": "1-1-scene-14",
@@ -242,7 +255,8 @@
         "MWS11-MOM-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: My mom can't play football for beans. Nah-nah-nah boo-boo on her! Physical setting: Steps and doorway of the yellow school bus as A.J. dashes aboard away from his mom. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/1-1-scene-14.webp"
     },
     {
       "id": "2-1-scene-01",
@@ -259,7 +273,8 @@
         "MWS11-KORMEL-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: I dashed on the bus and there was Mrs. Kormel, the school bus driver. She was wearing a crash helmet on her head and a silver whistle around her neck.\n\"Bingle boo, A.J.!\" she said. Physical setting: Front aisle inside Mrs. Kormel's yellow school bus as A.J. boards. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/2-1-scene-01.webp"
     },
     {
       "id": "2-1-scene-02",
@@ -276,7 +291,8 @@
         "MWS11-KORMEL-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"Bingle boo, Mrs. Kormel.\"\n\"Bingle boo\" is Mrs. Kormel's way of saying \"hello.\" One time I asked her why she doesn't just say \"hello\" like normal people. Physical setting: Front aisle inside Mrs. Kormel's yellow school bus as A.J. boards. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/2-1-scene-02.webp"
     },
     {
       "id": "2-1-scene-03",
@@ -293,7 +309,8 @@
         "MWS11-KORMEL-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"I'm inventing my own secret language,\" she told me. \"Everybody says 'hello.' But I think 'hello' is boring. Physical setting: Front aisle inside Mrs. Kormel's yellow school bus as A.J. boards. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/2-1-scene-03.webp"
     },
     {
       "id": "2-1-scene-04",
@@ -310,7 +327,8 @@
         "MWS11-KORMEL-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: I'm trying to get people to switch from saying 'hello' to saying 'bingle boo.' Secret languages are fun!\"\nMrs. Kormel is not normal. Physical setting: Front aisle inside Mrs. Kormel's yellow school bus as A.J. boards. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/2-1-scene-04.webp"
     },
     {
       "id": "2-1-scene-05",
@@ -329,7 +347,8 @@
         "MWS11-STUDENTS-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"Limpus kidoodle,\" said Mrs. Kormel. That means \"sit down\" in Mrs. Kormel's secret language.\nI looked around the bus. Physical setting: Front aisle inside Mrs. Kormel's yellow school bus as A.J. boards; Interior aisle and rows of Mrs. Kormel's yellow school bus with kindergartner in front and fifth graders in back. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/2-1-scene-05.webp"
     },
     {
       "id": "2-1-scene-06",
@@ -347,7 +366,8 @@
         "MWS11-STUDENTS-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: There was a snot-covered kindergartner in the front row behind Mrs. Kormel, and a few angry fifth graders in the back row.\nFifth graders are really mean because they get a lot of homework. The more homework you get, the meaner you are. Physical setting: Interior aisle and rows of Mrs. Kormel's yellow school bus with kindergartner in front and fifth graders in back. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/2-1-scene-06.webp"
     },
     {
       "id": "2-1-scene-07",
@@ -364,7 +384,8 @@
         "MWS11-STUDENTS-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: That's why fifth graders are meaner than fourth graders, and fourth graders are meaner than third graders, and third graders are meaner than second graders.\nYou don't want to go near seventh or eighth graders. They get lots of homework, and they just hate the world. Physical setting: Interior aisle and rows of Mrs. Kormel's yellow school bus with kindergartner in front and fifth graders in back. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/2-1-scene-07.webp"
     },
     {
       "id": "2-1-scene-08",
@@ -382,7 +403,8 @@
         "MWS11-STUDENTS-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: I hope I never get to high school.\nI sat down in the middle by myself. Mrs. Kormel stopped the bus at the next corner, and a few other kids got on. Physical setting: Interior aisle and rows of Mrs. Kormel's yellow school bus with kindergartner in front and fifth graders in back. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/2-1-scene-08.webp"
     },
     {
       "id": "2-1-scene-09",
@@ -403,7 +425,8 @@
         "MWS11-MICHAEL-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: At the stop after that, my friends Ryan and Michael got on.\n\"Bingle boo!\" Mrs. Kormel said to Ryan and Michael. \"Limpus kidoodle.\" Physical setting: Interior aisle and rows of Mrs. Kormel's yellow school bus with kindergartner in front and fifth graders in back; Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/2-1-scene-09.webp"
     },
     {
       "id": "2-1-scene-10",
@@ -422,7 +445,8 @@
         "MWS11-MICHAEL-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: Ryan and Michael sat down next to me.\n\"What did you bring in for Show and Share?\" Ryan asked. \"I brought in an old light switch.\" Physical setting: Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/2-1-scene-10.webp"
     },
     {
       "id": "2-1-scene-11",
@@ -440,7 +464,8 @@
         "MWS11-MICHAEL-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"I brought in a ball of string,\" said Michael.\nShow and Share is when we bring something from home that starts with a certain letter of the alphabet and talk about it in class. Today's letter was s. Physical setting: Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/2-1-scene-11.webp"
     },
     {
       "id": "2-1-scene-12",
@@ -456,7 +481,8 @@
         "MWS11-AJ-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: I took my Show and Share thing out of my backpack. It was an action figure called Striker Smith. He's a superhero from the future who travels through time and fights bad guys with a sharp sword that's attached to his hand. Physical setting: Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/2-1-scene-12.webp"
     },
     {
       "id": "2-1-scene-13",
@@ -474,7 +500,8 @@
         "MWS11-MICHAEL-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: He can turn into a jet plane, too, and fly when you push a button. I saw a commercial for Striker Smith on TV and bugged my parents until they finally got it for me.\n\"Striker Smith belongs to a secret organization of crime fighters,\" I told Ryan and Michael, in case they didn't see the commercial. Physical setting: Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/2-1-scene-13.webp"
     },
     {
       "id": "2-1-scene-14",
@@ -492,7 +519,8 @@
         "MWS11-MICHAEL-01"
       ],
       "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"You should get extra credit,\" Ryan said, \"because Striker Smith has two S's.\"\n\"He's cool,\" said Michael. \"Sometimes I take my old action figures down to the basement and my dad lets me saw them in half or torture them with his power drill.\" Physical setting: Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "planned_generation_blocked_usage_limit"
+      "status": "illustrated",
+      "image": "assets/scenes/2-1-scene-14.webp"
     }
   ],
   "vocabulary": [
@@ -666,5 +694,6 @@
       "meaning_ko": "전동 드릴",
       "context_ko": "Michael의 말 속에만 등장하는 공구"
     }
-  ]
+  ],
+  "illustration_rule": "1 scene illustration per 2-3 sentences (sliced from 4x4 grids using locked MWS11 character reference sheets)"
 }

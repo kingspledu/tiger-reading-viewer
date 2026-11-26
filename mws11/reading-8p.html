@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Weird School #11 · 8-Page Reading Worksheet</title>
+<style>
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #e9e6df;
+    color: #1f2b2a;
+    font-family: "Segoe UI", "Malgun Gothic", -apple-system, sans-serif;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: #173b38;
+    color: #faf8f1;
+    padding: 10px 20px;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.18);
+  }
+  .toolbar a, .toolbar button {
+    color: #faf8f1;
+    background: rgba(255,255,255,.12);
+    border: 1px solid rgba(255,255,255,.28);
+    border-radius: 8px;
+    padding: 6px 12px;
+    text-decoration: none;
+    font: inherit;
+    cursor: pointer;
+  }
+  .toolbar button.primary {
+    background: #e6a825;
+    color: #182927;
+    border-color: #e6a825;
+    font-weight: 700;
+    margin-left: auto;
+  }
+  .pages-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 12px 48px;
+  }
+  .a4-page {
+    width: 210mm;
+    height: 297mm;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,.16);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    page-break-after: always;
+    break-after: page;
+  }
+  .a4-page:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+  /* Page 1 & Page 5 illustrated chapter banner */
+  .hdr-banner {
+    width: 100%;
+    height: 68mm;
+    background: #fbf3df;
+    border-bottom: 2px solid #c99738;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .hdr-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #fbf3df;
+  }
+  /* Page 2 & Page 6 decorative ribbon header */
+  .hdr-ribbon {
+    width: 100%;
+    height: 16mm;
+    background: linear-gradient(180deg, #fbf0d3 0%, #f5e2b5 100%);
+    border-top: 3px solid #c99738;
+    border-bottom: 3px solid #c99738;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 0 14mm;
+    flex-shrink: 0;
+  }
+  .ribbon-title {
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16pt;
+    color: #133c39;
+    letter-spacing: .01em;
+  }
+  .ribbon-deco {
+    color: #b47c1e;
+    font-size: 13pt;
+  }
+  /* Page 3 & Page 7 clean dark teal header */
+  .hdr-solid {
+    width: 100%;
+    height: 19mm;
+    background: #173e3a;
+    color: #f7f3e8;
+    padding: 3.5mm 11mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .solid-series {
+    font-size: 11.5pt;
+    font-weight: 800;
+    letter-spacing: .06em;
+  }
+  .solid-book {
+    font-size: 9.5pt;
+    opacity: .9;
+    margin-top: 1mm;
+  }
+  /* Subbar with chapter title + page fraction */
+  .subbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.5mm 11mm 2mm;
+    font-size: 8.8pt;
+    font-weight: 700;
+    color: #1f3d3a;
+    border-bottom: 0.6pt solid #e4e1d8;
+    flex-shrink: 0;
+  }
+  /* Scene rows container */
+  .page-body {
+    flex: 1;
+    padding: 5mm 11mm 6mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 4.5mm;
+  }
+  .scene-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 54mm;
+    gap: 5.5mm;
+    align-items: start;
+  }
+  .scene-text {
+    margin: 0 0 2.5mm;
+    font-size: 13pt;
+    line-height: 1.48;
+    color: #1c2423;
+    word-break: keep-all;
+  }
+  .scene-text u {
+    text-decoration: underline;
+    text-underline-offset: 2.5pt;
+    text-decoration-thickness: 1.1pt;
+    text-decoration-color: #2b4c48;
+  }
+  .vocab-box {
+    background: #f1ebf8;
+    border: 0.8pt solid #cbbbe0;
+    border-radius: 7pt;
+    padding: 2.4mm 3.5mm;
+    font-size: 8.6pt;
+    line-height: 1.45;
+    color: #3a3444;
+  }
+  .v-line {
+    margin: 0.4mm 0;
+  }
+  .v-line strong {
+    color: #221c2c;
+  }
+  .scene-right img {
+    display: block;
+    width: 54mm;
+    height: 36mm;
+    object-fit: cover;
+    border-radius: 5pt;
+    border: 0.8pt solid #d2cbc0;
+    background: #f7f4ec;
+  }
+  /* Page 4 & Page 8 bottom footer banner */
+  .ftr-banner {
+    width: 100%;
+    height: 16mm;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-top: 1.5pt solid #c99738;
+  }
+  .ftr-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  @media print {
+    body { background: #ffffff; }
+    .toolbar { display: none; }
+    .pages-wrap { padding: 0; gap: 0; }
+    .a4-page { box-shadow: none; margin: 0; }
+  }
+</style>
+</head>
+<body>
+<nav class="toolbar">
+  <a href="index.html">← 웹 읽기 뷰어</a>
+  <a href="characters.html">캐릭터 시트</a>
+  <a href="#page-1">Part 1-1 (p.1–4)</a>
+  <a href="#page-5">Part 2-1 (p.5–8)</a>
+  <button class="primary" onclick="window.print()">PDF 인쇄 / 저장 (8p)</button>
+</nav>
+<main class="pages-wrap">
+<section class="a4-page has-banner" id="page-1">  <div class="hdr-banner">  <img src="assets/banners/banner-ch1.webp" alt="Chapter 1 · Part 1 — Never Kiss Your Mom in Public"></div>  <div class="subbar">    <span>Chapter 1 · Part 1 — Never Kiss Your Mom in Public</span>    <span>1/4</span>  </div>  <div class="page-body">    <article class="scene-row">  <div class="scene-left">    <p class="scene-text">My name is A.J. and I <u>hate</u> school. Do you know which is the <u>worst</u> day of the week? If you ask me, it&#x27;s Monday.</p>    <div class="vocab-box"><div class="v-line"><strong>hate</strong> · 매우 싫어하다 / To dislike something very much.</div><div class="v-line"><strong>worst</strong> · 가장 나쁜, 최악의 / The least good or most unpleasant of all.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/1-1-scene-01.webp" alt="1-1-scene-01">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">Because Monday is the start of five days of school <u>in a row</u>. That&#x27;s <u>horrible</u>! Tuesday and Wednesday aren&#x27;t so great either.</p>    <div class="vocab-box"><div class="v-line"><strong>in a row</strong> · 연달아, 연속으로 / Happening one after another without a break.</div><div class="v-line"><strong>horrible</strong> · 끔찍한 / Very bad or unpleasant.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/1-1-scene-02.webp" alt="1-1-scene-02">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">Thursday is a pretty good day, because then we only have one day of school <u>left</u> before the <u>weekend</u>. Friday is really good, because that&#x27;s when the school week is over. But the best day of the week is Saturday.</p>    <div class="vocab-box"><div class="v-line"><strong>left</strong> · 남아 있는 / Still remaining before something finishes.</div><div class="v-line"><strong>weekend</strong> · 주말 / Saturday and Sunday, when there is no school.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/1-1-scene-03.webp" alt="1-1-scene-03">  </div></article>  </div>  </section><section class="a4-page" id="page-2">  <div class="hdr-ribbon">  <span class="ribbon-deco" aria-hidden="true">&#128652; &#10022;</span>  <span class="ribbon-title">Waiting for the yellow school bus!</span>  <span class="ribbon-deco" aria-hidden="true">&#10022; &#128652;</span></div>  <div class="subbar">    <span>Chapter 1 · Part 1 — Never Kiss Your Mom in Public</span>    <span>2/4</span>  </div>  <div class="page-body">    <article class="scene-row">  <div class="scene-left">    <p class="scene-text">I play <u>peewee football</u> on Saturday, and we don&#x27;t have school again for two whole days. Too bad it was Monday morning. I was <u>waiting</u> in front of my house for the school bus with my mom.</p>    <div class="vocab-box"><div class="v-line"><strong>peewee football</strong> · 어린이 미식축구 / A football league played by young children.</div><div class="v-line"><strong>waiting</strong> · 기다리는 중 / Staying in one place until someone or something arrives.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/1-1-scene-04.webp" alt="1-1-scene-04">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">&quot;You be a good boy, A.J.,&quot; my mom told me. &quot;I will.&quot; &quot;Don&#x27;t <u>get into any trouble</u>, A.J.,&quot; my mom told me.</p>    <div class="vocab-box"><div class="v-line"><strong>get into any trouble</strong> · 문제를 일으키다 / To do something wrong that causes a problem.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/1-1-scene-05.webp" alt="1-1-scene-05">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">&quot;I won&#x27;t.&quot; &quot;Remember to <u>raise your hand</u> when you want to talk, A.J.,&quot; my mom told me. &quot;I will.&quot;</p>    <div class="vocab-box"><div class="v-line"><strong>raise your hand</strong> · 손을 들다 / To lift your hand up before speaking in class.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/1-1-scene-06.webp" alt="1-1-scene-06">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">&quot;Don&#x27;t shoot <u>straw wrappers</u> at the girls, A.J.,&quot; my mom told me. &quot;I won&#x27;t.&quot; My mom told me about a million hundred other things I wasn&#x27;t <u>allowed</u> to do until I saw the yellow school bus coming around the corner.</p>    <div class="vocab-box"><div class="v-line"><strong>straw wrappers</strong> · 빨대 포장지 / Thin paper covers that go around drinking straws.</div><div class="v-line"><strong>allowed</strong> · 허락된 / Given permission to do something.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/1-1-scene-07.webp" alt="1-1-scene-07">  </div></article>  </div>  </section><section class="a4-page" id="page-3">  <div class="hdr-solid">  <div class="solid-series">MY WEIRD SCHOOL #11</div>  <div class="solid-book">Mrs. Kormel Is Not Normal!</div></div>  <div class="subbar">    <span>Chapter 1 · Part 1 — Never Kiss Your Mom in Public</span>    <span>3/4</span>  </div>  <div class="page-body">    <article class="scene-row">  <div class="scene-left">    <p class="scene-text">&quot;Mom, I <u>promise</u> not to have any fun at all,&quot; I said. &quot;Bye!&quot; The bus <u>pulled up</u>.</p>    <div class="vocab-box"><div class="v-line"><strong>promise</strong> · 약속하다 / To say for sure that you will or will not do something.</div><div class="v-line"><strong>pulled up</strong> · 차가 다가와 멈췄다 / Drove closer and came to a stop at the curb.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/1-1-scene-08.webp" alt="1-1-scene-08">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">Mrs. Kormel, the bus driver, pushed a button and made the little STOP sign <u>pop out</u> the side of the bus so the cars on the street will stop. We call it the magic STOP sign. That thing is cool.</p>    <div class="vocab-box"><div class="v-line"><strong>pop out</strong> · 툭 튀어나오다 / To swing or spring out suddenly from the side.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/1-1-scene-09.webp" alt="1-1-scene-09">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">&quot;Give Mommy a kiss, A.J.&quot; No way I was going to kiss my mother in front of all the kids <u>staring</u> out the bus window. That&#x27;s the first <u>rule</u> of being a kid. Don&#x27;t ever kiss your mother when other kids are watching!</p>    <div class="vocab-box"><div class="v-line"><strong>staring</strong> · 빤히 쳐다보는 / Looking steadily at someone with wide eyes.</div><div class="v-line"><strong>rule</strong> · 규칙 / Something you should always follow.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/1-1-scene-10.webp" alt="1-1-scene-10">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">&quot;Uh, I don&#x27;t want to be late for school, Mom.&quot; &quot;Give Mommy a kiss, A.J.&quot; &quot;That&#x27;s not gonna happen, Mom.&quot; &quot;Give Mommy a kiss, A.J.&quot; &quot;<u>Over my dead body</u>, Mom.&quot;</p>    <div class="vocab-box"><div class="v-line"><strong>Over my dead body</strong> · 절대로 안 돼 / An idiom meaning you strongly refuse to do something.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/1-1-scene-11.webp" alt="1-1-scene-11">  </div></article>  </div>  </section><section class="a4-page" id="page-4">    <div class="subbar">    <span>Chapter 1 · Part 1 — Never Kiss Your Mom in Public</span>    <span>4/4</span>  </div>  <div class="page-body">    <article class="scene-row">  <div class="scene-left">    <p class="scene-text">&quot;Give Mommy a kiss, A.J.&quot; &quot;I will if you give me a hundred dollars, Mom,&quot; I said. My mother tried to wrap her arms around me, but I know how to get away from <u>tacklers</u>. When Mom went to grab me, I threw her a <u>head fake</u>, <u>spun away</u>, and gave her a few of my best <u>fancy footwork</u> moves that I learned playing peewee football.</p>    <div class="vocab-box"><div class="v-line"><strong>tacklers</strong> · 태클하는 선수들 / Players who try to grab and stop the ball carrier.</div><div class="v-line"><strong>head fake</strong> · 머리 속임 동작 / A quick head move to trick someone about your direction.</div><div class="v-line"><strong>spun away</strong> · 몸을 빙 돌려 피했다 / Turned around quickly to get away.</div><div class="v-line"><strong>fancy footwork</strong> · 현란한 발놀림 / Fast, skillful foot movements used to dodge.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/1-1-scene-12.webp" alt="1-1-scene-12">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">She didn&#x27;t have a chance! I <u>sidestepped</u> her and ran on the bus before she could hug or kiss me. Ha-ha-ha!</p>    <div class="vocab-box"><div class="v-line"><strong>sidestepped</strong> · 옆으로 비켜 피했다 / Stepped quickly to the side to avoid someone.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/1-1-scene-13.webp" alt="1-1-scene-13">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">My mom can&#x27;t play football <u>for beans</u>. Nah-nah-nah boo-boo on her!</p>    <div class="vocab-box"><div class="v-line"><strong>for beans</strong> · 조금도, 전혀 / Used with &#x27;can&#x27;t&#x27; to mean not at all.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/1-1-scene-14.webp" alt="1-1-scene-14">  </div></article>  </div>  <div class="ftr-banner">  <img src="assets/banners/footer-journey.webp" alt="Our Reading Journey"></div></section><section class="a4-page has-banner" id="page-5">  <div class="hdr-banner">  <img src="assets/banners/banner-ch2.webp" alt="Chapter 2 · Part 1 — Mrs. Kormel&#x27;s Secret Language"></div>  <div class="subbar">    <span>Chapter 2 · Part 1 — Mrs. Kormel&#x27;s Secret Language</span>    <span>1/4</span>  </div>  <div class="page-body">    <article class="scene-row">  <div class="scene-left">    <p class="scene-text">I <u>dashed</u> on the bus and there was Mrs. Kormel, the school bus driver. She was wearing a <u>crash helmet</u> on her head and a silver <u>whistle</u> around her neck. &quot;Bingle boo, A.J.!&quot; she said.</p>    <div class="vocab-box"><div class="v-line"><strong>dashed</strong> · 쏜살같이 달렸다 / Ran very fast in a sudden burst.</div><div class="v-line"><strong>crash helmet</strong> · 보호 헬멧 / A hard helmet worn to protect the head.</div><div class="v-line"><strong>whistle</strong> · 호루라기 / A small instrument that makes a sharp sound when blown.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/2-1-scene-01.webp" alt="2-1-scene-01">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">&quot;Bingle boo, Mrs. Kormel.&quot; &quot;Bingle boo&quot; is Mrs. Kormel&#x27;s <u>way of saying</u> &quot;hello.&quot; One time I asked her why she doesn&#x27;t just say &quot;hello&quot; like <u>normal</u> people.</p>    <div class="vocab-box"><div class="v-line"><strong>way of saying</strong> · ~라고 말하는 방식 / A personal expression used instead of a usual word.</div><div class="v-line"><strong>normal</strong> · 평범한, 보통의 / Usual, ordinary, and like most people.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/2-1-scene-02.webp" alt="2-1-scene-02">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">&quot;I&#x27;m <u>inventing</u> my own secret language,&quot; she told me. &quot;Everybody says &#x27;hello.&#x27; But I think &#x27;hello&#x27; is <u>boring</u>.</p>    <div class="vocab-box"><div class="v-line"><strong>inventing</strong> · 새로 만들어 내는 / Creating something brand new of your own.</div><div class="v-line"><strong>boring</strong> · 지루한 / Not interesting or fun.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/2-1-scene-03.webp" alt="2-1-scene-03">  </div></article>  </div>  </section><section class="a4-page" id="page-6">  <div class="hdr-ribbon">  <span class="ribbon-deco" aria-hidden="true">&#128652; &#10022;</span>  <span class="ribbon-title">Bingle boo! Limpus kidoodle!</span>  <span class="ribbon-deco" aria-hidden="true">&#10022; &#128652;</span></div>  <div class="subbar">    <span>Chapter 2 · Part 1 — Mrs. Kormel&#x27;s Secret Language</span>    <span>2/4</span>  </div>  <div class="page-body">    <article class="scene-row">  <div class="scene-left">    <p class="scene-text">I&#x27;m trying to get people to <u>switch</u> from saying &#x27;hello&#x27; to saying &#x27;bingle boo.&#x27; Secret languages are fun!&quot; Mrs. Kormel is not normal.</p>    <div class="vocab-box"><div class="v-line"><strong>switch</strong> · 바꾸다 / To change from one thing or word to another.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/2-1-scene-04.webp" alt="2-1-scene-04">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">&quot;Limpus kidoodle,&quot; said Mrs. Kormel. That means &quot;sit down&quot; in Mrs. Kormel&#x27;s <u>secret language</u>. I <u>looked around</u> the bus.</p>    <div class="vocab-box"><div class="v-line"><strong>secret language</strong> · 비밀 언어 / Made-up words that only certain people understand.</div><div class="v-line"><strong>looked around</strong> · 주위를 둘러보았다 / Turned your eyes to see everything nearby.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/2-1-scene-05.webp" alt="2-1-scene-05">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">There was a <u>snot-covered</u> <u>kindergartner</u> in the front row behind Mrs. Kormel, and a few angry fifth graders in the back row. Fifth graders are really <u>mean</u> because they get a lot of homework. The more homework you get, the meaner you are.</p>    <div class="vocab-box"><div class="v-line"><strong>snot-covered</strong> · 콧물이 묻은 / Covered with mucus from a runny nose.</div><div class="v-line"><strong>kindergartner</strong> · 유치원생 / A young child in kindergarten.</div><div class="v-line"><strong>mean</strong> · 심술궂은 / Unkind or unfriendly to others.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/2-1-scene-06.webp" alt="2-1-scene-06">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">That&#x27;s why fifth graders are <u>meaner</u> than fourth graders, and fourth graders are meaner than third graders, and third graders are meaner than second graders. You don&#x27;t want to go near seventh or eighth graders. They get lots of homework, and they just <u>hate the world</u>.</p>    <div class="vocab-box"><div class="v-line"><strong>meaner</strong> · 더 심술궂은 / More unkind than someone else.</div><div class="v-line"><strong>hate the world</strong> · 세상을 싫어하다 / An exaggeration meaning always grumpy and angry.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/2-1-scene-07.webp" alt="2-1-scene-07">  </div></article>  </div>  </section><section class="a4-page" id="page-7">  <div class="hdr-solid">  <div class="solid-series">MY WEIRD SCHOOL #11</div>  <div class="solid-book">Mrs. Kormel Is Not Normal!</div></div>  <div class="subbar">    <span>Chapter 2 · Part 1 — Mrs. Kormel&#x27;s Secret Language</span>    <span>3/4</span>  </div>  <div class="page-body">    <article class="scene-row">  <div class="scene-left">    <p class="scene-text">I hope I never get to high school. I sat down in the middle <u>by myself</u>. Mrs. Kormel stopped the bus at the next <u>corner</u>, and a few other kids got on.</p>    <div class="vocab-box"><div class="v-line"><strong>by myself</strong> · 나 혼자 / Alone, without anyone else sitting beside you.</div><div class="v-line"><strong>corner</strong> · 모퉁이 / The place where two streets meet.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/2-1-scene-08.webp" alt="2-1-scene-08">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">At the stop after that, my friends Ryan and Michael <u>got on</u>. &quot;Bingle boo!&quot; Mrs. Kormel said to Ryan and Michael. &quot;Limpus kidoodle.&quot;</p>    <div class="vocab-box"><div class="v-line"><strong>got on</strong> · 올라탔다 / Stepped aboard a bus or vehicle.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/2-1-scene-09.webp" alt="2-1-scene-09">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">Ryan and Michael sat down next to me. &quot;What did you bring in for <u>Show and Share</u>?&quot; Ryan asked. &quot;I brought in an old <u>light switch</u>.&quot;</p>    <div class="vocab-box"><div class="v-line"><strong>Show and Share</strong> · 물건 소개 발표 / A class activity where students bring and talk about an item.</div><div class="v-line"><strong>light switch</strong> · 전등 스위치 / A button or lever that turns a light on and off.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/2-1-scene-10.webp" alt="2-1-scene-10">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">&quot;I brought in a <u>ball of string</u>,&quot; said Michael. Show and Share is when we bring something from home that starts with a certain letter of the <u>alphabet</u> and talk about it in class. Today&#x27;s letter was s.</p>    <div class="vocab-box"><div class="v-line"><strong>ball of string</strong> · 실타래 / A long piece of string wound neatly into a round ball.</div><div class="v-line"><strong>alphabet</strong> · 알파벳 / The set of letters from A to Z.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/2-1-scene-11.webp" alt="2-1-scene-11">  </div></article>  </div>  </section><section class="a4-page" id="page-8">    <div class="subbar">    <span>Chapter 2 · Part 1 — Mrs. Kormel&#x27;s Secret Language</span>    <span>4/4</span>  </div>  <div class="page-body">    <article class="scene-row">  <div class="scene-left">    <p class="scene-text">I took my Show and Share thing out of my backpack. It was an <u>action figure</u> called Striker Smith. He&#x27;s a superhero from the future who travels through time and fights bad guys with a sharp sword that&#x27;s <u>attached</u> to his hand.</p>    <div class="vocab-box"><div class="v-line"><strong>action figure</strong> · 액션 피겨 / A small plastic superhero toy with movable arms and legs.</div><div class="v-line"><strong>attached</strong> · 붙어 있는 / Fixed or joined directly onto something.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/2-1-scene-12.webp" alt="2-1-scene-12">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">He can turn into a jet plane, too, and fly when you push a button. I saw a <u>commercial</u> for Striker Smith on TV and <u>bugged</u> my parents until they finally got it for me. &quot;Striker Smith belongs to a secret <u>organization</u> of crime fighters,&quot; I told Ryan and Michael, in case they didn&#x27;t see the commercial.</p>    <div class="vocab-box"><div class="v-line"><strong>commercial</strong> · 광고 / A short advertisement shown on television.</div><div class="v-line"><strong>bugged</strong> · 계속 졸랐다 / Kept asking someone again and again.</div><div class="v-line"><strong>organization</strong> · 조직, 단체 / A group of people working together for a purpose.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/2-1-scene-13.webp" alt="2-1-scene-13">  </div></article>
+<article class="scene-row">  <div class="scene-left">    <p class="scene-text">&quot;You should get <u>extra credit</u>,&quot; Ryan said, &quot;because Striker Smith has two S&#x27;s.&quot; &quot;He&#x27;s cool,&quot; said Michael. &quot;Sometimes I take my old action figures down to the <u>basement</u> and my dad lets me saw them in half or torture them with his <u>power drill</u>.&quot;</p>    <div class="vocab-box"><div class="v-line"><strong>extra credit</strong> · 가산점 / Bonus points earned for doing something extra.</div><div class="v-line"><strong>basement</strong> · 지하실 / The room underneath the main floor of a house.</div><div class="v-line"><strong>power drill</strong> · 전동 드릴 / An electric tool used for making holes.</div></div>  </div>  <div class="scene-right">    <img src="assets/scenes/2-1-scene-14.webp" alt="2-1-scene-14">  </div></article>  </div>  <div class="ftr-banner">  <img src="assets/banners/footer-journey.webp" alt="Our Reading Journey"></div></section>
+</main>
+</body>
+</html>

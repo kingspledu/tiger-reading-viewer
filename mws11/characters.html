@@ -100,6 +100,38 @@
     .prompt-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; align-items: center; }
     .status-msg { font-size: 13px; color: var(--accent); font-weight: 600; margin-left: 6px; }
 
+    .cinema-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .cinema-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px 22px; }
+    .cinema-card h3 { margin: 0 0 10px; font-size: 17px; color: var(--accent); }
+    .cinema-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+    .cinema-list li { font-size: 14px; padding-bottom: 8px; border-bottom: 1px dashed var(--line); }
+    .cinema-list li:last-child { border-bottom: none; padding-bottom: 0; }
+    .cinema-tag {
+      display: inline-block;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 12px;
+      font-weight: 700;
+      background: #f6efe4;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 2px 7px;
+      margin-right: 6px;
+      color: #3a302a;
+      cursor: pointer;
+    }
+    .cinema-tag:hover { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+    .cinema-rule-bar {
+      background: #fdf6ec;
+      border: 1px solid var(--line);
+      border-left: 4px solid var(--accent);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-bottom: 20px;
+      font-size: 14.5px;
+    }
+    .cinema-rule-bar p { margin: 4px 0; }
+    @media (max-width: 780px) { .cinema-grid { grid-template-columns: 1fr; } }
+
     .filters { display: flex; flex-wrap: wrap; gap: 14px; padding: 0 0 18px; }
     .filters label { display: grid; gap: 6px; flex: 1; min-width: 180px; font-size: 13px; font-weight: 700; color: var(--muted); }
     .filters input, .filters select { width: 100%; }
@@ -133,6 +165,7 @@
       <a href="index.html">← 파트별 읽기로</a>
       <a href="#sheets">일관성 시트 3종</a>
       <a href="#prompts">기준 프롬프트</a>
+      <a href="#cinematography">시네마틱 구도 원칙</a>
       <a href="#directory">인물·소품 12종</a>
     </nav>
     <div class="actions">
@@ -254,10 +287,69 @@ Hand-inked with a dip pen in warm dark sepia-charcoal ink, showing slightly impe
       </div>
     </section>
 
-    <!-- 3. Character & Prop Directory (Static HTML so it renders even without JS) -->
+    <!-- 3. Cinematic Angle, Lens & Staging Guidelines -->
+    <section id="cinematography">
+      <div class="section-head">
+        <h2>3. 시네마틱 앵글 · 화각 · 장면 구성 원칙</h2>
+        <span class="sub">영문 태그를 클릭하면 프롬프트 키워드가 즉시 복사됩니다</span>
+      </div>
+
+      <div class="cinema-rule-bar">
+        <p><strong>• 연속 구도 중복 금지 (No-Repeat Rule)</strong>: 3×3 그리드(9컷) 안에서 인접한 두 컷에 동일한 샷 사이즈나 정면 아이레벨 구도를 연속 사용하지 않습니다.</p>
+        <p><strong>• 9컷 표준 배분 비율</strong>: <code>와이드 1~2컷</code> + <code>클로즈업/인서트 2~3컷</code> + <code>OTS/POV/창문·미러 2컷</code> + <code>로우/하이/더치 앵글 2컷</code> + <code>액션/백뷰 1~2컷</code></p>
+        <p><strong>• 장면 구성 &amp; 원문 충실 원칙</strong>: 2~3문장 원문의 <strong>현재 행동과 감정 표정</strong>만 그리며(상상·회상·단순 언급은 실제 사건처럼 그리지 않음), 말풍선·번호 없이 순수 시각 컷으로 구성합니다.</p>
+      </div>
+
+      <div class="cinema-grid">
+        <article class="cinema-card">
+          <h3>① 거리 · 화각 (Shot Size)</h3>
+          <ul class="cinema-list">
+            <li><span class="cinema-tag" onclick="copyTag(this)">EXTREME CLOSE-UP / INSERT</span> 눈빛, 버튼 누르는 손, 호루라기, 손목시계, 플래시 카드, 풀린 신발끈, 장난감 등 핵심 디테일 확대</li>
+            <li><span class="cinema-tag" onclick="copyTag(this)">TIGHT CLOSE-UP</span> 얼굴이 컷을 가득 채우는 코믹한 감정 리액션 (기겁, 눈 굴림, 씩 웃음, 울먹임)</li>
+            <li><span class="cinema-tag" onclick="copyTag(this)">OFF-CENTER MCU</span> 어깨~머리 중심, 인물을 좌/우 1/3에 두고 반대편 여백과 시선 흐름 강조</li>
+            <li><span class="cinema-tag" onclick="copyTag(this)">FULL SHOT</span> 머리~발끝 전신 움직임 (풋볼 페인트, 달리기, 버스 승차)</li>
+            <li><span class="cinema-tag" onclick="copyTag(this)">WIDE ESTABLISHING SHOT</span> 주택가 거리, 비 오는 시골길, 도랑에 빠진 버스, 학교 정문 등 공간 설정</li>
+          </ul>
+        </article>
+
+        <article class="cinema-card">
+          <h3>② 카메라 앵글 (Camera Angle)</h3>
+          <ul class="cinema-list">
+            <li><span class="cinema-tag" onclick="copyTag(this)">GROUND-LEVEL LOW-ANGLE</span> 바닥 가까이에서 올려다봄 — 거대한 스쿨버스, 튀어나오는 STOP 표지판, 어른의 위압감, 영웅 포즈</li>
+            <li><span class="cinema-tag" onclick="copyTag(this)">HIGH-ANGLE / BIRD'S-EYE</span> 위에서 대각선으로 내려다봄 — 마당·보도 전체, 버스 통로, 웅크린 아이들, 떨어진 장난감</li>
+            <li><span class="cinema-tag" onclick="copyTag(this)">DUTCH ANGLE (15° TILT)</span> 화면을 15~25° 기울임 — 월요일 절망감, 버스 급커브, 도랑에 기울어진 패닉, 엉뚱함에 정신 혼미할 때</li>
+            <li><span class="cinema-tag" onclick="copyTag(this)">EYE-LEVEL</span> 자연스러운 일상 대화 컷 (단독으로 연속 2컷 이상 반복 금지)</li>
+          </ul>
+        </article>
+
+        <article class="cinema-card">
+          <h3>③ 시점 · 프레이밍 (Perspective &amp; Framing)</h3>
+          <ul class="cinema-list">
+            <li><span class="cinema-tag" onclick="copyTag(this)">OVER-THE-SHOULDER (OTS)</span> 한 인물의 뒷머리·어깨 너머로 상대방 얼굴에 포커스 (대화·잔소리·앞뒷좌석 대화)</li>
+            <li><span class="cinema-tag" onclick="copyTag(this)">REVERSE OTS CLOSE-UP</span> 직전 OTS의 반대 방향에서 상대방의 코믹한 리액션을 클로즈업으로 받기</li>
+            <li><span class="cinema-tag" onclick="copyTag(this)">POINT OF VIEW (POV)</span> A.J.의 1인칭 시선 — 코앞으로 다가오는 엄마, 눈앞의 플래시 카드, 운전석 미러 시선</li>
+            <li><span class="cinema-tag" onclick="copyTag(this)">BACK VIEW + LEADING LINES</span> 등 뒤에서 굽은 도로·버스 통로 소실점을 따라 앞 풍경을 바라보는 서사적 구도</li>
+            <li><span class="cinema-tag" onclick="copyTag(this)">FRAME-IN-FRAME (WINDOW / MIRROR)</span> 버스 창틀 너머의 친구들, 룸미러(백미러)에 비친 Mrs. Kormel의 눈빛 프레이밍</li>
+            <li><span class="cinema-tag" onclick="copyTag(this)">FOREGROUND-BACKGROUND DEPTH</span> 앞쪽 구석에 소품(STOP 표지판·플래시 카드)을 크게 두고 뒤쪽 인물을 배치해 입체감 강조</li>
+          </ul>
+        </article>
+
+        <article class="cinema-card">
+          <h3>④ 코미디 · 웹툰 특화 연출 (Dynamic Staging)</h3>
+          <ul class="cinema-list">
+            <li><span class="cinema-tag" onclick="copyTag(this)">DYNAMIC FORESHORTENING ACTION</span> 손·발·장난감·표지판이 카메라 쪽으로 훅 튀어나오는 원근 과장 액션</li>
+            <li><span class="cinema-tag" onclick="copyTag(this)">GROUP ROW REACTION SHOT</span> 버스 벤치에 나란히 앉은 A.J.·Ryan·Michael 3인방이 동시에 경악하거나 귓속말하는 구도</li>
+            <li><span class="cinema-tag" onclick="copyTag(this)">WIDE ↔ ECU TEMPO CONTRAST</span> 넓은 풍경(와이드) 직후 얼굴·소품 극단적 클로즈업으로 코미디 템포 극대화</li>
+            <li><span class="cinema-tag" onclick="copyTag(this)">DEEP AISLE PERSPECTIVE</span> 스쿨버스 중앙 통로의 대칭 원근감을 살려 앞좌석(유치원생)~뒷좌석(5학년) 위계 표현</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- 4. Character & Prop Directory (Static HTML so it renders even without JS) -->
     <section id="directory">
       <div class="section-head">
-        <h2>3. 등장인물 · 소품 12종 기준 프롬프트</h2>
+        <h2>4. 등장인물 · 소품 12종 기준 프롬프트</h2>
         <span class="sub">각 카드의 영문 스니펫을 복사해 장면 프롬프트에 바로 붙여 넣으세요</span>
       </div>
 
@@ -434,6 +526,12 @@ Hand-inked with a dip pen in warm dark sepia-charcoal ink, showing slightly impe
       const orig = btn.textContent;
       btn.textContent = '복사됨 ✓';
       setTimeout(() => { btn.textContent = orig; }, 1600);
+    }
+    async function copyTag(el) {
+      const orig = el.textContent;
+      await copyText(orig);
+      el.textContent = orig + ' ✓';
+      setTimeout(() => { el.textContent = orig; }, 1200);
     }
     async function copyText(text) {
       try { await navigator.clipboard.writeText(text); } catch {

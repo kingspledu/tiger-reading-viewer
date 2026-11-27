@@ -1,84 +1,80 @@
 {
   "source_file": "00_MWS11_NotebookLM_Master.json",
   "source_preserved": true,
-  "scene_count": 28,
+  "complete_book": true,
+  "part_count": 18,
+  "scene_count": 252,
+  "illustrated_count": 0,
+  "planned_count": 252,
+  "illustration_rule": "1 scene illustration per 2-3 sentences (sliced from 4x4 grids using locked MWS11 character reference sheets)",
   "scenes": [
     {
       "id": "1-1-scene-01",
       "part_id": "MWS11_C01_P01",
-      "sentence_count": 3,
+      "sentence_count": 5,
       "source_start": 0,
-      "source_end": 110,
-      "source_text": "My name is A.J. and I hate school.\nDo you know which is the worst day of the week? If you ask me, it's Monday.",
+      "source_end": 189,
+      "source_text": "My name is A.J. and I hate school.\nDo you know which is the worst day of the week? If you ask me, it's Monday. Because Monday is the start of five days of school in a row. That's horrible!\n",
       "settings": [
         "Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus"
       ],
       "character_ids": [
         "MWS11-AJ-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: My name is A.J. and I hate school.\nDo you know which is the worst day of the week? If you ask me, it's Monday. Physical setting: Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/1-1-scene-01.webp"
+      "status": "planned"
     },
     {
       "id": "1-1-scene-02",
       "part_id": "MWS11_C01_P01",
-      "sentence_count": 3,
-      "source_start": 110,
-      "source_end": 234,
-      "source_text": " Because Monday is the start of five days of school in a row. That's horrible!\nTuesday and Wednesday aren't so great either.",
+      "sentence_count": 2,
+      "source_start": 189,
+      "source_end": 335,
+      "source_text": "Tuesday and Wednesday aren't so great either.\nThursday is a pretty good day, because then we only have one day of school left before the weekend.\n",
       "settings": [
         "Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus"
       ],
       "character_ids": [
         "MWS11-AJ-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: Because Monday is the start of five days of school in a row. That's horrible!\nTuesday and Wednesday aren't so great either. Physical setting: Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/1-1-scene-02.webp"
+      "status": "planned"
     },
     {
       "id": "1-1-scene-03",
       "part_id": "MWS11_C01_P01",
-      "sentence_count": 3,
-      "source_start": 234,
-      "source_end": 444,
-      "source_text": "\nThursday is a pretty good day, because then we only have one day of school left before the weekend.\nFriday is really good, because that's when the school week is over.\nBut the best day of the week is Saturday.",
+      "sentence_count": 1,
+      "source_start": 335,
+      "source_end": 403,
+      "source_text": "Friday is really good, because that's when the school week is over.\n",
       "settings": [
         "Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus"
       ],
       "character_ids": [
         "MWS11-AJ-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: Thursday is a pretty good day, because then we only have one day of school left before the weekend.\nFriday is really good, because that's when the school week is over.\nBut the best day of the week is Saturday. Physical setting: Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/1-1-scene-03.webp"
+      "status": "planned"
     },
     {
       "id": "1-1-scene-04",
       "part_id": "MWS11_C01_P01",
-      "sentence_count": 3,
-      "source_start": 444,
-      "source_end": 629,
-      "source_text": " I play peewee football on Saturday, and we don't have school again for two whole days.\nToo bad it was Monday morning. I was waiting in front of my house for the school bus with my mom.",
+      "sentence_count": 2,
+      "source_start": 403,
+      "source_end": 532,
+      "source_text": "But the best day of the week is Saturday. I play peewee football on Saturday, and we don't have school again for two whole days.\n",
       "settings": [
         "Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus"
       ],
       "character_ids": [
-        "MWS11-AJ-01",
-        "MWS11-MOM-01"
+        "MWS11-AJ-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: I play peewee football on Saturday, and we don't have school again for two whole days.\nToo bad it was Monday morning. I was waiting in front of my house for the school bus with my mom. Physical setting: Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/1-1-scene-04.webp"
+      "status": "planned"
     },
     {
       "id": "1-1-scene-05",
       "part_id": "MWS11_C01_P01",
-      "sentence_count": 3,
-      "source_start": 629,
-      "source_end": 734,
-      "source_text": "\n\"You be a good boy, A.J.,\" my mom told me.\n\"I will.\"\n\"Don't get into any trouble, A.J.,\" my mom told me.",
+      "sentence_count": 2,
+      "source_start": 532,
+      "source_end": 630,
+      "source_text": "Too bad it was Monday morning. I was waiting in front of my house for the school bus with my mom.\n",
       "settings": [
         "Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus"
       ],
@@ -86,17 +82,15 @@
         "MWS11-AJ-01",
         "MWS11-MOM-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"You be a good boy, A.J.,\" my mom told me.\n\"I will.\"\n\"Don't get into any trouble, A.J.,\" my mom told me. Physical setting: Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/1-1-scene-05.webp"
+      "status": "planned"
     },
     {
       "id": "1-1-scene-06",
       "part_id": "MWS11_C01_P01",
-      "sentence_count": 3,
-      "source_start": 734,
-      "source_end": 830,
-      "source_text": "\n\"I won't.\"\n\"Remember to raise your hand when you want to talk, A.J.,\" my mom told me.\n\"I will.\"",
+      "sentence_count": 5,
+      "source_start": 630,
+      "source_end": 746,
+      "source_text": "\"You be a good boy, A.J.,\" my mom told me.\n\"I will.\"\n\"Don't get into any trouble, A.J.,\" my mom told me.\n\"I won't.\"\n",
       "settings": [
         "Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus"
       ],
@@ -104,17 +98,15 @@
         "MWS11-AJ-01",
         "MWS11-MOM-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"I won't.\"\n\"Remember to raise your hand when you want to talk, A.J.,\" my mom told me.\n\"I will.\" Physical setting: Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/1-1-scene-06.webp"
+      "status": "planned"
     },
     {
       "id": "1-1-scene-07",
       "part_id": "MWS11_C01_P01",
-      "sentence_count": 3,
-      "source_start": 830,
-      "source_end": 1041,
-      "source_text": "\n\"Don't shoot straw wrappers at the girls, A.J.,\" my mom told me.\n\"I won't.\"\nMy mom told me about a million hundred other things I wasn't allowed to do until I saw the yellow school bus coming around the corner.",
+      "sentence_count": 5,
+      "source_start": 746,
+      "source_end": 907,
+      "source_text": "\"Remember to raise your hand when you want to talk, A.J.,\" my mom told me.\n\"I will.\"\n\"Don't shoot straw wrappers at the girls, A.J.,\" my mom told me.\n\"I won't.\"\n",
       "settings": [
         "Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus"
       ],
@@ -122,37 +114,31 @@
         "MWS11-AJ-01",
         "MWS11-MOM-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"Don't shoot straw wrappers at the girls, A.J.,\" my mom told me.\n\"I won't.\"\nMy mom told me about a million hundred other things I wasn't allowed to do until I saw the yellow school bus coming around the corner. Physical setting: Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/1-1-scene-07.webp"
+      "status": "planned"
     },
     {
       "id": "1-1-scene-08",
       "part_id": "MWS11_C01_P01",
-      "sentence_count": 3,
-      "source_start": 1041,
-      "source_end": 1120,
-      "source_text": "\n\"Mom, I promise not to have any fun at all,\" I said. \"Bye!\"\nThe bus pulled up.",
+      "sentence_count": 4,
+      "source_start": 907,
+      "source_end": 1102,
+      "source_text": "My mom told me about a million hundred other things I wasn't allowed to do until I saw the yellow school bus coming around the corner.\n\"Mom, I promise not to have any fun at all,\" I said. \"Bye!\"\n",
       "settings": [
-        "Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus",
-        "Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows"
+        "Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus"
       ],
       "character_ids": [
         "MWS11-AJ-01",
-        "MWS11-MOM-01",
-        "MWS11-KORMEL-01"
+        "MWS11-MOM-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"Mom, I promise not to have any fun at all,\" I said. \"Bye!\"\nThe bus pulled up. Physical setting: Front sidewalk and curb outside A.J.'s house on Monday morning, waiting for the school bus; Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/1-1-scene-08.webp"
+      "status": "planned"
     },
     {
       "id": "1-1-scene-09",
       "part_id": "MWS11_C01_P01",
-      "sentence_count": 3,
-      "source_start": 1120,
-      "source_end": 1312,
-      "source_text": " Mrs. Kormel, the bus driver, pushed a button and made the little STOP sign pop out the side of the bus so the cars on the street will stop. We call it the magic STOP sign. That thing is cool.",
+      "sentence_count": 4,
+      "source_start": 1102,
+      "source_end": 1313,
+      "source_text": "The bus pulled up. Mrs. Kormel, the bus driver, pushed a button and made the little STOP sign pop out the side of the bus so the cars on the street will stop. We call it the magic STOP sign. That thing is cool.\n",
       "settings": [
         "Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows"
       ],
@@ -160,56 +146,32 @@
         "MWS11-AJ-01",
         "MWS11-KORMEL-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: Mrs. Kormel, the bus driver, pushed a button and made the little STOP sign pop out the side of the bus so the cars on the street will stop. We call it the magic STOP sign. That thing is cool. Physical setting: Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/1-1-scene-09.webp"
+      "status": "planned"
     },
     {
       "id": "1-1-scene-10",
       "part_id": "MWS11_C01_P01",
       "sentence_count": 3,
-      "source_start": 1312,
-      "source_end": 1524,
-      "source_text": "\n\"Give Mommy a kiss, A.J.\"\nNo way I was going to kiss my mother in front of all the kids staring out the bus window. That's the first rule of being a kid. Don't ever kiss your mother when other kids are watching!",
+      "source_start": 1313,
+      "source_end": 1525,
+      "source_text": "\"Give Mommy a kiss, A.J.\"\nNo way I was going to kiss my mother in front of all the kids staring out the bus window. That's the first rule of being a kid. Don't ever kiss your mother when other kids are watching!\n",
       "settings": [
         "Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows"
       ],
       "character_ids": [
         "MWS11-AJ-01",
-        "MWS11-KORMEL-01",
         "MWS11-MOM-01",
         "MWS11-STUDENTS-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"Give Mommy a kiss, A.J.\"\nNo way I was going to kiss my mother in front of all the kids staring out the bus window. That's the first rule of being a kid. Don't ever kiss your mother when other kids are watching! Physical setting: Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/1-1-scene-10.webp"
+      "status": "planned"
     },
     {
       "id": "1-1-scene-11",
       "part_id": "MWS11_C01_P01",
-      "sentence_count": 3,
-      "source_start": 1524,
-      "source_end": 1681,
-      "source_text": "\n\"Uh, I don't want to be late for school, Mom.\"\n\"Give Mommy a kiss, A.J.\"\n\"That's not gonna happen, Mom.\"\n\"Give Mommy a kiss, A.J.\"\n\"Over my dead body, Mom.\"",
-      "settings": [
-        "Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows"
-      ],
-      "character_ids": [
-        "MWS11-AJ-01",
-        "MWS11-MOM-01",
-        "MWS11-STUDENTS-01"
-      ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"Uh, I don't want to be late for school, Mom.\"\n\"Give Mommy a kiss, A.J.\"\n\"That's not gonna happen, Mom.\"\n\"Give Mommy a kiss, A.J.\"\n\"Over my dead body, Mom.\" Physical setting: Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/1-1-scene-11.webp"
-    },
-    {
-      "id": "1-1-scene-12",
-      "part_id": "MWS11_C01_P01",
-      "sentence_count": 3,
-      "source_start": 1681,
-      "source_end": 2002,
-      "source_text": "\n\"Give Mommy a kiss, A.J.\"\n\"I will if you give me a hundred dollars, Mom,\" I said.\nMy mother tried to wrap her arms around me, but I know how to get away from tacklers. When Mom went to grab me, I threw her a head fake, spun away, and gave her a few of my best fancy footwork moves that I learned playing peewee football.",
+      "sentence_count": 4,
+      "source_start": 1525,
+      "source_end": 1682,
+      "source_text": "\"Uh, I don't want to be late for school, Mom.\"\n\"Give Mommy a kiss, A.J.\"\n\"That's not gonna happen, Mom.\"\n\"Give Mommy a kiss, A.J.\"\n\"Over my dead body, Mom.\"\n",
       "settings": [
         "Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows"
       ],
@@ -217,17 +179,47 @@
         "MWS11-AJ-01",
         "MWS11-MOM-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"Give Mommy a kiss, A.J.\"\n\"I will if you give me a hundred dollars, Mom,\" I said.\nMy mother tried to wrap her arms around me, but I know how to get away from tacklers. When Mom went to grab me, I threw her a head fake, spun away, and gave her a few of my best fancy footwork moves that I learned playing peewee football. Physical setting: Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/1-1-scene-12.webp"
+      "status": "planned"
+    },
+    {
+      "id": "1-1-scene-12",
+      "part_id": "MWS11_C01_P01",
+      "sentence_count": 2,
+      "source_start": 1682,
+      "source_end": 1850,
+      "source_text": "\"Give Mommy a kiss, A.J.\"\n\"I will if you give me a hundred dollars, Mom,\" I said.\nMy mother tried to wrap her arms around me, but I know how to get away from tacklers. ",
+      "settings": [
+        "Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-MOM-01"
+      ],
+      "status": "planned"
     },
     {
       "id": "1-1-scene-13",
       "part_id": "MWS11_C01_P01",
-      "sentence_count": 3,
-      "source_start": 2002,
-      "source_end": 2108,
-      "source_text": " She didn't have a chance! I sidestepped her and ran on the bus before she could hug or kiss me.\nHa-ha-ha!",
+      "sentence_count": 1,
+      "source_start": 1850,
+      "source_end": 2003,
+      "source_text": "When Mom went to grab me, I threw her a head fake, spun away, and gave her a few of my best fancy footwork moves that I learned playing peewee football. ",
+      "settings": [
+        "Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-MOM-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "1-1-scene-14",
+      "part_id": "MWS11_C01_P01",
+      "sentence_count": 5,
+      "source_start": 2003,
+      "source_end": 2174,
+      "source_text": "She didn't have a chance! I sidestepped her and ran on the bus before she could hug or kiss me.\nHa-ha-ha! My mom can't play football for beans. Nah-nah-nah boo-boo on her!",
       "settings": [
         "Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows",
         "Steps and doorway of the yellow school bus as A.J. dashes aboard away from his mom"
@@ -236,35 +228,15 @@
         "MWS11-AJ-01",
         "MWS11-MOM-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: She didn't have a chance! I sidestepped her and ran on the bus before she could hug or kiss me.\nHa-ha-ha! Physical setting: Curb in front of A.J.'s house as the yellow school bus pulls up with its pop-out STOP sign and kids watching from the windows; Steps and doorway of the yellow school bus as A.J. dashes aboard away from his mom. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/1-1-scene-13.webp"
-    },
-    {
-      "id": "1-1-scene-14",
-      "part_id": "MWS11_C01_P01",
-      "sentence_count": 2,
-      "source_start": 2108,
-      "source_end": 2174,
-      "source_text": " My mom can't play football for beans. Nah-nah-nah boo-boo on her!",
-      "settings": [
-        "Steps and doorway of the yellow school bus as A.J. dashes aboard away from his mom"
-      ],
-      "character_ids": [
-        "MWS11-AJ-01",
-        "MWS11-MOM-01"
-      ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: My mom can't play football for beans. Nah-nah-nah boo-boo on her! Physical setting: Steps and doorway of the yellow school bus as A.J. dashes aboard away from his mom. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/1-1-scene-14.webp"
+      "status": "planned"
     },
     {
       "id": "2-1-scene-01",
       "part_id": "MWS11_C02_P01",
-      "sentence_count": 3,
+      "sentence_count": 4,
       "source_start": 0,
-      "source_end": 180,
-      "source_text": "I dashed on the bus and there was Mrs. Kormel, the school bus driver. She was wearing a crash helmet on her head and a silver whistle around her neck.\n\"Bingle boo, A.J.!\" she said.",
+      "source_end": 181,
+      "source_text": "I dashed on the bus and there was Mrs. Kormel, the school bus driver. She was wearing a crash helmet on her head and a silver whistle around her neck.\n\"Bingle boo, A.J.!\" she said.\n",
       "settings": [
         "Front aisle inside Mrs. Kormel's yellow school bus as A.J. boards"
       ],
@@ -272,17 +244,15 @@
         "MWS11-AJ-01",
         "MWS11-KORMEL-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: I dashed on the bus and there was Mrs. Kormel, the school bus driver. She was wearing a crash helmet on her head and a silver whistle around her neck.\n\"Bingle boo, A.J.!\" she said. Physical setting: Front aisle inside Mrs. Kormel's yellow school bus as A.J. boards. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/2-1-scene-01.webp"
+      "status": "planned"
     },
     {
       "id": "2-1-scene-02",
       "part_id": "MWS11_C02_P01",
       "sentence_count": 3,
-      "source_start": 180,
-      "source_end": 334,
-      "source_text": "\n\"Bingle boo, Mrs. Kormel.\"\n\"Bingle boo\" is Mrs. Kormel's way of saying \"hello.\" One time I asked her why she doesn't just say \"hello\" like normal people.",
+      "source_start": 181,
+      "source_end": 335,
+      "source_text": "\"Bingle boo, Mrs. Kormel.\"\n\"Bingle boo\" is Mrs. Kormel's way of saying \"hello.\" One time I asked her why she doesn't just say \"hello\" like normal people.\n",
       "settings": [
         "Front aisle inside Mrs. Kormel's yellow school bus as A.J. boards"
       ],
@@ -290,17 +260,15 @@
         "MWS11-AJ-01",
         "MWS11-KORMEL-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"Bingle boo, Mrs. Kormel.\"\n\"Bingle boo\" is Mrs. Kormel's way of saying \"hello.\" One time I asked her why she doesn't just say \"hello\" like normal people. Physical setting: Front aisle inside Mrs. Kormel's yellow school bus as A.J. boards. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/2-1-scene-02.webp"
+      "status": "planned"
     },
     {
       "id": "2-1-scene-03",
       "part_id": "MWS11_C02_P01",
-      "sentence_count": 3,
-      "source_start": 334,
-      "source_end": 443,
-      "source_text": "\n\"I'm inventing my own secret language,\" she told me. \"Everybody says 'hello.' But I think 'hello' is boring.",
+      "sentence_count": 6,
+      "source_start": 335,
+      "source_end": 550,
+      "source_text": "\"I'm inventing my own secret language,\" she told me. \"Everybody says 'hello.' But I think 'hello' is boring. I'm trying to get people to switch from saying 'hello' to saying 'bingle boo.' Secret languages are fun!\"\n",
       "settings": [
         "Front aisle inside Mrs. Kormel's yellow school bus as A.J. boards"
       ],
@@ -308,17 +276,15 @@
         "MWS11-AJ-01",
         "MWS11-KORMEL-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"I'm inventing my own secret language,\" she told me. \"Everybody says 'hello.' But I think 'hello' is boring. Physical setting: Front aisle inside Mrs. Kormel's yellow school bus as A.J. boards. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/2-1-scene-03.webp"
+      "status": "planned"
     },
     {
       "id": "2-1-scene-04",
       "part_id": "MWS11_C02_P01",
       "sentence_count": 3,
-      "source_start": 443,
-      "source_end": 576,
-      "source_text": " I'm trying to get people to switch from saying 'hello' to saying 'bingle boo.' Secret languages are fun!\"\nMrs. Kormel is not normal.",
+      "source_start": 550,
+      "source_end": 670,
+      "source_text": "Mrs. Kormel is not normal.\n\"Limpus kidoodle,\" said Mrs. Kormel. That means \"sit down\" in Mrs. Kormel's secret language.\n",
       "settings": [
         "Front aisle inside Mrs. Kormel's yellow school bus as A.J. boards"
       ],
@@ -326,19 +292,16 @@
         "MWS11-AJ-01",
         "MWS11-KORMEL-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: I'm trying to get people to switch from saying 'hello' to saying 'bingle boo.' Secret languages are fun!\"\nMrs. Kormel is not normal. Physical setting: Front aisle inside Mrs. Kormel's yellow school bus as A.J. boards. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/2-1-scene-04.webp"
+      "status": "planned"
     },
     {
       "id": "2-1-scene-05",
       "part_id": "MWS11_C02_P01",
       "sentence_count": 3,
-      "source_start": 576,
-      "source_end": 694,
-      "source_text": "\n\"Limpus kidoodle,\" said Mrs. Kormel. That means \"sit down\" in Mrs. Kormel's secret language.\nI looked around the bus.",
+      "source_start": 670,
+      "source_end": 884,
+      "source_text": "I looked around the bus. There was a snot-covered kindergartner in the front row behind Mrs. Kormel, and a few angry fifth graders in the back row.\nFifth graders are really mean because they get a lot of homework. ",
       "settings": [
-        "Front aisle inside Mrs. Kormel's yellow school bus as A.J. boards",
         "Interior aisle and rows of Mrs. Kormel's yellow school bus with kindergartner in front and fifth graders in back"
       ],
       "character_ids": [
@@ -346,54 +309,46 @@
         "MWS11-KORMEL-01",
         "MWS11-STUDENTS-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"Limpus kidoodle,\" said Mrs. Kormel. That means \"sit down\" in Mrs. Kormel's secret language.\nI looked around the bus. Physical setting: Front aisle inside Mrs. Kormel's yellow school bus as A.J. boards; Interior aisle and rows of Mrs. Kormel's yellow school bus with kindergartner in front and fifth graders in back. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/2-1-scene-05.webp"
+      "status": "planned"
     },
     {
       "id": "2-1-scene-06",
       "part_id": "MWS11_C02_P01",
-      "sentence_count": 3,
-      "source_start": 694,
-      "source_end": 930,
-      "source_text": " There was a snot-covered kindergartner in the front row behind Mrs. Kormel, and a few angry fifth graders in the back row.\nFifth graders are really mean because they get a lot of homework. The more homework you get, the meaner you are.",
+      "sentence_count": 2,
+      "source_start": 884,
+      "source_end": 1088,
+      "source_text": "The more homework you get, the meaner you are. That's why fifth graders are meaner than fourth graders, and fourth graders are meaner than third graders, and third graders are meaner than second graders.\n",
       "settings": [
         "Interior aisle and rows of Mrs. Kormel's yellow school bus with kindergartner in front and fifth graders in back"
       ],
       "character_ids": [
         "MWS11-AJ-01",
-        "MWS11-KORMEL-01",
         "MWS11-STUDENTS-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: There was a snot-covered kindergartner in the front row behind Mrs. Kormel, and a few angry fifth graders in the back row.\nFifth graders are really mean because they get a lot of homework. The more homework you get, the meaner you are. Physical setting: Interior aisle and rows of Mrs. Kormel's yellow school bus with kindergartner in front and fifth graders in back. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/2-1-scene-06.webp"
+      "status": "planned"
     },
     {
       "id": "2-1-scene-07",
       "part_id": "MWS11_C02_P01",
       "sentence_count": 3,
-      "source_start": 930,
-      "source_end": 1197,
-      "source_text": " That's why fifth graders are meaner than fourth graders, and fourth graders are meaner than third graders, and third graders are meaner than second graders.\nYou don't want to go near seventh or eighth graders. They get lots of homework, and they just hate the world.",
+      "source_start": 1088,
+      "source_end": 1233,
+      "source_text": "You don't want to go near seventh or eighth graders. They get lots of homework, and they just hate the world. I hope I never get to high school.\n",
       "settings": [
         "Interior aisle and rows of Mrs. Kormel's yellow school bus with kindergartner in front and fifth graders in back"
       ],
       "character_ids": [
-        "MWS11-AJ-01",
-        "MWS11-STUDENTS-01"
+        "MWS11-AJ-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: That's why fifth graders are meaner than fourth graders, and fourth graders are meaner than third graders, and third graders are meaner than second graders.\nYou don't want to go near seventh or eighth graders. They get lots of homework, and they just hate the world. Physical setting: Interior aisle and rows of Mrs. Kormel's yellow school bus with kindergartner in front and fifth graders in back. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/2-1-scene-07.webp"
+      "status": "planned"
     },
     {
       "id": "2-1-scene-08",
       "part_id": "MWS11_C02_P01",
       "sentence_count": 3,
-      "source_start": 1197,
-      "source_end": 1345,
-      "source_text": " I hope I never get to high school.\nI sat down in the middle by myself. Mrs. Kormel stopped the bus at the next corner, and a few other kids got on.",
+      "source_start": 1233,
+      "source_end": 1406,
+      "source_text": "I sat down in the middle by myself. Mrs. Kormel stopped the bus at the next corner, and a few other kids got on. At the stop after that, my friends Ryan and Michael got on.\n",
       "settings": [
         "Interior aisle and rows of Mrs. Kormel's yellow school bus with kindergartner in front and fifth graders in back"
       ],
@@ -402,20 +357,2471 @@
         "MWS11-KORMEL-01",
         "MWS11-STUDENTS-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: I hope I never get to high school.\nI sat down in the middle by myself. Mrs. Kormel stopped the bus at the next corner, and a few other kids got on. Physical setting: Interior aisle and rows of Mrs. Kormel's yellow school bus with kindergartner in front and fifth graders in back. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/2-1-scene-08.webp"
+      "status": "planned"
     },
     {
       "id": "2-1-scene-09",
       "part_id": "MWS11_C02_P01",
-      "sentence_count": 3,
-      "source_start": 1345,
-      "source_end": 1476,
-      "source_text": " At the stop after that, my friends Ryan and Michael got on.\n\"Bingle boo!\" Mrs. Kormel said to Ryan and Michael. \"Limpus kidoodle.\"",
+      "sentence_count": 8,
+      "source_start": 1406,
+      "source_end": 1607,
+      "source_text": "\"Bingle boo!\" Mrs. Kormel said to Ryan and Michael. \"Limpus kidoodle.\"\nRyan and Michael sat down next to me.\n\"What did you bring in for Show and Share?\" Ryan asked. \"I brought in an old light switch.\"\n",
       "settings": [
-        "Interior aisle and rows of Mrs. Kormel's yellow school bus with kindergartner in front and fifth graders in back",
         "Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-RYAN-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-1-scene-10",
+      "part_id": "MWS11_C02_P01",
+      "sentence_count": 3,
+      "source_start": 1607,
+      "source_end": 1806,
+      "source_text": "\"I brought in a ball of string,\" said Michael.\nShow and Share is when we bring something from home that starts with a certain letter of the alphabet and talk about it in class. Today's letter was s.\n",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-1-scene-11",
+      "part_id": "MWS11_C02_P01",
+      "sentence_count": 3,
+      "source_start": 1806,
+      "source_end": 2029,
+      "source_text": "I took my Show and Share thing out of my backpack. It was an action figure called Striker Smith. He's a superhero from the future who travels through time and fights bad guys with a sharp sword that's attached to his hand. ",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-1-scene-12",
+      "part_id": "MWS11_C02_P01",
+      "sentence_count": 2,
+      "source_start": 2029,
+      "source_end": 2195,
+      "source_text": "He can turn into a jet plane, too, and fly when you push a button. I saw a commercial for Striker Smith on TV and bugged my parents until they finally got it for me.\n",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-1-scene-13",
+      "part_id": "MWS11_C02_P01",
+      "sentence_count": 3,
+      "source_start": 2195,
+      "source_end": 2407,
+      "source_text": "\"Striker Smith belongs to a secret organization of crime fighters,\" I told Ryan and Michael, in case they didn't see the commercial.\n\"You should get extra credit,\" Ryan said, \"because Striker Smith has two S's.\"\n",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-1-scene-14",
+      "part_id": "MWS11_C02_P01",
+      "sentence_count": 3,
+      "source_start": 2407,
+      "source_end": 2570,
+      "source_text": "\"He's cool,\" said Michael. \"Sometimes I take my old action figures down to the basement and my dad lets me saw them in half or torture them with his power drill.\"\n",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-2-scene-01",
+      "part_id": "MWS11_C02_P02",
+      "sentence_count": 2,
+      "source_start": 2570,
+      "source_end": 2684,
+      "source_text": "\"I take mine out in the sun and melt their faces with a magnifying glass,\" said Ryan.\nMichael and Ryan are weird.\n",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-2-scene-02",
+      "part_id": "MWS11_C02_P02",
+      "sentence_count": 3,
+      "source_start": 2684,
+      "source_end": 2879,
+      "source_text": "At the next stop, this really annoying girl in my class named Andrea who thinks she knows everything got on the bus with curly brown hair. Well, the bus didn't have curly brown hair. Andrea did.\n",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus with Andrea seated directly in front of A.J., Ryan, and Michael"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-2-scene-03",
+      "part_id": "MWS11_C02_P02",
+      "sentence_count": 6,
+      "source_start": 2879,
+      "source_end": 3077,
+      "source_text": "\"Bingle boo, Andrea!\" said Mrs. Kormel.\n\"Bingle boo,\" Andrea said. \"I'll go limpus kidoodle now.\"\nWhat a brownnoser! Andrea plopped her dumb self down in the seat right in front of me, like always.\n",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus with Andrea seated directly in front of A.J., Ryan, and Michael"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-2-scene-04",
+      "part_id": "MWS11_C02_P02",
+      "sentence_count": 5,
+      "source_start": 3077,
+      "source_end": 3276,
+      "source_text": "\"Good morning, Arlo,\" she said.\nI hate her.\nAndrea's mother found out that A.J. stands for Arlo Jervis, so Andrea went and told everybody. It was the worst day of my life. I thought I was gonna die. ",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus with Andrea seated directly in front of A.J., Ryan, and Michael"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-2-scene-05",
+      "part_id": "MWS11_C02_P02",
+      "sentence_count": 4,
+      "source_start": 3276,
+      "source_end": 3480,
+      "source_text": "I wanted to switch schools or move to Antarctica and go live with the penguins, but my mom wouldn't let me.\nPenguins are cool.\n\"Are you boys ready for the big spelling test this afternoon?\" Andrea asked.\n",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus with Andrea seated directly in front of A.J., Ryan, and Michael"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-2-scene-06",
+      "part_id": "MWS11_C02_P02",
+      "sentence_count": 5,
+      "source_start": 3480,
+      "source_end": 3666,
+      "source_text": "Oh no. I forgot all about the big dumb spelling test! How can I be expected to remember stuff over the weekend? Weekends are for having fun, not for studying for tests. I hate spelling.\n",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus with Andrea seated directly in front of A.J., Ryan, and Michael"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-2-scene-07",
+      "part_id": "MWS11_C02_P02",
+      "sentence_count": 5,
+      "source_start": 3666,
+      "source_end": 3786,
+      "source_text": "\"Do you know how to spell 'spelling,' A.J.?\" asked Andrea.\n\"Sure,\" I said. \"I-H-A-T-E-Y-O-U.\"\nMichael and Ryan laughed.\n",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus with Andrea seated directly in front of A.J., Ryan, and Michael"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01",
+        "MWS11-RYAN-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-2-scene-08",
+      "part_id": "MWS11_C02_P02",
+      "sentence_count": 3,
+      "source_start": 3786,
+      "source_end": 3928,
+      "source_text": "\"I made my own spelling flash cards,\" Andrea told us, \"and I'm going to use them for Show and Share, too. Because spelling begins with an s.\"\n",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus with Andrea seated directly in front of A.J., Ryan, and Michael"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-2-scene-09",
+      "part_id": "MWS11_C02_P02",
+      "sentence_count": 1,
+      "source_start": 3928,
+      "source_end": 4095,
+      "source_text": "I was going to tell Andrea that \"stupid\" also begins with an s and that's what she is, but I decided I would save that and use it the next time she really got me mad.\n",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus with Andrea seated directly in front of A.J., Ryan, and Michael"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-2-scene-10",
+      "part_id": "MWS11_C02_P02",
+      "sentence_count": 4,
+      "source_start": 4095,
+      "source_end": 4298,
+      "source_text": "Andrea turned around so she wasn't facing us anymore. I picked up Striker Smith and pretended that he was going to attack the back of her head with his sword. It was hilarious. Michael and Ryan laughed. ",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus with Andrea seated directly in front of A.J., Ryan, and Michael"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-MICHAEL-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-2-scene-11",
+      "part_id": "MWS11_C02_P02",
+      "sentence_count": 6,
+      "source_start": 4298,
+      "source_end": 4481,
+      "source_text": "But Andrea turned around suddenly, before I could take Striker Smith away from her head.\n\"That's a nice doll, Arlo,\" she said.\n\"It's not a doll!\" I told her. \"It's an action figure!\"\n",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus with Andrea seated directly in front of A.J., Ryan, and Michael"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-2-scene-12",
+      "part_id": "MWS11_C02_P02",
+      "sentence_count": 6,
+      "source_start": 4481,
+      "source_end": 4648,
+      "source_text": "\"My mother told me that action figures are dolls for boys,\" said Andrea.\n\"They are not!\" I said.\n\"Are too!\" said Andrea.\nWe went back and forth like that for a while.\n",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus with Andrea seated directly in front of A.J., Ryan, and Michael"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-2-scene-13",
+      "part_id": "MWS11_C02_P02",
+      "sentence_count": 4,
+      "source_start": 4648,
+      "source_end": 4851,
+      "source_text": "\"Striker Smith is a one-man wrecking machine,\" I told Andrea. \"He belongs to a secret organization of crime fighters. If Striker got into a fight with one of your dumb dolls, he would rip its head off.\"\n",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus with Andrea seated directly in front of A.J., Ryan, and Michael"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "2-2-scene-14",
+      "part_id": "MWS11_C02_P02",
+      "sentence_count": 4,
+      "source_start": 4851,
+      "source_end": 5031,
+      "source_text": "\"Dolls don't fight,\" Andrea said.\n\"Striker Smith does,\" I said.\n\"I thought you said he wasn't a doll, Arlo.\"\nWhy can't a bus filled with spelling flash cards fall on Andrea's head?",
+      "settings": [
+        "Middle seats inside Mrs. Kormel's yellow school bus with Andrea seated directly in front of A.J., Ryan, and Michael"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-1-scene-01",
+      "part_id": "MWS11_C03_P01",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 216,
+      "source_text": "\"Bingle boo! Limpus kidoodle,\" said Mrs. Kormel.\nAndrea's equally annoying crybaby friend Emily got on the bus in front of her house. She sat down next to Andrea, and they studied Andrea's dumb flash cards together.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus stopping in front of Emily's house during morning pickup"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-ANDREA-01",
+        "MWS11-EMILY-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-1-scene-02",
+      "part_id": "MWS11_C03_P01",
+      "sentence_count": 5,
+      "source_start": 216,
+      "source_end": 351,
+      "source_text": "\"Is everybody here?\" asked Mrs. Kormel after she picked up a few more kids.\n\"Yes,\" we all said.\n\"If you're not here, raise your hand.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus stopping in front of Emily's house during morning pickup"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-1-scene-03",
+      "part_id": "MWS11_C03_P01",
+      "sentence_count": 1,
+      "source_start": 351,
+      "source_end": 467,
+      "source_text": "I knew that was a trick question, because if somebody wasn't there we wouldn't be able to see if their hand was up. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus stopping in front of Emily's house during morning pickup"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-1-scene-04",
+      "part_id": "MWS11_C03_P01",
+      "sentence_count": 2,
+      "source_start": 467,
+      "source_end": 617,
+      "source_text": "But just to be on the safe side, I got up in my seat to see if anybody who wasn't there had their hand up.\n\"Limpus kidoodle, A.J.,\" said Mrs. Kormel.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus stopping in front of Emily's house during morning pickup"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-1-scene-05",
+      "part_id": "MWS11_C03_P01",
+      "sentence_count": 3,
+      "source_start": 617,
+      "source_end": 772,
+      "source_text": "In case you don't remember, that means \"sit down.\" Mrs. Kormel doesn't like it when we get out of our seats.\n\"No standing on the seats,\" said Mrs. Kormel.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus stopping in front of Emily's house during morning pickup"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-1-scene-06",
+      "part_id": "MWS11_C03_P01",
+      "sentence_count": 5,
+      "source_start": 772,
+      "source_end": 892,
+      "source_text": "\"Can I kneel on my seat?\" I asked.\n\"You can only kneel on your seat if your name is Neil. Anyone named Neil may kneel.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus stopping in front of Emily's house during morning pickup"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-1-scene-07",
+      "part_id": "MWS11_C03_P01",
+      "sentence_count": 5,
+      "source_start": 892,
+      "source_end": 1003,
+      "source_text": "\"Can I stand if my name is Stan?\" asked Ryan.\n\"Okay,\" said Mrs. Kormel. \"If your name is Stan, you can stand.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus stopping in front of Emily's house during morning pickup"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-1-scene-08",
+      "part_id": "MWS11_C03_P01",
+      "sentence_count": 4,
+      "source_start": 1003,
+      "source_end": 1138,
+      "source_text": "\"I can't stand sitting down,\" Michael said.\n\"Nobody can stand sitting down,\" Ryan said. \"If you're sitting down, you're not standing.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus stopping in front of Emily's house during morning pickup"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-MICHAEL-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-1-scene-09",
+      "part_id": "MWS11_C03_P01",
+      "sentence_count": 5,
+      "source_start": 1138,
+      "source_end": 1268,
+      "source_text": "\"Can you crouch if your name is Crouch?\" I asked.\n\"There's nobody named Crouch!\" Andrea told me. She thinks she knows everything.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus stopping in front of Emily's house during morning pickup"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-1-scene-10",
+      "part_id": "MWS11_C03_P01",
+      "sentence_count": 5,
+      "source_start": 1268,
+      "source_end": 1400,
+      "source_text": "\"Oh yeah?\" I said. \"What about that guy on Sesame Street named Oscar the Crouch?\"\n\"That's Oscar the Grouch, dumbhead!\" Andrea said.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus stopping in front of Emily's house during morning pickup"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-1-scene-11",
+      "part_id": "MWS11_C03_P01",
+      "sentence_count": 3,
+      "source_start": 1400,
+      "source_end": 1517,
+      "source_text": "I knew that.\n\"Now that we're all here, how about singing a song to make the ride go quicker?\" suggested Mrs. Kormel.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus stopping in front of Emily's house during morning pickup"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-1-scene-12",
+      "part_id": "MWS11_C03_P01",
+      "sentence_count": 6,
+      "source_start": 1517,
+      "source_end": 1673,
+      "source_text": "\"Let's sing 'The Wheels on the Bus'!\" said Andrea. \"I love that song.\"\n\"I hate that song,\" I said. \"Can we sing 'Ninety-nine Bottles of Beer on the Wall'?\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus rolling down the street while kids sing loudly"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-1-scene-13",
+      "part_id": "MWS11_C03_P01",
+      "sentence_count": 2,
+      "source_start": 1673,
+      "source_end": 1817,
+      "source_text": "Mrs. Kormel said we couldn't sing about beer because kids aren't allowed to drink beer. I wouldn't want to drink beer even if I was allowed to. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus rolling down the street while kids sing loudly"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-1-scene-14",
+      "part_id": "MWS11_C03_P01",
+      "sentence_count": 3,
+      "source_start": 1817,
+      "source_end": 1977,
+      "source_text": "My dad gave me a sip of his beer once. I thought I was gonna throw up. Mrs. Kormel said we could sing \"Ninety-nine Bottles of Pop on the Wall\" if we wanted to.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus rolling down the street while kids sing loudly"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-2-scene-01",
+      "part_id": "MWS11_C03_P02",
+      "sentence_count": 3,
+      "source_start": 1977,
+      "source_end": 2095,
+      "source_text": "The girls started singing \"The Wheels on the Bus.\" The boys started singing \"Ninety-nine Bottles of Pop on the Wall.\" ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus rolling down the street while kids sing loudly"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-2-scene-02",
+      "part_id": "MWS11_C03_P02",
+      "sentence_count": 3,
+      "source_start": 2095,
+      "source_end": 2246,
+      "source_text": "Me and Michael and Ryan tried to sing louder than all the girls. Andrea and Emily tried to sing louder than all the boys. It was really loud in there.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus rolling down the street while kids sing loudly"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-MICHAEL-01",
+        "MWS11-ANDREA-01",
+        "MWS11-EMILY-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-2-scene-03",
+      "part_id": "MWS11_C03_P02",
+      "sentence_count": 2,
+      "source_start": 2246,
+      "source_end": 2392,
+      "source_text": "Soon everybody on the bus was screaming, and kids were bouncing around like Mexican jumping beans. I covered my ears so my head wouldn't explode.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus rolling down the street while kids sing loudly"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-2-scene-04",
+      "part_id": "MWS11_C03_P02",
+      "sentence_count": 2,
+      "source_start": 2392,
+      "source_end": 2486,
+      "source_text": "Something about being on a school bus makes you want to go crazy. Maybe it's all that yellow.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus rolling down the street while kids sing loudly"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-2-scene-05",
+      "part_id": "MWS11_C03_P02",
+      "sentence_count": 4,
+      "source_start": 2486,
+      "source_end": 2606,
+      "source_text": "I'll bet Mrs. Kormel was sorry she told us to sing. Suddenly she blew her whistle really loud.\n\"Zingy zip!\" she yelled.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus rolling down the street while kids sing loudly"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-2-scene-06",
+      "part_id": "MWS11_C03_P02",
+      "sentence_count": 5,
+      "source_start": 2606,
+      "source_end": 2767,
+      "source_text": "That's her way of saying \"quiet down\" in her secret language. Everybody stopped singing.\n\"Shhhhh, my cell phone is ringing,\" said Mrs. Kormel. \"It's Mr. Klutz.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus rolling down the street while kids sing loudly"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-2-scene-07",
+      "part_id": "MWS11_C03_P02",
+      "sentence_count": 5,
+      "source_start": 2767,
+      "source_end": 2929,
+      "source_text": "Mr. Klutz is our principal. He is like the king of the school. He's bald, too. One time he kissed a pig. This other time he got stuck on the top of the flagpole. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus as Mrs. Kormel takes a phone call and a whispered message passes back row by row"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-2-scene-08",
+      "part_id": "MWS11_C03_P02",
+      "sentence_count": 1,
+      "source_start": 2929,
+      "source_end": 3060,
+      "source_text": "Another time he was climbing the school, and the custodian had to rescue him by sticking one of those toilet plungers on his head. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus as Mrs. Kormel takes a phone call and a whispered message passes back row by row"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-2-scene-09",
+      "part_id": "MWS11_C03_P02",
+      "sentence_count": 4,
+      "source_start": 3060,
+      "source_end": 3154,
+      "source_text": "We saw it live and in person. Mr. Klutz is nuts!\n\"What does Mr. Klutz want?\" somebody yelled.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus as Mrs. Kormel takes a phone call and a whispered message passes back row by row"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-2-scene-10",
+      "part_id": "MWS11_C03_P02",
+      "sentence_count": 1,
+      "source_start": 3154,
+      "source_end": 3270,
+      "source_text": "Mrs. Kormel finished talking to Mr. Klutz and turned around to whisper something to the boys in the row behind her. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus as Mrs. Kormel takes a phone call and a whispered message passes back row by row"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-2-scene-11",
+      "part_id": "MWS11_C03_P02",
+      "sentence_count": 1,
+      "source_start": 3270,
+      "source_end": 3349,
+      "source_text": "They turned around and whispered something to the girl in the row behind them. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus as Mrs. Kormel takes a phone call and a whispered message passes back row by row"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-2-scene-12",
+      "part_id": "MWS11_C03_P02",
+      "sentence_count": 1,
+      "source_start": 3349,
+      "source_end": 3476,
+      "source_text": "She turned and whispered something to the girl in the row across from her, who then turned and whispered something to Michael.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus as Mrs. Kormel takes a phone call and a whispered message passes back row by row"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-2-scene-13",
+      "part_id": "MWS11_C03_P02",
+      "sentence_count": 5,
+      "source_start": 3476,
+      "source_end": 3574,
+      "source_text": "\"We have to go pick up a nude kid,\" Michael whispered.\n\"A nude kid?\" I said. \"That's disgusting!\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus as Mrs. Kormel takes a phone call and a whispered message passes back row by row"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "3-2-scene-14",
+      "part_id": "MWS11_C03_P02",
+      "sentence_count": 3,
+      "source_start": 3574,
+      "source_end": 3685,
+      "source_text": "\"That nude kid better not sit next to me,\" said Ryan.\n\"Tell the nude kid to put some clothes on!\" said Michael.",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus as Mrs. Kormel takes a phone call and a whispered message passes back row by row"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "4-1-scene-01",
+      "part_id": "MWS11_C04_P01",
+      "sentence_count": 4,
+      "source_start": 0,
+      "source_end": 214,
+      "source_text": "We hadn't even met him yet, but suddenly everybody on the bus was buzzing about the nude kid.\n\"Some people don't believe in wearing clothes,\" said Andrea, who thinks she knows everything. \"They're called nudists.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving along neighborhood streets as kids buzz about the new student"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "4-1-scene-02",
+      "part_id": "MWS11_C04_P01",
+      "sentence_count": 7,
+      "source_start": 214,
+      "source_end": 448,
+      "source_text": "\"I call 'em freaks,\" said Ryan.\n\"My parents say we should respect and celebrate people's differences,\" Emily said.\n\"Your parents are weird,\" I told her.\n\"What's the big deal?\" Andrea asked. \"After all, we were born without clothing.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving along neighborhood streets as kids buzz about the new student"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-EMILY-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "4-1-scene-03",
+      "part_id": "MWS11_C04_P01",
+      "sentence_count": 3,
+      "source_start": 448,
+      "source_end": 635,
+      "source_text": "\"You were born without a brain,\" I couldn't resist adding. Anytime anyone says anything about being born, always say they were born without a brain. That's the first rule of being a kid.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving along neighborhood streets as kids buzz about the new student"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "4-1-scene-04",
+      "part_id": "MWS11_C04_P01",
+      "sentence_count": 4,
+      "source_start": 635,
+      "source_end": 841,
+      "source_text": "\"I'm nude under my clothes,\" Ryan told us.\n\"Thanks for sharing that with us,\" I told him. \"Now I'm totally grossed out.\"\nAndrea said that nudists save a lot of money because they don't have to buy clothes. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving along neighborhood streets as kids buzz about the new student"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "4-1-scene-05",
+      "part_id": "MWS11_C04_P01",
+      "sentence_count": 2,
+      "source_start": 841,
+      "source_end": 1030,
+      "source_text": "But Michael said that nudists have to spend a lot of money because they always have to buy sunscreen. But Emily said that nudists save a lot of money because they don't have to do laundry. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving along neighborhood streets as kids buzz about the new student"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-MICHAEL-01",
+        "MWS11-EMILY-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "4-1-scene-06",
+      "part_id": "MWS11_C04_P01",
+      "sentence_count": 3,
+      "source_start": 1030,
+      "source_end": 1252,
+      "source_text": "But Ryan said that nudists have to spend a lot of money to heat their houses because they're so cold.\n\"The nude kid probably doesn't even have a closet at home,\" I said, \"because he doesn't have any clothes to put in it.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving along neighborhood streets as kids buzz about the new student"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "4-1-scene-07",
+      "part_id": "MWS11_C04_P01",
+      "sentence_count": 5,
+      "source_start": 1252,
+      "source_end": 1443,
+      "source_text": "\"Do you think nude kids are allowed to wear hats?\" asked Michael.\n\"Zingy zip!\" yelled Mrs. Kormel.\nMrs. Kormel had pulled out a big map and she had it opened up on top of the steering wheel. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving along neighborhood streets as kids buzz about the new student",
+        "Inside Mrs. Kormel's yellow school bus as Mrs. Kormel spreads a large road map over the steering wheel"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-MICHAEL-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "4-1-scene-08",
+      "part_id": "MWS11_C04_P01",
+      "sentence_count": 2,
+      "source_start": 1443,
+      "source_end": 1573,
+      "source_text": "She told us we had to be quiet while she figured out the directions. I bet it's hard to drive and look at a map at the same time.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus as Mrs. Kormel spreads a large road map over the steering wheel"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "4-1-scene-09",
+      "part_id": "MWS11_C04_P01",
+      "sentence_count": 4,
+      "source_start": 1573,
+      "source_end": 1779,
+      "source_text": "To make things even worse, it started raining. Mrs. Kormel put the windshield wipers on. All the girls started to sing, \"'The wipers on the bus go swish swish swish, swish swish swish, swish swish swish!'\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through heavy rain with windshield wipers swishing"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "4-1-scene-10",
+      "part_id": "MWS11_C04_P01",
+      "sentence_count": 5,
+      "source_start": 1779,
+      "source_end": 1922,
+      "source_text": "\"Zingy zip!\" Mrs. Kormel yelled again. \"I can't concentrate.\"\nWe drove for a long time in the rain. It was hard to go so long without talking.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through heavy rain with windshield wipers swishing"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "4-1-scene-11",
+      "part_id": "MWS11_C04_P01",
+      "sentence_count": 8,
+      "source_start": 1922,
+      "source_end": 2079,
+      "source_text": "\"Are we there yet?\" somebody asked.\n\"No,\" said Mrs. Kormel.\n\"Are we lost?\" Emily asked.\n\"Of course not,\" said Mrs. Kormel. \"I just don't know where we are.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through heavy rain with windshield wipers swishing"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01",
+        "MWS11-KORMEL-01",
+        "MWS11-EMILY-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "4-1-scene-12",
+      "part_id": "MWS11_C04_P01",
+      "sentence_count": 4,
+      "source_start": 2079,
+      "source_end": 2230,
+      "source_text": "\"Oh no, we're going to miss Show and Share!\" Andrea said to Emily, like she was all worried. \"And I spent all weekend making my spelling flash cards.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through heavy rain with windshield wipers swishing"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01",
+        "MWS11-EMILY-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "4-1-scene-13",
+      "part_id": "MWS11_C04_P01",
+      "sentence_count": 5,
+      "source_start": 2230,
+      "source_end": 2357,
+      "source_text": "Ha-ha-ha! I spent all weekend playing football. Nah-nah-nah boo-boo on her! We were going to be late for school. It was great! ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through heavy rain with windshield wipers swishing"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "4-1-scene-14",
+      "part_id": "MWS11_C04_P01",
+      "sentence_count": 3,
+      "source_start": 2357,
+      "source_end": 2508,
+      "source_text": "I hoped Mrs. Kormel wouldn't find the right way to the nude kid's house for a while. Because right after Show and Share, we have math.\nAnd I hate math.",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through heavy rain with windshield wipers swishing"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-1-scene-01",
+      "part_id": "MWS11_C05_P01",
+      "sentence_count": 3,
+      "source_start": 0,
+      "source_end": 149,
+      "source_text": "Mrs. Kormel drove for a million hundred hours, and we still hadn't reached the nude kid's house. Where was it? Now Show and Share was over for sure. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving on a rainy road past construction trucks and a DETOUR sign"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-1-scene-02",
+      "part_id": "MWS11_C05_P01",
+      "sentence_count": 4,
+      "source_start": 149,
+      "source_end": 299,
+      "source_text": "We probably missed math, too. If we didn't get to school soon, we would miss our DEAR time. That stands for Drop Everything and Read.\nI hate reading.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving on a rainy road past construction trucks and a DETOUR sign"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-1-scene-03",
+      "part_id": "MWS11_C05_P01",
+      "sentence_count": 4,
+      "source_start": 299,
+      "source_end": 438,
+      "source_text": "Finally we drove by some big trucks and there was a sign that said DETOUR.\n\"Hey, we're going to take a tour,\" said Ryan. \"Tours are cool!\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving on a rainy road past construction trucks and a DETOUR sign"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-1-scene-04",
+      "part_id": "MWS11_C05_P01",
+      "sentence_count": 4,
+      "source_start": 438,
+      "source_end": 600,
+      "source_text": "\"Detours aren't tours, dumbhead!\" said Andrea. \"Workers are fixing the road, so Mrs. Kormel has to get off this road and go another way to the nude kid's house.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving on a rainy road past construction trucks and a DETOUR sign"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-1-scene-05",
+      "part_id": "MWS11_C05_P01",
+      "sentence_count": 2,
+      "source_start": 600,
+      "source_end": 687,
+      "source_text": "\"Bix blattinger!\" said Mrs. Kormel as she slammed her fist against the steering wheel.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving on a rainy road past construction trucks and a DETOUR sign"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-1-scene-06",
+      "part_id": "MWS11_C05_P01",
+      "sentence_count": 1,
+      "source_start": 687,
+      "source_end": 811,
+      "source_text": "I don't know what \"bix blattinger\" means, but that's what Mrs. Kormel always says when she gets really angry or frustrated.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving on a rainy road past construction trucks and a DETOUR sign"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-1-scene-07",
+      "part_id": "MWS11_C05_P01",
+      "sentence_count": 4,
+      "source_start": 811,
+      "source_end": 904,
+      "source_text": "\"What does 'bix blattinger' mean, Mrs. Kormel?\" I asked.\n\"Never you mind!\" said Mrs. Kormel.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving on a rainy road past construction trucks and a DETOUR sign"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-1-scene-08",
+      "part_id": "MWS11_C05_P01",
+      "sentence_count": 3,
+      "source_start": 904,
+      "source_end": 1054,
+      "source_text": "\"I think Mrs. Kormel must have said a bad word,\" said Ryan.\n\"But she said it in her secret language,\" Michael said, \"so we won't know what it means.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving on a rainy road past construction trucks and a DETOUR sign"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-KORMEL-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-1-scene-09",
+      "part_id": "MWS11_C05_P01",
+      "sentence_count": 2,
+      "source_start": 1054,
+      "source_end": 1143,
+      "source_text": "You shouldn't say bad words. We all tried to figure out which bad word Mrs. Kormel said. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving on a rainy road past construction trucks and a DETOUR sign"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-1-scene-10",
+      "part_id": "MWS11_C05_P01",
+      "sentence_count": 1,
+      "source_start": 1143,
+      "source_end": 1257,
+      "source_text": "I had heard most of the bad words, but Michael and Ryan knew a few that I didn't know and they taught them to me. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving on a rainy road past construction trucks and a DETOUR sign"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-1-scene-11",
+      "part_id": "MWS11_C05_P01",
+      "sentence_count": 1,
+      "source_start": 1257,
+      "source_end": 1340,
+      "source_text": "So even though we were really late for school, it was still a learning experience.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving on a rainy road past construction trucks and a DETOUR sign"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-1-scene-12",
+      "part_id": "MWS11_C05_P01",
+      "sentence_count": 2,
+      "source_start": 1340,
+      "source_end": 1471,
+      "source_text": "After we got off the regular road, the road we were on wasn't even a real road. It was more like a jungle or a swamp or something. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus bumping along an overgrown, rainy jungle-like back road with wet branches slapping the windows"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-1-scene-13",
+      "part_id": "MWS11_C05_P01",
+      "sentence_count": 2,
+      "source_start": 1471,
+      "source_end": 1579,
+      "source_text": "There were these big plants slapping against the bus windows. The ride was bumpy, and it was still raining. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus bumping along an overgrown, rainy jungle-like back road with wet branches slapping the windows"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-1-scene-14",
+      "part_id": "MWS11_C05_P01",
+      "sentence_count": 3,
+      "source_start": 1579,
+      "source_end": 1726,
+      "source_text": "Mrs. Kormel could barely see in front of her.\n\"This is like the rainforest,\" Andrea said.\n\"I hope we don't get eaten by alligators,\" said Michael.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus bumping along an overgrown, rainy jungle-like back road with wet branches slapping the windows"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-ANDREA-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-2-scene-01",
+      "part_id": "MWS11_C05_P02",
+      "sentence_count": 5,
+      "source_start": 1726,
+      "source_end": 1846,
+      "source_text": "\"Look!\" somebody yelled. A family of ducks was crossing the road in front of us.\n\"They're cute!\" shouted all the girls.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus bumping along an overgrown, rainy jungle-like back road with wet branches slapping the windows"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-2-scene-02",
+      "part_id": "MWS11_C05_P02",
+      "sentence_count": 3,
+      "source_start": 1846,
+      "source_end": 1976,
+      "source_text": "\"Let's run them over!\" shouted all the boys.\nI didn't really want Mrs. Kormel to run over the ducks, but it was hilarious anyway.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus bumping along an overgrown, rainy jungle-like back road with wet branches slapping the windows"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-2-scene-03",
+      "part_id": "MWS11_C05_P02",
+      "sentence_count": 3,
+      "source_start": 1976,
+      "source_end": 2104,
+      "source_text": "Mrs. Kormel kept on driving, but I didn't see the nude kid's house anywhere. In fact, I didn't see any houses. Or human beings.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through an isolated rainy stretch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-2-scene-04",
+      "part_id": "MWS11_C05_P02",
+      "sentence_count": 4,
+      "source_start": 2104,
+      "source_end": 2236,
+      "source_text": "\"Where are we?\" somebody asked.\n\"The middle of nowhere,\" said Mrs. Kormel.\nI said it was too bad we weren't at the edge of nowhere. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through an isolated rainy stretch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-2-scene-05",
+      "part_id": "MWS11_C05_P02",
+      "sentence_count": 1,
+      "source_start": 2236,
+      "source_end": 2324,
+      "source_text": "Because if we were at the edge of nowhere, we'd be right next to the edge of somewhere. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through an isolated rainy stretch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-2-scene-06",
+      "part_id": "MWS11_C05_P02",
+      "sentence_count": 1,
+      "source_start": 2324,
+      "source_end": 2415,
+      "source_text": "And the edge of somewhere is near the middle of somewhere, which is where we wanted to be.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through an isolated rainy stretch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-2-scene-07",
+      "part_id": "MWS11_C05_P02",
+      "sentence_count": 5,
+      "source_start": 2415,
+      "source_end": 2624,
+      "source_text": "Ryan said we were probably close to the nude kid's house. Because if you were nude, you'd probably live in the middle of nowhere. That way, nobody would see you. And that's where we were. It made sense to me.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through an isolated rainy stretch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-2-scene-08",
+      "part_id": "MWS11_C05_P02",
+      "sentence_count": 5,
+      "source_start": 2624,
+      "source_end": 2743,
+      "source_text": "Andrea looked at her watch and got all upset.\n\"We missed DEAR time!\" she complained. \"We're very late for school now.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through an isolated rainy stretch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-2-scene-09",
+      "part_id": "MWS11_C05_P02",
+      "sentence_count": 5,
+      "source_start": 2743,
+      "source_end": 2886,
+      "source_text": "Ha-ha-ha! This was the greatest day of my life!\n\"Don't worry, Andrea,\" said Mrs. Kormel. \"I'll get you to school if it's the last thing I do.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through an isolated rainy stretch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-2-scene-10",
+      "part_id": "MWS11_C05_P02",
+      "sentence_count": 3,
+      "source_start": 2886,
+      "source_end": 2972,
+      "source_text": "Just then I had a genius thought. Right after DEAR time is spelling. I hate spelling. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through an isolated rainy stretch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-2-scene-11",
+      "part_id": "MWS11_C05_P02",
+      "sentence_count": 1,
+      "source_start": 2972,
+      "source_end": 3116,
+      "source_text": "And if we'd missed DEAR time and we weren't even at the nude kid's house yet, there was a good chance that we were going to miss spelling, too. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through an isolated rainy stretch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-2-scene-12",
+      "part_id": "MWS11_C05_P02",
+      "sentence_count": 1,
+      "source_start": 3116,
+      "source_end": 3194,
+      "source_text": "And that meant we would miss the big spelling test, which I didn't study for!\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through an isolated rainy stretch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-2-scene-13",
+      "part_id": "MWS11_C05_P02",
+      "sentence_count": 2,
+      "source_start": 3194,
+      "source_end": 3331,
+      "source_text": "I decided that the nude kid was the coolest kid in the history of the world. Thanks to him, we were going to miss the big spelling test.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through an isolated rainy stretch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "5-2-scene-14",
+      "part_id": "MWS11_C05_P02",
+      "sentence_count": 6,
+      "source_start": 3331,
+      "source_end": 3428,
+      "source_text": "\"Bix blattinger!\" said Mrs. Kormel.\n\"Ooooh!\" we all said. \"Mrs. Kormel said that bad word again!\"",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus driving through an isolated rainy stretch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "6-1-scene-01",
+      "part_id": "MWS11_C06_P01",
+      "sentence_count": 1,
+      "source_start": 0,
+      "source_end": 115,
+      "source_text": "Finally Mrs. Kormel stopped the bus in front of a house and pushed the button to make the magic STOP sign pop out.\n",
+      "settings": [
+        "Yellow school bus stopped in the rain at the curb in front of a normal suburban house with a swing set and car in the driveway"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "6-1-scene-02",
+      "part_id": "MWS11_C06_P01",
+      "sentence_count": 1,
+      "source_start": 115,
+      "source_end": 163,
+      "source_text": "\"This must be the nude kid's house,\" Ryan said.\n",
+      "settings": [
+        "Yellow school bus stopped in the rain at the curb in front of a normal suburban house with a swing set and car in the driveway"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "6-1-scene-03",
+      "part_id": "MWS11_C06_P01",
+      "sentence_count": 3,
+      "source_start": 163,
+      "source_end": 309,
+      "source_text": "It looked like a pretty normal house. There was a swing set on the lawn and a car in the driveway. You would never know that nudists lived there.\n",
+      "settings": [
+        "Yellow school bus stopped in the rain at the curb in front of a normal suburban house with a swing set and car in the driveway"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "6-1-scene-04",
+      "part_id": "MWS11_C06_P01",
+      "sentence_count": 4,
+      "source_start": 309,
+      "source_end": 477,
+      "source_text": "Nobody came out of the house, so Mrs. Kormel honked the horn. We all craned our necks to get a look at the nude kid, but he didn't come out.\n\"Where is he?\" Ryan asked.\n",
+      "settings": [
+        "Yellow school bus stopped in the rain at the curb in front of a normal suburban house with a swing set and car in the driveway"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "6-1-scene-05",
+      "part_id": "MWS11_C06_P01",
+      "sentence_count": 4,
+      "source_start": 477,
+      "source_end": 632,
+      "source_text": "Suddenly the front door of the house opened. A guy came out with an umbrella. And it was the most amazing thing in the history of the world. You know why?\n",
+      "settings": [
+        "Rainy front yard and doorway of the yellow school bus as a fully clothed father walks out with an umbrella and climbs the bus steps"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-NEIL-DAD-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "6-1-scene-06",
+      "part_id": "MWS11_C06_P01",
+      "sentence_count": 3,
+      "source_start": 632,
+      "source_end": 769,
+      "source_text": "Because the guy had clothes on!\nThe guy with clothes on came over to the bus. He climbed up the steps and said something to Mrs. Kormel.\n",
+      "settings": [
+        "Rainy front yard and doorway of the yellow school bus as a fully clothed father walks out with an umbrella and climbs the bus steps"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-NEIL-DAD-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "6-1-scene-07",
+      "part_id": "MWS11_C06_P01",
+      "sentence_count": 3,
+      "source_start": 769,
+      "source_end": 975,
+      "source_text": "\"Bix blattinger!\" muttered Mrs. Kormel after the guy got off the bus. She was probably mad at Mr. Klutz because he made her drive all the way out to the nude kid's house and the nude kid wasn't even there.\n",
+      "settings": [
+        "Rainy front yard and doorway of the yellow school bus as a fully clothed father walks out with an umbrella and climbs the bus steps"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-NEIL-DAD-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "6-1-scene-08",
+      "part_id": "MWS11_C06_P01",
+      "sentence_count": 4,
+      "source_start": 975,
+      "source_end": 1027,
+      "source_text": "\"What did he say?\" we all asked. \"What did he say?\"\n",
+      "settings": [
+        "Rainy front yard and doorway of the yellow school bus as a fully clothed father walks out with an umbrella and climbs the bus steps"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "6-1-scene-09",
+      "part_id": "MWS11_C06_P01",
+      "sentence_count": 3,
+      "source_start": 1027,
+      "source_end": 1180,
+      "source_text": "\"He said his wife drove their son to school today on her way to work,\" Mrs. Kormel told us. \"She didn't want him to be late on his first day of school.\"\n",
+      "settings": [
+        "Rainy front yard and doorway of the yellow school bus as a fully clothed father walks out with an umbrella and climbs the bus steps"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "6-1-scene-10",
+      "part_id": "MWS11_C06_P01",
+      "sentence_count": 1,
+      "source_start": 1180,
+      "source_end": 1236,
+      "source_text": "\"Maybe she took him to buy some clothes,\" said Michael.\n",
+      "settings": [
+        "Rainy front yard and doorway of the yellow school bus as a fully clothed father walks out with an umbrella and climbs the bus steps"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "6-1-scene-11",
+      "part_id": "MWS11_C06_P01",
+      "sentence_count": 2,
+      "source_start": 1236,
+      "source_end": 1408,
+      "source_text": "Mrs. Kormel closed the bus door and made the magic STOP sign go back. Before the nude kid's dad went inside his house, me and Ryan leaned out the window and yelled to him.\n",
+      "settings": [
+        "Open side window of the yellow school bus parked in front of Neil's house as A.J. and Ryan lean out yelling to Neil's dad on the walkway"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-RYAN-01",
+        "MWS11-NEIL-DAD-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "6-1-scene-12",
+      "part_id": "MWS11_C06_P01",
+      "sentence_count": 3,
+      "source_start": 1408,
+      "source_end": 1494,
+      "source_text": "\"Hey, mister! Do you sleep with clothes on and then take them off after you wake up?\"\n",
+      "settings": [
+        "Open side window of the yellow school bus parked in front of Neil's house as A.J. and Ryan lean out yelling to Neil's dad on the walkway"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-NEIL-DAD-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "6-1-scene-13",
+      "part_id": "MWS11_C06_P01",
+      "sentence_count": 2,
+      "source_start": 1494,
+      "source_end": 1565,
+      "source_text": "\"Where does your son keep his lunch money if he doesn't have pockets?\"\n",
+      "settings": [
+        "Open side window of the yellow school bus parked in front of Neil's house as A.J. and Ryan lean out yelling to Neil's dad on the walkway"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "6-1-scene-14",
+      "part_id": "MWS11_C06_P01",
+      "sentence_count": 4,
+      "source_start": 1565,
+      "source_end": 1702,
+      "source_text": "It was hilarious. The nude kid's dad just looked at us with this confused expression on his face. Then he went inside.\nNudists are weird.",
+      "settings": [
+        "Open side window of the yellow school bus parked in front of Neil's house as A.J. and Ryan lean out yelling to Neil's dad on the walkway"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-NEIL-DAD-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "7-1-scene-01",
+      "part_id": "MWS11_C07_P01",
+      "sentence_count": 3,
+      "source_start": 0,
+      "source_end": 171,
+      "source_text": "Finally we were back on the road. Mrs. Kormel was mad at Mr. Klutz for making her drive to the nude kid's house for nothing. I was mad because we would be at school soon. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus back on the road after the rain stops"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "7-1-scene-02",
+      "part_id": "MWS11_C07_P01",
+      "sentence_count": 1,
+      "source_start": 171,
+      "source_end": 310,
+      "source_text": "Andrea was mad because spelling was over and she didn't get the chance to take the big spelling test and show everybody how smart she was. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus back on the road after the rain stops"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "7-1-scene-03",
+      "part_id": "MWS11_C07_P01",
+      "sentence_count": 2,
+      "source_start": 310,
+      "source_end": 401,
+      "source_text": "Well, nah-nah-nah boo-boo on Andrea! She would go to school on the weekend if it was open.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus back on the road after the rain stops"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "7-1-scene-04",
+      "part_id": "MWS11_C07_P01",
+      "sentence_count": 5,
+      "source_start": 401,
+      "source_end": 555,
+      "source_text": "The rain stopped. I was getting hungry. We had missed snack time. It was probably close to lunchtime. We were bored, too, and sick of sitting on the bus.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus back on the road after the rain stops"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "7-1-scene-05",
+      "part_id": "MWS11_C07_P01",
+      "sentence_count": 3,
+      "source_start": 555,
+      "source_end": 666,
+      "source_text": "Ryan flipped his light switch on and off. Michael played with his ball of string. I played with Striker Smith. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus back on the road after the rain stops"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "7-1-scene-06",
+      "part_id": "MWS11_C07_P01",
+      "sentence_count": 2,
+      "source_start": 666,
+      "source_end": 815,
+      "source_text": "That's when I got the most genius idea in the history of the world! We could tie Michael's string to Striker Smith's leg and fly him out the window!\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus back on the road after the rain stops"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "7-1-scene-07",
+      "part_id": "MWS11_C07_P01",
+      "sentence_count": 2,
+      "source_start": 815,
+      "source_end": 921,
+      "source_text": "Michael and Ryan realized what a genius I was. We tied the string to Striker Smith and opened the window.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus back on the road after the rain stops"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "7-1-scene-08",
+      "part_id": "MWS11_C07_P01",
+      "sentence_count": 3,
+      "source_start": 921,
+      "source_end": 1026,
+      "source_text": "\"You're going to get in trouble, A.J.,\" said Andrea. \"We're not supposed to hold things out the window.\"\n",
+      "settings": [
+        "Open side window inside Mrs. Kormel's moving yellow school bus as the boys fly Striker Smith on a string outside in the wind"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "7-1-scene-09",
+      "part_id": "MWS11_C07_P01",
+      "sentence_count": 5,
+      "source_start": 1026,
+      "source_end": 1194,
+      "source_text": "\"Can you possibly be any more boring?\" I asked Andrea. \"We're not holding anything out the window. The string will hold him.\"\nRyan tossed Striker Smith out the window.\n",
+      "settings": [
+        "Open side window inside Mrs. Kormel's moving yellow school bus as the boys fly Striker Smith on a string outside in the wind"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "7-1-scene-10",
+      "part_id": "MWS11_C07_P01",
+      "sentence_count": 8,
+      "source_start": 1194,
+      "source_end": 1363,
+      "source_text": "\"Look!\" Ryan said. \"He's flying!\"\nIt was cool. Striker Smith was doing loops in the air. You should have been there.\n\"He's fighting evil outside the bus!\" said Michael.\n",
+      "settings": [
+        "Open side window inside Mrs. Kormel's moving yellow school bus as the boys fly Striker Smith on a string outside in the wind"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "7-1-scene-11",
+      "part_id": "MWS11_C07_P01",
+      "sentence_count": 8,
+      "source_start": 1363,
+      "source_end": 1542,
+      "source_text": "\"Mrs. Kormel!\" Andrea whined. \"A.J. threw his doll out the window!\"\n\"It's not a doll!\" I told Andrea. \"It's an action figure. And it's none of your beeswax.\"\nWhat is her problem?\n",
+      "settings": [
+        "Open side window inside Mrs. Kormel's moving yellow school bus as the boys fly Striker Smith on a string outside in the wind"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "7-1-scene-12",
+      "part_id": "MWS11_C07_P01",
+      "sentence_count": 3,
+      "source_start": 1542,
+      "source_end": 1710,
+      "source_text": "It didn't matter what Andrea said, because Mrs. Kormel didn't hear her anyway. Striker Smith was flying outside the bus, dipping and diving in the wind. He is so cool.\n",
+      "settings": [
+        "Open side window inside Mrs. Kormel's moving yellow school bus as the boys fly Striker Smith on a string outside in the wind"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "7-1-scene-13",
+      "part_id": "MWS11_C07_P01",
+      "sentence_count": 4,
+      "source_start": 1710,
+      "source_end": 1881,
+      "source_text": "The only problem was that suddenly Striker Smith dove down so far that we couldn't see him anymore.\n\"Where is he?\" asked Ryan.\n\"He's fighting evil under the bus,\" I said.\n",
+      "settings": [
+        "Open side window inside Mrs. Kormel's moving yellow school bus as the boys fly Striker Smith on a string outside in the wind"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "7-1-scene-14",
+      "part_id": "MWS11_C07_P01",
+      "sentence_count": 3,
+      "source_start": 1881,
+      "source_end": 2019,
+      "source_text": "But I don't think Striker Smith was fighting evil under the bus. Because that's when I heard a pop, and then a hissing sound.\nHisssssssss!",
+      "settings": [
+        "Open side window inside Mrs. Kormel's moving yellow school bus as the boys fly Striker Smith on a string outside in the wind"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-1-scene-01",
+      "part_id": "MWS11_C08_P01",
+      "sentence_count": 3,
+      "source_start": 0,
+      "source_end": 87,
+      "source_text": "Ryan pulled the string up. There was nothing on the other end! Striker Smith was gone!\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus pulling off to the shoulder of a quiet empty road with a flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-1-scene-02",
+      "part_id": "MWS11_C08_P01",
+      "sentence_count": 5,
+      "source_start": 87,
+      "source_end": 299,
+      "source_text": "Suddenly the ride got all bumpy. Mrs. Kormel pulled off the side of the road. She opened the door and got out to see what was the matter.\n\"You're in big trouble, A.J.,\" Andrea said.\n\"So is your face,\" I replied.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus pulling off to the shoulder of a quiet empty road with a flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-1-scene-03",
+      "part_id": "MWS11_C08_P01",
+      "sentence_count": 5,
+      "source_start": 299,
+      "source_end": 492,
+      "source_text": "Mrs. Kormel came back on the bus. She was holding Striker Smith in her hand. Or what was left of him, anyway. His head was gone. So was one of his legs and the arm that used to hold his sword.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus pulling off to the shoulder of a quiet empty road with a flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-1-scene-04",
+      "part_id": "MWS11_C08_P01",
+      "sentence_count": 2,
+      "source_start": 492,
+      "source_end": 611,
+      "source_text": "I felt bad. My parents probably paid a lot of money to get me this cool action figure, and now it was totally crushed. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus pulling off to the shoulder of a quiet empty road with a flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-1-scene-05",
+      "part_id": "MWS11_C08_P01",
+      "sentence_count": 1,
+      "source_start": 611,
+      "source_end": 729,
+      "source_text": "On the other hand, it is also a well-known fact that crushing stuff and pulling the limbs off action figures is cool.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus pulling off to the shoulder of a quiet empty road with a flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-1-scene-06",
+      "part_id": "MWS11_C08_P01",
+      "sentence_count": 2,
+      "source_start": 729,
+      "source_end": 894,
+      "source_text": "All in all, I was just happy that Show and Share was over. It wouldn't be very cool to show the class an action figure that was missing an arm, a leg, and his head.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus pulling off to the shoulder of a quiet empty road with a flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-1-scene-07",
+      "part_id": "MWS11_C08_P01",
+      "sentence_count": 9,
+      "source_start": 894,
+      "source_end": 1098,
+      "source_text": "\"Who does this belong to?\" asked Mrs. Kormel.\nAndrea looked at me. I looked at Ryan. Ryan looked at me. Mrs. Kormel looked at me. I didn't know what to say. I didn't know what to do. I had to think fast.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus pulling off to the shoulder of a quiet empty road with a flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-RYAN-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-1-scene-08",
+      "part_id": "MWS11_C08_P01",
+      "sentence_count": 3,
+      "source_start": 1098,
+      "source_end": 1259,
+      "source_text": "\"I said, who does this belong to?\"\n\"Striker Smith belongs to a secret organization of crime fighters,\" I said.\nI thought Mrs. Kormel was going to be really mad. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus pulling off to the shoulder of a quiet empty road with a flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-1-scene-09",
+      "part_id": "MWS11_C08_P01",
+      "sentence_count": 3,
+      "source_start": 1259,
+      "source_end": 1444,
+      "source_text": "But she just told us all to get off the bus. She said we had a flat tire and she was going to call Mr. Klutz to send somebody out to fix it. In the meantime, we'd have to wait outside.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus pulling off to the shoulder of a quiet empty road with a flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-1-scene-10",
+      "part_id": "MWS11_C08_P01",
+      "sentence_count": 6,
+      "source_start": 1444,
+      "source_end": 1594,
+      "source_text": "\"Now we're going to miss lunch!\" one of the mean fifth graders complained.\n\"Who cares about lunch?\" said somebody else. \"We're going to miss recess!\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus pulling off to the shoulder of a quiet empty road with a flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-1-scene-11",
+      "part_id": "MWS11_C08_P01",
+      "sentence_count": 8,
+      "source_start": 1594,
+      "source_end": 1765,
+      "source_text": "\"It's all Arlo's fault,\" said Andrea.\n\"It is not,\" I said.\n\"It is too.\"\n\"Oh yeah?\" I said. \"Well, stupid begins with an s and that's what you are.\"\nHa-ha-ha! In her face!\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus pulling off to the shoulder of a quiet empty road with a flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-1-scene-12",
+      "part_id": "MWS11_C08_P01",
+      "sentence_count": 3,
+      "source_start": 1765,
+      "source_end": 1922,
+      "source_text": "We all got off the bus. It was a quiet road, and there were no other cars or houses or people around. Me and Ryan and Michael went to look at the flat tire.\n",
+      "settings": [
+        "Quiet empty roadside beside the parked yellow school bus with its flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-1-scene-13",
+      "part_id": "MWS11_C08_P01",
+      "sentence_count": 3,
+      "source_start": 1922,
+      "source_end": 2089,
+      "source_text": "Striker Smith's sword was stuck right in the tire with his arm still attached to it. It was cool. It was like that story \"The Sword in the Stone,\" except with a tire.\n",
+      "settings": [
+        "Quiet empty roadside beside the parked yellow school bus with its flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-1-scene-14",
+      "part_id": "MWS11_C08_P01",
+      "sentence_count": 1,
+      "source_start": 2089,
+      "source_end": 2216,
+      "source_text": "Mrs. Kormel tried to call Mr. Klutz on her cell phone, but something was wrong, and she started stamping her feet and yelling.\n",
+      "settings": [
+        "Quiet empty roadside beside the parked yellow school bus with its flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-2-scene-01",
+      "part_id": "MWS11_C08_P02",
+      "sentence_count": 5,
+      "source_start": 2216,
+      "source_end": 2461,
+      "source_text": "\"Bix blattinger!\" she yelled. \"My cell phone battery is dead!\"\nMrs. Kormel said she would have to fix the flat tire herself. She told us to get our lunches and have a little picnic on the sidewalk while she got out her tools and the spare tire.\n",
+      "settings": [
+        "Quiet empty roadside beside the parked yellow school bus with its flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-2-scene-02",
+      "part_id": "MWS11_C08_P02",
+      "sentence_count": 2,
+      "source_start": 2461,
+      "source_end": 2559,
+      "source_text": "Not everybody had brought a lunch bag, because some kids buy the school lunch. They must be nuts. ",
+      "settings": [
+        "Roadside sidewalk picnic area next to the parked yellow school bus while Mrs. Kormel works on the flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-2-scene-03",
+      "part_id": "MWS11_C08_P02",
+      "sentence_count": 2,
+      "source_start": 2559,
+      "source_end": 2764,
+      "source_text": "The school lunch is usually rubber hot dogs, chicken nuggets that bounce, and nachos that glow in the dark. I wouldn't eat the school lunch if I was starving and there was no other food left in the world.\n",
+      "settings": [
+        "Roadside sidewalk picnic area next to the parked yellow school bus while Mrs. Kormel works on the flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-2-scene-04",
+      "part_id": "MWS11_C08_P02",
+      "sentence_count": 3,
+      "source_start": 2764,
+      "source_end": 2965,
+      "source_text": "Mrs. Kormel asked us to share some of our food with kids who didn't bring a lunch. I gave my tuna sandwich to one of the first graders, but I kept my pudding treat.\nI always eat my treat first anyway. ",
+      "settings": [
+        "Roadside sidewalk picnic area next to the parked yellow school bus while Mrs. Kormel works on the flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-2-scene-05",
+      "part_id": "MWS11_C08_P02",
+      "sentence_count": 1,
+      "source_start": 2965,
+      "source_end": 3134,
+      "source_text": "You should always eat your treat first because if an asteroid hits the earth in the middle of lunch and destroys the planet, well, at least you got to eat your dessert. ",
+      "settings": [
+        "Roadside sidewalk picnic area next to the parked yellow school bus while Mrs. Kormel works on the flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-2-scene-06",
+      "part_id": "MWS11_C08_P02",
+      "sentence_count": 2,
+      "source_start": 3134,
+      "source_end": 3288,
+      "source_text": "That's the first rule of being a kid. It would be a major bummer if the earth was destroyed by an asteroid and you didn't have the chance to eat dessert.\n",
+      "settings": [
+        "Roadside sidewalk picnic area next to the parked yellow school bus while Mrs. Kormel works on the flat tire"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-2-scene-07",
+      "part_id": "MWS11_C08_P02",
+      "sentence_count": 3,
+      "source_start": 3288,
+      "source_end": 3395,
+      "source_text": "\"Hey,\" Ryan said, \"look what I found!\"\nIt was Striker Smith's head! Ryan found it at the side of the road.\n",
+      "settings": [
+        "Dirt shoulder beside the quiet road next to the parked school bus, holding a mock funeral for Striker Smith's head"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-2-scene-08",
+      "part_id": "MWS11_C08_P02",
+      "sentence_count": 3,
+      "source_start": 3395,
+      "source_end": 3572,
+      "source_text": "We decided right away to hold a funeral for the head. Michael dug a little hole in the dirt, and we dropped the head into it. Some of the other boys on the bus gathered around.\n",
+      "settings": [
+        "Dirt shoulder beside the quiet road next to the parked school bus, holding a mock funeral for Striker Smith's head"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-MICHAEL-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-2-scene-09",
+      "part_id": "MWS11_C08_P02",
+      "sentence_count": 3,
+      "source_start": 3572,
+      "source_end": 3717,
+      "source_text": "\"Farewell, Striker,\" Ryan said solemnly. \"You defeated the mighty tire. You sacrificed your life, so that others might not have to go to school. ",
+      "settings": [
+        "Dirt shoulder beside the quiet road next to the parked school bus, holding a mock funeral for Striker Smith's head"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-2-scene-10",
+      "part_id": "MWS11_C08_P02",
+      "sentence_count": 1,
+      "source_start": 3717,
+      "source_end": 3844,
+      "source_text": "You paid the ultimate price, made the ultimate sacrifice so that we can live in freedom from reading, writing, and arithmetic. ",
+      "settings": [
+        "Dirt shoulder beside the quiet road next to the parked school bus, holding a mock funeral for Striker Smith's head"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-2-scene-11",
+      "part_id": "MWS11_C08_P02",
+      "sentence_count": 4,
+      "source_start": 3844,
+      "source_end": 3968,
+      "source_text": "Long live Striker Smith. We will always remember you.\"\nIt was really sad. I almost cried when Michael said a little prayer:\n",
+      "settings": [
+        "Dirt shoulder beside the quiet road next to the parked school bus, holding a mock funeral for Striker Smith's head"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-2-scene-12",
+      "part_id": "MWS11_C08_P02",
+      "sentence_count": 4,
+      "source_start": 3968,
+      "source_end": 4133,
+      "source_text": "Ashes to ashes, Dust to dusted. We buried Striker Smith, Because he was busted. He was really cool, But now he's dead. It's hard to live When you don't have a head.\n",
+      "settings": [
+        "Dirt shoulder beside the quiet road next to the parked school bus, holding a mock funeral for Striker Smith's head"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-2-scene-13",
+      "part_id": "MWS11_C08_P02",
+      "sentence_count": 1,
+      "source_start": 4133,
+      "source_end": 4247,
+      "source_text": "We covered up Striker's grave, and Ryan said we should have a moment of silence in honor of our fallen superhero.\n",
+      "settings": [
+        "Dirt shoulder beside the quiet road next to the parked school bus, holding a mock funeral for Striker Smith's head"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "8-2-scene-14",
+      "part_id": "MWS11_C08_P02",
+      "sentence_count": 3,
+      "source_start": 4247,
+      "source_end": 4348,
+      "source_text": "It was really quiet. Then, in the middle of our moment of silence, Andrea said, \"Boys are dumbheads.\"",
+      "settings": [
+        "Dirt shoulder beside the quiet road next to the parked school bus, holding a mock funeral for Striker Smith's head"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-1-scene-01",
+      "part_id": "MWS11_C09_P01",
+      "sentence_count": 2,
+      "source_start": 0,
+      "source_end": 167,
+      "source_text": "Finally Mrs. Kormel fixed the flat tire and said we could get back on the bus. She was all sweaty, and her hair was messed up, and her hands were covered with grease. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus speeding down a wet bumpy country road after the tire repair"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-1-scene-02",
+      "part_id": "MWS11_C09_P01",
+      "sentence_count": 3,
+      "source_start": 167,
+      "source_end": 351,
+      "source_text": "She looked too tired to be mad at me or Mr. Klutz or anybody else. She just got into her bus driver's seat and hit the gas. The bus lurched forward, and we all fell back in our seats.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus speeding down a wet bumpy country road after the tire repair"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-1-scene-03",
+      "part_id": "MWS11_C09_P01",
+      "sentence_count": 7,
+      "source_start": 351,
+      "source_end": 557,
+      "source_text": "It was really late. Andrea complained that we might have missed social studies. Ha-ha-ha! That was fine with me. I hate social studies. Why is it called social studies anyway?\nMrs. Kormel was driving fast! ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus speeding down a wet bumpy country road after the tire repair"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-1-scene-04",
+      "part_id": "MWS11_C09_P01",
+      "sentence_count": 4,
+      "source_start": 557,
+      "source_end": 774,
+      "source_text": "We were far from school. It looked to me like we were still in the middle of nowhere. The road was really bumpy, and it was wet from the rain. Mrs. Kormel was having trouble keeping the bus in the middle of the road. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus speeding down a wet bumpy country road after the tire repair"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-1-scene-05",
+      "part_id": "MWS11_C09_P01",
+      "sentence_count": 5,
+      "source_start": 774,
+      "source_end": 1003,
+      "source_text": "I was afraid she might drive right off the side of the road.\nAnd what happened next was the most amazing thing in the history of the world.\nDo you want to know what happened?\nI'm not going to tell you.\nWell, okay, I'll tell you.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus speeding down a wet bumpy country road after the tire repair"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-1-scene-06",
+      "part_id": "MWS11_C09_P01",
+      "sentence_count": 7,
+      "source_start": 1003,
+      "source_end": 1205,
+      "source_text": "Mrs. Kormel drove right off the side of the road!\n\"Bix blattinger!\" shouted Mrs. Kormel.\nThe bus skidded to a stop. Some kids even fell out of their seats! It was hilarious. You should have been there.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus skidding off the wet road and tilted stuck in a roadside ditch"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-1-scene-07",
+      "part_id": "MWS11_C09_P01",
+      "sentence_count": 9,
+      "source_start": 1205,
+      "source_end": 1391,
+      "source_text": "\"Is everybody okay?\" Mrs. Kormel asked.\n\"Yeah!\" me and Michael and Ryan said.\n\"That was fun. Can we do it again?\"\n\"We're stuck in a ditch,\" said Mrs. Kormel. \"We're not going anywhere.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus skidding off the wet road and tilted stuck in a roadside ditch"
       ],
       "character_ids": [
         "MWS11-AJ-01",
@@ -424,276 +2830,1255 @@
         "MWS11-RYAN-01",
         "MWS11-MICHAEL-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: At the stop after that, my friends Ryan and Michael got on.\n\"Bingle boo!\" Mrs. Kormel said to Ryan and Michael. \"Limpus kidoodle.\" Physical setting: Interior aisle and rows of Mrs. Kormel's yellow school bus with kindergartner in front and fifth graders in back; Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/2-1-scene-09.webp"
+      "status": "planned"
     },
     {
-      "id": "2-1-scene-10",
-      "part_id": "MWS11_C02_P01",
-      "sentence_count": 3,
-      "source_start": 1476,
-      "source_end": 1606,
-      "source_text": "\nRyan and Michael sat down next to me.\n\"What did you bring in for Show and Share?\" Ryan asked. \"I brought in an old light switch.\"",
+      "id": "9-1-scene-08",
+      "part_id": "MWS11_C09_P01",
+      "sentence_count": 5,
+      "source_start": 1391,
+      "source_end": 1581,
+      "source_text": "\"What are we going to do now?\" asked Emily. She looked like she was going to cry. I was amazed that Emily hadn't cried yet. She usually can't go five minutes without crying about something.\n",
       "settings": [
-        "Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops"
+        "Inside Mrs. Kormel's yellow school bus skidding off the wet road and tilted stuck in a roadside ditch"
       ],
       "character_ids": [
         "MWS11-AJ-01",
-        "MWS11-KORMEL-01",
-        "MWS11-RYAN-01",
-        "MWS11-MICHAEL-01"
+        "MWS11-EMILY-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: Ryan and Michael sat down next to me.\n\"What did you bring in for Show and Share?\" Ryan asked. \"I brought in an old light switch.\" Physical setting: Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/2-1-scene-10.webp"
+      "status": "planned"
     },
     {
-      "id": "2-1-scene-11",
-      "part_id": "MWS11_C02_P01",
-      "sentence_count": 3,
-      "source_start": 1606,
-      "source_end": 1805,
-      "source_text": "\n\"I brought in a ball of string,\" said Michael.\nShow and Share is when we bring something from home that starts with a certain letter of the alphabet and talk about it in class. Today's letter was s.",
+      "id": "9-1-scene-09",
+      "part_id": "MWS11_C09_P01",
+      "sentence_count": 6,
+      "source_start": 1581,
+      "source_end": 1781,
+      "source_text": "\"I don't know what to do,\" Mrs. Kormel said sadly. \"My cell phone is dead. I guess we'll just have to wait for help to arrive.\"\n\"Too bad Striker Smith isn't here,\" I said. \"He would know what to do.\"\n",
       "settings": [
-        "Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops"
+        "Inside Mrs. Kormel's yellow school bus skidding off the wet road and tilted stuck in a roadside ditch"
       ],
       "character_ids": [
         "MWS11-AJ-01",
-        "MWS11-RYAN-01",
-        "MWS11-MICHAEL-01"
+        "MWS11-KORMEL-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"I brought in a ball of string,\" said Michael.\nShow and Share is when we bring something from home that starts with a certain letter of the alphabet and talk about it in class. Today's letter was s. Physical setting: Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/2-1-scene-11.webp"
+      "status": "planned"
     },
     {
-      "id": "2-1-scene-12",
-      "part_id": "MWS11_C02_P01",
-      "sentence_count": 3,
-      "source_start": 1805,
-      "source_end": 2028,
-      "source_text": "\nI took my Show and Share thing out of my backpack. It was an action figure called Striker Smith. He's a superhero from the future who travels through time and fights bad guys with a sharp sword that's attached to his hand.",
+      "id": "9-1-scene-10",
+      "part_id": "MWS11_C09_P01",
+      "sentence_count": 6,
+      "source_start": 1781,
+      "source_end": 1964,
+      "source_text": "\"If you hadn't thrown that dumb doll out the window, none of this would have happened!\" yelled Andrea.\n\"He's not a doll!\" I yelled right back at her.\n\"Zingy zip!\" yelled Mrs. Kormel.\n",
       "settings": [
-        "Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops"
+        "Inside Mrs. Kormel's yellow school bus skidding off the wet road and tilted stuck in a roadside ditch"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-1-scene-11",
+      "part_id": "MWS11_C09_P01",
+      "sentence_count": 8,
+      "source_start": 1964,
+      "source_end": 2177,
+      "source_text": "Everybody was really depressed. We just sat there on the bus. There was nobody around. No houses. No stores. No nothing. Nobody was going to rescue us. It felt like we had been on the bus a million hundred hours.\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
       ],
       "character_ids": [
         "MWS11-AJ-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: I took my Show and Share thing out of my backpack. It was an action figure called Striker Smith. He's a superhero from the future who travels through time and fights bad guys with a sharp sword that's attached to his hand. Physical setting: Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/2-1-scene-12.webp"
+      "status": "planned"
     },
     {
-      "id": "2-1-scene-13",
-      "part_id": "MWS11_C02_P01",
+      "id": "9-1-scene-12",
+      "part_id": "MWS11_C09_P01",
       "sentence_count": 3,
+      "source_start": 2177,
+      "source_end": 2340,
+      "source_text": "It occurred to me that we might not only miss the rest of the school day, we might miss the rest of our lives! We could sit there forever. We could die out there!\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-1-scene-13",
+      "part_id": "MWS11_C09_P01",
+      "sentence_count": 4,
+      "source_start": 2340,
+      "source_end": 2480,
+      "source_text": "Suddenly I felt hungry. I wished I hadn't given my sandwich to that first grader. I was starving. I was afraid my stomach might eat itself.\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-1-scene-14",
+      "part_id": "MWS11_C09_P01",
+      "sentence_count": 1,
+      "source_start": 2480,
+      "source_end": 2674,
+      "source_text": "My friend Billy who lives around the corner from me and was in second grade last year told me he once heard about some guy who was stranded on an airplane, and he ate a seat cushion to survive.\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-2-scene-01",
+      "part_id": "MWS11_C09_P02",
+      "sentence_count": 5,
+      "source_start": 2674,
+      "source_end": 2915,
+      "source_text": "\"We might have to eat the seat cushions,\" I told Michael and Ryan.\nRyan looked at the seat cushion.\nThere's something you need to know about Ryan. He will eat anything, even stuff that is not food. One time we gave him a dollar to eat dirt.\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-2-scene-02",
+      "part_id": "MWS11_C09_P02",
+      "sentence_count": 6,
+      "source_start": 2915,
+      "source_end": 3112,
+      "source_text": "Ryan got down on the floor and took a little bite from the corner of the cushion.\n\"Ugh,\" he said. \"It's horrible.\"\n\"Put some ketchup on it,\" suggested Michael. \"Ketchup makes anything taste good.\"\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-2-scene-03",
+      "part_id": "MWS11_C09_P02",
+      "sentence_count": 4,
+      "source_start": 3112,
+      "source_end": 3280,
+      "source_text": "Michael gave Ryan a little ketchup packet from his lunch bag. Ryan put it on the seat cushion and took a tiny bite.\n\"It's not bad, actually,\" Ryan said.\nRyan is weird.\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-2-scene-04",
+      "part_id": "MWS11_C09_P02",
+      "sentence_count": 4,
+      "source_start": 3280,
+      "source_end": 3485,
+      "source_text": "It was so boring sitting there waiting for somebody to rescue us. I almost wished we were at school. Almost.\n\"I saw this reality TV show where some people were stranded on a dessert island,\" Michael said.\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-2-scene-05",
+      "part_id": "MWS11_C09_P02",
+      "sentence_count": 5,
+      "source_start": 3485,
+      "source_end": 3704,
+      "source_text": "\"It's not a dessert island, dumbhead,\" Andrea turned around to say. \"It's a desert island. One s. 'Desserts' is one of our spelling words this week.\" Then she held up her dumb flash card with the word \"desserts\" on it.\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-2-scene-06",
+      "part_id": "MWS11_C09_P02",
+      "sentence_count": 6,
+      "source_start": 3704,
+      "source_end": 3943,
+      "source_text": "\"Who asked you?\" Ryan asked.\n\"A dessert island would be cool to be stranded on,\" I said. \"There would be ice cream and candy and treats everywhere.\"\n\"Hey, look,\" said Emily, \"I just noticed that 'desserts' is 'stressed' spelled backward.\"\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-EMILY-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-2-scene-07",
+      "part_id": "MWS11_C09_P02",
+      "sentence_count": 10,
+      "source_start": 3943,
+      "source_end": 4166,
+      "source_text": "\"So what?\" asked Ryan. \"'Backward' is 'drawkcab' backward.\"\n\"Who cares what 'backward' is backward?\" asked Andrea.\n\"'Bus' is 'sub' backward,\" I mentioned.\n\"Bix blattinger!\" shouted Mrs. Kormel. \"Will you please zingy zip?\"\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-ANDREA-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-2-scene-08",
+      "part_id": "MWS11_C09_P02",
+      "sentence_count": 6,
+      "source_start": 4166,
+      "source_end": 4395,
+      "source_text": "I couldn't blame Mrs. Kormel for being mad. It was a rough day for her. We had to whisper after that.\n\"Hey,\" whispered Michael, \"I just thought of something. Maybe we're on a reality TV show right now and we don't even know it.\"\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-2-scene-09",
+      "part_id": "MWS11_C09_P02",
+      "sentence_count": 3,
+      "source_start": 4395,
+      "source_end": 4542,
+      "source_text": "\"That's impossible,\" Ryan whispered. \"If we didn't know we were on a reality TV show, we wouldn't be talking about us being on a reality TV show.\"\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-2-scene-10",
+      "part_id": "MWS11_C09_P02",
+      "sentence_count": 3,
+      "source_start": 4542,
+      "source_end": 4718,
+      "source_text": "\"I think Michael is right,\" I said, looking around to see if there were any hidden cameras. \"Maybe this was all planned in advance for the reality TV show we're on right now.\"\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-2-scene-11",
+      "part_id": "MWS11_C09_P02",
+      "sentence_count": 7,
+      "source_start": 4718,
+      "source_end": 4891,
+      "source_text": "\"Oh yeah?\" said Andrea. \"Who planned for you to throw your doll out the window and cause a flat tire?\"\n\"It's not a doll!\" I said. \"Don't you have any respect for the dead?\"\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-2-scene-12",
+      "part_id": "MWS11_C09_P02",
+      "sentence_count": 7,
+      "source_start": 4891,
+      "source_end": 5130,
+      "source_text": "\"If this is a reality TV show,\" Ryan said, \"we're going to have to vote somebody off the bus.\"\n\"Why?\" asked Emily.\n\"Because that's what they always do on reality TV shows, dumbhead!\" I said. \"You vote somebody off and they have to leave.\"\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-EMILY-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-2-scene-13",
+      "part_id": "MWS11_C09_P02",
+      "sentence_count": 7,
+      "source_start": 5130,
+      "source_end": 5312,
+      "source_text": "\"But why?\" asked Emily.\n\"Because that's the rule!\" Michael told Emily. She doesn't know anything about reality TV shows.\n\"I vote for Andrea,\" I said.\n\"I vote for A.J.,\" Andrea said.\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-EMILY-01",
+        "MWS11-MICHAEL-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "9-2-scene-14",
+      "part_id": "MWS11_C09_P02",
+      "sentence_count": 7,
+      "source_start": 5312,
+      "source_end": 5500,
+      "source_text": "\"Ooooh!\" Ryan said. \"A.J. and Andrea voted for each other. They must be in love!\"\n\"When are you gonna get married?\" asked Michael.\nIf those guys weren't my best friends, I would hate them.",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in a remote roadside ditch in the middle of nowhere"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01",
+        "MWS11-ANDREA-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-1-scene-01",
+      "part_id": "MWS11_C10_P01",
+      "sentence_count": 2,
+      "source_start": 0,
+      "source_end": 141,
+      "source_text": "We couldn't just sit around on the bus forever. Soon we would die of starvation or kill each other, like they do in the movies all the time.\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in the roadside ditch"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-1-scene-02",
+      "part_id": "MWS11_C10_P01",
+      "sentence_count": 3,
+      "source_start": 141,
+      "source_end": 206,
+      "source_text": "\"We've got to do something!\" Emily said.\nFor once she was right. ",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in the roadside ditch"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-EMILY-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-1-scene-03",
+      "part_id": "MWS11_C10_P01",
+      "sentence_count": 2,
+      "source_start": 206,
+      "source_end": 328,
+      "source_text": "That's when I got the most genius idea in the history of the world. There must have been at least twenty kids on the bus. ",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in the roadside ditch"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-1-scene-04",
+      "part_id": "MWS11_C10_P01",
+      "sentence_count": 1,
+      "source_start": 328,
+      "source_end": 404,
+      "source_text": "If we all got out and pushed, maybe we could push the bus out of the ditch!\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in the roadside ditch"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-1-scene-05",
+      "part_id": "MWS11_C10_P01",
+      "sentence_count": 3,
+      "source_start": 404,
+      "source_end": 587,
+      "source_text": "I got up and told Mrs. Kormel about my genius idea. At first she thought I was crazy and told me to go limpus kidoodle. But I guess she thought it over and decided to give it a shot.\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in the roadside ditch"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-1-scene-06",
+      "part_id": "MWS11_C10_P01",
+      "sentence_count": 3,
+      "source_start": 587,
+      "source_end": 675,
+      "source_text": "\"Okay, everybody off the bus!\" she yelled.\nWe all got off the bus and went to the back.\n",
+      "settings": [
+        "Inside the stranded yellow school bus stuck in the roadside ditch",
+        "Outside behind the yellow school bus in the roadside ditch as all the kids push together while Mrs. Kormel steers"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-1-scene-07",
+      "part_id": "MWS11_C10_P01",
+      "sentence_count": 6,
+      "source_start": 675,
+      "source_end": 785,
+      "source_text": "\"When I say push, everybody push,\" Mrs. Kormel yelled out the window.\n\"One . . . two . . . three . . . PUSH!\"\n",
+      "settings": [
+        "Outside behind the yellow school bus in the roadside ditch as all the kids push together while Mrs. Kormel steers"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-1-scene-08",
+      "part_id": "MWS11_C10_P01",
+      "sentence_count": 3,
+      "source_start": 785,
+      "source_end": 883,
+      "source_text": "I pushed with all my might. Everybody was grunting and groaning and moaning. The bus didn't move.\n",
+      "settings": [
+        "Outside behind the yellow school bus in the roadside ditch as all the kids push together while Mrs. Kormel steers"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-1-scene-09",
+      "part_id": "MWS11_C10_P01",
+      "sentence_count": 3,
+      "source_start": 883,
+      "source_end": 976,
+      "source_text": "\"Harder!\" yelled Ryan.\nAnd then the most amazing thing in the history of the world happened.\n",
+      "settings": [
+        "Outside behind the yellow school bus in the roadside ditch as all the kids push together while Mrs. Kormel steers"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-1-scene-10",
+      "part_id": "MWS11_C10_P01",
+      "sentence_count": 3,
+      "source_start": 976,
+      "source_end": 1028,
+      "source_text": "The bus started moving!\n\"Hooray!\" everybody yelled.\n",
+      "settings": [
+        "Outside behind the yellow school bus in the roadside ditch as all the kids push together while Mrs. Kormel steers"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-1-scene-11",
+      "part_id": "MWS11_C10_P01",
+      "sentence_count": 2,
+      "source_start": 1028,
+      "source_end": 1191,
+      "source_text": "Mrs. Kormel steered the bus back onto the road, and we all piled in. She told me my idea was great, and promised to drive carefully the rest of the way to school.\n",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-1-scene-12",
+      "part_id": "MWS11_C10_P01",
+      "sentence_count": 2,
+      "source_start": 1191,
+      "source_end": 1263,
+      "source_text": "The only one who wasn't happy was Andrea. She was looking at her watch.\n",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-1-scene-13",
+      "part_id": "MWS11_C10_P01",
+      "sentence_count": 3,
+      "source_start": 1263,
+      "source_end": 1348,
+      "source_text": "\"Now we've missed music class,\" she complained.\nThat was fine with me. I hate music.\n",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-1-scene-14",
+      "part_id": "MWS11_C10_P01",
+      "sentence_count": 3,
+      "source_start": 1348,
+      "source_end": 1447,
+      "source_text": "\"Y'know,\" Michael said, \"maybe Mrs. Kormel isn't a bus driver at all. Did you ever think of that?\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-MICHAEL-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-2-scene-01",
+      "part_id": "MWS11_C10_P02",
+      "sentence_count": 4,
+      "source_start": 1447,
+      "source_end": 1586,
+      "source_text": "\"Yeah,\" Ryan said. \"Maybe she captured our real bus driver and has her tied up in a cave. Stuff like that happens all the time, you know.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-2-scene-02",
+      "part_id": "MWS11_C10_P02",
+      "sentence_count": 1,
+      "source_start": 1586,
+      "source_end": 1629,
+      "source_text": "\"Stop trying to scare Emily,\" Andrea said.\n",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-ANDREA-01",
+        "MWS11-EMILY-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-2-scene-03",
+      "part_id": "MWS11_C10_P02",
+      "sentence_count": 3,
+      "source_start": 1629,
+      "source_end": 1806,
+      "source_text": "\"Maybe we're being kidnapped,\" I added. \"Maybe Mrs. Kormel is driving us to her secret underground hideout at the North Pole, where she's going to do unspeakable things to us.\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-2-scene-04",
+      "part_id": "MWS11_C10_P02",
+      "sentence_count": 2,
+      "source_start": 1806,
+      "source_end": 1852,
+      "source_text": "\"Like what things?\" Emily asked, all worried.\n",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-EMILY-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-2-scene-05",
+      "part_id": "MWS11_C10_P02",
+      "sentence_count": 3,
+      "source_start": 1852,
+      "source_end": 1907,
+      "source_text": "\"I can't tell you,\" I told her. \"They're unspeakable!\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-2-scene-06",
+      "part_id": "MWS11_C10_P02",
+      "sentence_count": 4,
+      "source_start": 1907,
+      "source_end": 1988,
+      "source_text": "\"We've got to do something!\" Emily said. \"I don't want to go to the North Pole!\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-EMILY-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-2-scene-07",
+      "part_id": "MWS11_C10_P02",
+      "sentence_count": 6,
+      "source_start": 1988,
+      "source_end": 2152,
+      "source_text": "That girl will fall for everything. Emily probably wanted to run away. But there was no place to run. She was stuck on the bus. So she started crying. What a baby!\n",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-EMILY-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-2-scene-08",
+      "part_id": "MWS11_C10_P02",
+      "sentence_count": 4,
+      "source_start": 2152,
+      "source_end": 2356,
+      "source_text": "Once Emily started crying, it set off a chain reaction and other kids started crying, too. Some of the first graders said they wanted their mommies. Some kid peed in his pants. Everyone was freaking out.\n",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-EMILY-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-2-scene-09",
+      "part_id": "MWS11_C10_P02",
+      "sentence_count": 2,
+      "source_start": 2356,
+      "source_end": 2459,
+      "source_text": "The fifth graders made a sign and put it in the back window--HELP! OUR BUS DRIVER IS DRIVING US CRAZY!\n",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-2-scene-10",
+      "part_id": "MWS11_C10_P02",
+      "sentence_count": 1,
+      "source_start": 2459,
+      "source_end": 2473,
+      "source_text": "I didn't cry. ",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-2-scene-11",
+      "part_id": "MWS11_C10_P02",
+      "sentence_count": 1,
+      "source_start": 2473,
+      "source_end": 2617,
+      "source_text": "I figured that it would be pretty horrible to be kidnapped and driven to the North Pole, but at least we wouldn't have to go to school anymore. ",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-2-scene-12",
+      "part_id": "MWS11_C10_P02",
+      "sentence_count": 1,
+      "source_start": 2617,
+      "source_end": 2663,
+      "source_text": "And they have penguins at the North Pole too. ",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-2-scene-13",
+      "part_id": "MWS11_C10_P02",
+      "sentence_count": 2,
+      "source_start": 2663,
+      "source_end": 2726,
+      "source_text": "Or maybe that's the South Pole. Either way, penguins are cool.\n",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "10-2-scene-14",
+      "part_id": "MWS11_C10_P02",
+      "sentence_count": 4,
+      "source_start": 2726,
+      "source_end": 2797,
+      "source_text": "\"Are we there yet?\" somebody asked.\n\"KNOCK IT OFF!\" yelled Mrs. Kormel.",
+      "settings": [
+        "Inside Mrs. Kormel's moving yellow school bus driving back on the road toward school"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-1-scene-01",
+      "part_id": "MWS11_C11_P01",
+      "sentence_count": 5,
+      "source_start": 0,
+      "source_end": 144,
+      "source_text": "The bus turned a corner, and we saw the big sign--ELLA MENTRY SCHOOL.\n\"We're there yet!\" announced Mrs. Kormel.\n\"Yippee!\" yelled all the girls.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus turning the corner toward the ELLA MENTRY SCHOOL sign and pulling up to the curb"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-1-scene-02",
+      "part_id": "MWS11_C11_P01",
+      "sentence_count": 6,
+      "source_start": 144,
+      "source_end": 280,
+      "source_text": "\"Boo!\" yelled all the boys.\nMrs. Kormel pulled the bus up to the curb, and Mr. Klutz came running over.\n\"Bingle boo!\" he said. \"What--\"\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus turning the corner toward the ELLA MENTRY SCHOOL sign and pulling up to the curb"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01",
+        "MWS11-KORMEL-01",
+        "MWS11-KLUTZ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-1-scene-03",
+      "part_id": "MWS11_C11_P01",
+      "sentence_count": 1,
+      "source_start": 280,
+      "source_end": 413,
+      "source_text": "But he never got the chance to finish his sentence because, at that moment, the weirdest thing in the history of the world happened.\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus turning the corner toward the ELLA MENTRY SCHOOL sign and pulling up to the curb"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-1-scene-04",
+      "part_id": "MWS11_C11_P01",
+      "sentence_count": 1,
+      "source_start": 413,
+      "source_end": 490,
+      "source_text": "Mrs. Kormel must have leaned against the magic STOP sign button by accident. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus turning the corner toward the ELLA MENTRY SCHOOL sign and pulling up to the curb"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-1-scene-05",
+      "part_id": "MWS11_C11_P01",
+      "sentence_count": 1,
+      "source_start": 490,
+      "source_end": 596,
+      "source_text": "Because the magic STOP sign on the side of the bus swung out at the exact same time as Mr. Klutz arrived. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus turning the corner toward the ELLA MENTRY SCHOOL sign and pulling up to the curb"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KLUTZ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-1-scene-06",
+      "part_id": "MWS11_C11_P01",
+      "sentence_count": 4,
+      "source_start": 596,
+      "source_end": 732,
+      "source_text": "The STOP sign smacked Mr. Klutz on the side of his bald head! He fell down! It was a real Kodak moment.\nThose STOP signs are dangerous!\n",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus turning the corner toward the ELLA MENTRY SCHOOL sign and pulling up to the curb"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KLUTZ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-1-scene-07",
+      "part_id": "MWS11_C11_P01",
+      "sentence_count": 3,
+      "source_start": 732,
+      "source_end": 874,
+      "source_text": "We all rushed off the bus to see if Mr. Klutz was okay. He stood up slowly. He looked like he'd been in a fight, or he'd drunk too much beer.\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KLUTZ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-1-scene-08",
+      "part_id": "MWS11_C11_P01",
+      "sentence_count": 5,
+      "source_start": 874,
+      "source_end": 974,
+      "source_text": "\"W-what happened?\" he asked.\n\"The STOP sign hit you in the head,\" said Mrs. Kormel. \"I'm so sorry.\"\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KLUTZ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-1-scene-09",
+      "part_id": "MWS11_C11_P01",
+      "sentence_count": 3,
+      "source_start": 974,
+      "source_end": 1077,
+      "source_text": "\"No, I mean why were you so late?\" asked Mr. Klutz.\nEverybody started telling Mr. Klutz what happened.\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KLUTZ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-1-scene-10",
+      "part_id": "MWS11_C11_P01",
+      "sentence_count": 4,
+      "source_start": 1077,
+      "source_end": 1182,
+      "source_text": "\"We had a flat tire!\"\n\"We got kidnapped and drove to the North Pole!\"\n\"We went to the nude kid's house!\"\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-1-scene-11",
+      "part_id": "MWS11_C11_P01",
+      "sentence_count": 4,
+      "source_start": 1182,
+      "source_end": 1280,
+      "source_text": "\"A.J. threw a doll out the window!\"\n\"Ryan ate his seat cushion!\"\n\"We got lost in the rainforest!\"\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-1-scene-12",
+      "part_id": "MWS11_C11_P01",
+      "sentence_count": 3,
+      "source_start": 1280,
+      "source_end": 1361,
+      "source_text": "\"We pushed the bus out of a ditch!\"\n\"We had a funeral for Striker Smith's head!\"\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-1-scene-13",
+      "part_id": "MWS11_C11_P01",
+      "sentence_count": 4,
+      "source_start": 1361,
+      "source_end": 1467,
+      "source_text": "\"Well, I'm just glad you're all safe!\" said Mr. Klutz.\n\"Did we miss the big spelling test?\" asked Andrea.\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KLUTZ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-1-scene-14",
+      "part_id": "MWS11_C11_P01",
+      "sentence_count": 4,
+      "source_start": 1467,
+      "source_end": 1631,
+      "source_text": "\"Oh, your teacher Miss Daisy was out sick today,\" said Mr. Klutz. \"So your class had a substitute teacher named Ms. Todd. You'll have your spelling test tomorrow.\"\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KLUTZ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-2-scene-01",
+      "part_id": "MWS11_C11_P02",
+      "sentence_count": 4,
+      "source_start": 1631,
+      "source_end": 1691,
+      "source_text": "\"Yippee!\" yelled all the girls.\n\"Boo!\" yelled all the boys.\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-2-scene-02",
+      "part_id": "MWS11_C11_P02",
+      "sentence_count": 2,
+      "source_start": 1691,
+      "source_end": 1789,
+      "source_text": "While we were yelling, the school bell rang. The front door opened, and kids started pouring out.\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-2-scene-03",
+      "part_id": "MWS11_C11_P02",
+      "sentence_count": 8,
+      "source_start": 1789,
+      "source_end": 1923,
+      "source_text": "\"It's three o'clock!\" said Mr. Klutz. \"Everybody back on the bus. It's time to go home.\"\n\"Home?\" said Andrea. \"But we just got here!\"\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KLUTZ-01",
+        "MWS11-ANDREA-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-2-scene-04",
+      "part_id": "MWS11_C11_P02",
+      "sentence_count": 5,
+      "source_start": 1923,
+      "source_end": 2028,
+      "source_text": "\"Bix blattinger!\" yelled Mrs. Kormel.\n\"Hey, wait a minute,\" I said to Mr. Klutz. \"Where's the nude kid?\"\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01",
+        "MWS11-KLUTZ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-2-scene-05",
+      "part_id": "MWS11_C11_P02",
+      "sentence_count": 5,
       "source_start": 2028,
-      "source_end": 2327,
-      "source_text": " He can turn into a jet plane, too, and fly when you push a button. I saw a commercial for Striker Smith on TV and bugged my parents until they finally got it for me.\n\"Striker Smith belongs to a secret organization of crime fighters,\" I told Ryan and Michael, in case they didn't see the commercial.",
+      "source_end": 2167,
+      "source_text": "\"Nude kid?\" said Mr. Klutz. \"What are you talking about, A.J.?\"\n\"You know,\" I said, \"the kid we were going to pick up before we got lost.\"\n",
       "settings": [
-        "Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops"
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KLUTZ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-2-scene-06",
+      "part_id": "MWS11_C11_P02",
+      "sentence_count": 7,
+      "source_start": 2167,
+      "source_end": 2261,
+      "source_text": "\"Ohhhhh!\" said Mr. Klutz. \"You mean the new kid. He's not nude. He's new. Here he comes now.\"\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KLUTZ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-2-scene-07",
+      "part_id": "MWS11_C11_P02",
+      "sentence_count": 5,
+      "source_start": 2261,
+      "source_end": 2377,
+      "source_text": "This kid came over to the bus. He looked pretty normal. He even had clothes on.\n\"What's your name?\" Ryan asked him.\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus as fully clothed new student Neil Crouch walks up"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-RYAN-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-2-scene-08",
+      "part_id": "MWS11_C11_P02",
+      "sentence_count": 8,
+      "source_start": 2377,
+      "source_end": 2492,
+      "source_text": "\"Neil.\"\n\"Really?\" Michael asked.\n\"Yeah, my name is Neil Crouch.\"\n\"Is that your real name?\" I asked. \"Neil Crouch?\"\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus as fully clothed new student Neil Crouch walks up"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-NEIL-01",
+        "MWS11-MICHAEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-2-scene-09",
+      "part_id": "MWS11_C11_P02",
+      "sentence_count": 4,
+      "source_start": 2492,
+      "source_end": 2622,
+      "source_text": "\"Sure it is,\" he said. \"Why?\"\n\"Well,\" I explained, \"if your name is Neil Crouch, that means you can kneel and crouch on the bus.\"\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus as fully clothed new student Neil Crouch walks up"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-NEIL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-2-scene-10",
+      "part_id": "MWS11_C11_P02",
+      "sentence_count": 4,
+      "source_start": 2622,
+      "source_end": 2742,
+      "source_text": "\"Why would anybody want to kneel or crouch on a bus?\" asked Neil Crouch.\n\"Because we're not allowed to!\" we all yelled.\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus as fully clothed new student Neil Crouch walks up"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-NEIL-01",
+        "MWS11-STUDENTS-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-2-scene-11",
+      "part_id": "MWS11_C11_P02",
+      "sentence_count": 4,
+      "source_start": 2742,
+      "source_end": 2917,
+      "source_text": "Sheesh! The nude kid has a lot to learn about being a kid. He's weird. Me and Michael and Ryan decided to keep calling Neil Crouch \"the nude kid\" even if he did wear clothes.\n",
+      "settings": [
+        "Outdoor curb in front of Ella Mentry School beside the parked yellow school bus as fully clothed new student Neil Crouch walks up"
       ],
       "character_ids": [
         "MWS11-AJ-01",
         "MWS11-RYAN-01",
-        "MWS11-MICHAEL-01"
+        "MWS11-MICHAEL-01",
+        "MWS11-NEIL-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: He can turn into a jet plane, too, and fly when you push a button. I saw a commercial for Striker Smith on TV and bugged my parents until they finally got it for me.\n\"Striker Smith belongs to a secret organization of crime fighters,\" I told Ryan and Michael, in case they didn't see the commercial. Physical setting: Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/2-1-scene-13.webp"
+      "status": "planned"
     },
     {
-      "id": "2-1-scene-14",
-      "part_id": "MWS11_C02_P01",
+      "id": "11-2-scene-12",
+      "part_id": "MWS11_C11_P02",
+      "sentence_count": 2,
+      "source_start": 2917,
+      "source_end": 3048,
+      "source_text": "We all got back in the bus, and Mrs. Kormel pulled out of the driveway. Maybe she'll get us back home before we die of starvation. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus pulling out of the Ella Mentry School driveway to head home"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01",
+        "MWS11-KORMEL-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-2-scene-13",
+      "part_id": "MWS11_C11_P02",
+      "sentence_count": 2,
+      "source_start": 3048,
+      "source_end": 3178,
+      "source_text": "Maybe we'll find out what \"bix blattinger\" means. Maybe I'll talk my parents into getting me another Striker Smith action figure. ",
+      "settings": [
+        "Inside Mrs. Kormel's yellow school bus pulling out of the Ella Mentry School driveway to head home"
+      ],
+      "character_ids": [
+        "MWS11-AJ-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "11-2-scene-14",
+      "part_id": "MWS11_C11_P02",
       "sentence_count": 3,
-      "source_start": 2327,
-      "source_end": 2570,
-      "source_text": "\n\"You should get extra credit,\" Ryan said, \"because Striker Smith has two S's.\"\n\"He's cool,\" said Michael. \"Sometimes I take my old action figures down to the basement and my dad lets me saw them in half or torture them with his power drill.\"\n",
+      "source_start": 3178,
+      "source_end": 3293,
+      "source_text": "Maybe Neil Crouch will learn how to be a kid. Maybe I'll pass the big spelling test tomorrow.\nBut it won't be easy!",
       "settings": [
-        "Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops"
+        "Inside Mrs. Kormel's yellow school bus pulling out of the Ella Mentry School driveway to head home"
       ],
       "character_ids": [
         "MWS11-AJ-01",
-        "MWS11-RYAN-01",
-        "MWS11-MICHAEL-01"
+        "MWS11-NEIL-01"
       ],
-      "prompt": "Modern Korean webtoon, bright rounded ink lines, sunny school-bus yellow and sky blue. Use locked character reference designs. Scene source: \"You should get extra credit,\" Ryan said, \"because Striker Smith has two S's.\"\n\"He's cool,\" said Michael. \"Sometimes I take my old action figures down to the basement and my dad lets me saw them in half or torture them with his power drill.\" Physical setting: Middle seats inside Mrs. Kormel's yellow school bus driving along neighborhood stops. Show only the physical present action; imagined weekdays, superhero powers, recollections and Michael’s basement story remain narration, not literal events. No text or speech bubbles.",
-      "status": "illustrated",
-      "image": "assets/scenes/2-1-scene-14.webp"
+      "status": "planned"
     }
-  ],
-  "vocabulary": [
-    {
-      "term": "in a row",
-      "meaning_ko": "연달아, 연속으로",
-      "context_ko": "여러 날이나 사건이 쉬지 않고 이어질 때"
-    },
-    {
-      "term": "horrible",
-      "meaning_ko": "끔찍한",
-      "context_ko": "A.J.가 등교를 아주 싫어하는 마음"
-    },
-    {
-      "term": "peewee football",
-      "meaning_ko": "어린이 미식축구",
-      "context_ko": "어린아이들이 하는 미식축구"
-    },
-    {
-      "term": "get into any trouble",
-      "meaning_ko": "문제를 일으키다",
-      "context_ko": "엄마가 말썽을 피우지 말라고 당부하는 표현"
-    },
-    {
-      "term": "raise your hand",
-      "meaning_ko": "손을 들다",
-      "context_ko": "교실에서 말하기 전에 하는 행동"
-    },
-    {
-      "term": "straw wrappers",
-      "meaning_ko": "빨대 포장지",
-      "context_ko": "빨대를 감싸는 얇은 포장지"
-    },
-    {
-      "term": "pulled up",
-      "meaning_ko": "차가 다가와 멈췄다",
-      "context_ko": "버스가 집 앞에 도착하는 상황"
-    },
-    {
-      "term": "pop out",
-      "meaning_ko": "툭 튀어나오다",
-      "context_ko": "버스 옆 정지 표지판이 펼쳐지는 모습"
-    },
-    {
-      "term": "staring",
-      "meaning_ko": "빤히 쳐다보는",
-      "context_ko": "아이들이 버스 창밖을 바라보는 모습"
-    },
-    {
-      "term": "Over my dead body",
-      "meaning_ko": "절대로 안 돼",
-      "context_ko": "강하게 거절하는 관용 표현"
-    },
-    {
-      "term": "tacklers",
-      "meaning_ko": "태클하는 선수들",
-      "context_ko": "공을 가진 선수를 붙잡으려는 사람들"
-    },
-    {
-      "term": "head fake",
-      "meaning_ko": "머리로 하는 속임 동작",
-      "context_ko": "가려는 방향을 속이려고 머리를 움직이는 동작"
-    },
-    {
-      "term": "spun away",
-      "meaning_ko": "몸을 빙 돌려 피했다",
-      "context_ko": "spin의 과거형 spun"
-    },
-    {
-      "term": "fancy footwork",
-      "meaning_ko": "현란한 발놀림",
-      "context_ko": "엄마를 피하는 미식축구 동작"
-    },
-    {
-      "term": "sidestepped",
-      "meaning_ko": "옆으로 비켜 피했다",
-      "context_ko": "정면에서 옆으로 빠지는 동작"
-    },
-    {
-      "term": "for beans",
-      "meaning_ko": "제대로, 조금도",
-      "context_ko": "cannot과 함께 쓰여 전혀 못한다는 뜻"
-    },
-    {
-      "term": "dashed",
-      "meaning_ko": "쏜살같이 달렸다",
-      "context_ko": "버스 안으로 재빨리 들어가는 모습"
-    },
-    {
-      "term": "crash helmet",
-      "meaning_ko": "보호 헬멧",
-      "context_ko": "충격으로부터 머리를 보호하는 모자"
-    },
-    {
-      "term": "whistle",
-      "meaning_ko": "호루라기",
-      "context_ko": "Kormel 선생님이 목에 건 물건"
-    },
-    {
-      "term": "inventing",
-      "meaning_ko": "새로 만들어 내는",
-      "context_ko": "자기만의 비밀 언어를 만드는 중"
-    },
-    {
-      "term": "switch",
-      "meaning_ko": "바꾸다 / 스위치",
-      "context_ko": "switch from은 표현을 바꾸다; light switch는 전등 스위치"
-    },
-    {
-      "term": "kindergartner",
-      "meaning_ko": "유치원생",
-      "context_ko": "버스 앞줄에 앉은 어린아이"
-    },
-    {
-      "term": "snot-covered",
-      "meaning_ko": "콧물이 묻은",
-      "context_ko": "앞줄 유치원생을 묘사하는 표현"
-    },
-    {
-      "term": "by myself",
-      "meaning_ko": "나 혼자",
-      "context_ko": "처음에는 혼자 앉은 A.J."
-    },
-    {
-      "term": "Show and Share",
-      "meaning_ko": "물건을 가져와 소개하는 발표 활동",
-      "context_ko": "정해진 알파벳으로 시작하는 물건을 소개하는 수업"
-    },
-    {
-      "term": "ball of string",
-      "meaning_ko": "실타래",
-      "context_ko": "Michael이 가져온 물건"
-    },
-    {
-      "term": "action figure",
-      "meaning_ko": "액션 피겨, 캐릭터 장난감",
-      "context_ko": "실제 사람이 아니라 모형 장난감"
-    },
-    {
-      "term": "attached",
-      "meaning_ko": "붙어 있는",
-      "context_ko": "피겨의 손에 달린 칼"
-    },
-    {
-      "term": "commercial",
-      "meaning_ko": "광고",
-      "context_ko": "A.J.가 텔레비전에서 본 광고"
-    },
-    {
-      "term": "bugged",
-      "meaning_ko": "계속 졸랐다",
-      "context_ko": "여기서는 벌레가 아니라 귀찮게 조르다"
-    },
-    {
-      "term": "organization",
-      "meaning_ko": "조직, 단체",
-      "context_ko": "장난감 영웅의 설정에 나오는 단체"
-    },
-    {
-      "term": "extra credit",
-      "meaning_ko": "가산점",
-      "context_ko": "Ryan이 추가 점수를 받겠다고 하는 말"
-    },
-    {
-      "term": "basement",
-      "meaning_ko": "지하실",
-      "context_ko": "Michael이 말로 설명하는 장소"
-    },
-    {
-      "term": "power drill",
-      "meaning_ko": "전동 드릴",
-      "context_ko": "Michael의 말 속에만 등장하는 공구"
-    }
-  ],
-  "illustration_rule": "1 scene illustration per 2-3 sentences (sliced from 4x4 grids using locked MWS11 character reference sheets)"
+  ]
 }
